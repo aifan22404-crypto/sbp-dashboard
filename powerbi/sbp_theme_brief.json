@@ -1,0 +1,59 @@
+{
+  "name": "SBP Economic Brief",
+  "dataColors": ["#2D63B0", "#1A9A74", "#C0392B", "#9A9488", "#14202E", "#A8844A", "#5E6673", "#7FA0CF"],
+  "background": "#FBF7F0",
+  "foreground": "#14202E",
+  "tableAccent": "#9E2B25",
+  "good": "#1A7F5E",
+  "neutral": "#A9741A",
+  "bad": "#B0332A",
+  "maximum": "#0F2236",
+  "center": "#E6DED0",
+  "minimum": "#FBF7F0",
+  "textClasses": {
+    "title": { "fontFace": "Georgia", "fontSize": 14, "color": "#14202E" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#14202E" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#5E6673" },
+    "callout": { "fontFace": "Georgia", "fontSize": 30, "color": "#14202E" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E6DED0" } }, "radius": 2 }],
+        "dropShadow": [{ "show": false }],
+        "title": [{ "show": true, "fontFamily": "Georgia", "fontSize": 13, "bold": true, "fontColor": { "solid": { "color": "#14202E" } }, "alignment": "left" }],
+        "visualHeader": [{ "show": true }],
+        "categoryAxis": [{ "gridlineShow": false, "labelColor": { "solid": { "color": "#5E6673" } } }],
+        "valueAxis": [{ "gridlineShow": true, "gridlineColor": { "solid": { "color": "#EFE8DC" } }, "gridlineStyle": "dashed", "labelColor": { "solid": { "color": "#5E6673" } } }],
+        "legend": [{ "show": true, "position": "Top", "labelColor": { "solid": { "color": "#5E6673" } } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FBF7F0" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#FBF7F0" } } }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "fontFamily": "Georgia", "fontSize": 30, "color": { "solid": { "color": "#14202E" } } }],
+        "categoryLabels": [{ "fontSize": 10, "color": { "solid": { "color": "#5E6673" } } }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [{ "fontColor": { "solid": { "color": "#14202E" } }, "background": { "solid": { "color": "#FFFFFF" } }, "outline": "Frame", "outlineColor": { "solid": { "color": "#E6DED0" } } }],
+        "selection": [{ "singleSelect": true }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#FBF7F0" } }, "backColor": { "solid": { "color": "#0F2236" } }, "fontFamily": "Segoe UI Semibold" }],
+        "values": [{ "fontColorPrimary": { "solid": { "color": "#14202E" } }, "backColorPrimary": { "solid": { "color": "#FFFFFF" } }, "backColorSecondary": { "solid": { "color": "#FBF7F0" } } }],
+        "grid": [{ "gridVertical": false, "gridHorizontalColor": { "solid": { "color": "#E6DED0" } } }]
+      }
+    },
+    "textbox": { "*": { "background": [{ "show": false }], "border": [{ "show": false }] } }
+  }
+}
