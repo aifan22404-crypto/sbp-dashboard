@@ -1,0 +1,66 @@
+table dim_area
+	lineageTag: 0755ad83-3453-4a2e-ae8a-01f6d6cad5f3
+
+	column area
+		dataType: string
+		lineageTag: dbd8555b-6005-4af6-bd2c-074246015756
+		summarizeBy: none
+		sourceColumn: area
+
+		annotation SummarizationSetBy = Automatic
+
+	column area_level
+		dataType: string
+		lineageTag: 924bcac4-acb8-44bd-903f-04c123be97a9
+		summarizeBy: none
+		sourceColumn: area_level
+
+		annotation SummarizationSetBy = Automatic
+
+	column scope
+		dataType: string
+		lineageTag: 06eb3da3-2c12-4af8-9804-c03635e1e546
+		summarizeBy: none
+		sourceColumn: scope
+
+		annotation SummarizationSetBy = Automatic
+
+	column area_th
+		dataType: string
+		lineageTag: e6ca5ab9-4294-47fa-94f6-647c157f8d95
+		summarizeBy: none
+		sourceColumn: area_th
+
+		annotation SummarizationSetBy = Automatic
+
+	column sort
+		dataType: int64
+		formatString: 0
+		lineageTag: 1074b438-5edc-4a30-b379-bfed1a0cc71d
+		summarizeBy: sum
+		sourceColumn: sort
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_focus_province
+		dataType: int64
+		formatString: 0
+		lineageTag: 336a3958-5d83-4dbb-aed3-625353ed83ef
+		summarizeBy: sum
+		sourceColumn: is_focus_province
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_area = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(File.Contents("C:\Users\DELL\OneDrive\Keep going\Project and Reseacher\SBP_Dashboard\04_output\powerbi\SBP_PowerBI.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "dim_area", Kind = "Sheet"]}[Data],
+				  #"Promoted headers" = Table.PromoteHeaders(#"Navigation 1", [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"area", type text}, {"area_level", type text}, {"scope", type text}, {"area_th", type text}, {"sort", Int64.Type}, {"is_focus_province", Int64.Type}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

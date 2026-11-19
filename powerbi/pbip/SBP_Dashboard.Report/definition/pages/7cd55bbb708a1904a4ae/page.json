@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "7cd55bbb708a1904a4ae",
+  "displayName": "P3 Risk Factors",
+  "displayOption": "FitToPage",
+  "height": 1080,
+  "width": 1920,
+  "visualInteractions": [
+    {
+      "source": "48fa8b5d7452974697a4",
+      "target": "8b42a5c77d996a69e93b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "48fa8b5d7452974697a4",
+      "target": "b9e7f6c40a053c4eb25a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "48fa8b5d7452974697a4",
+      "target": "872e0e243a682465298e",
+      "type": "NoFilter"
+    }
+  ]
+}

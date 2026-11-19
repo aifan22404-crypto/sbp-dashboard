@@ -1,0 +1,62 @@
+table fact_disbursement
+	lineageTag: 863c905a-4c16-4336-a63d-dc7b918e52bc
+
+	column district
+		dataType: string
+		lineageTag: f52352db-9fcd-4a84-96d0-8abe47faa32c
+		summarizeBy: none
+		sourceColumn: district
+
+		annotation SummarizationSetBy = Automatic
+
+	column expense_type
+		dataType: string
+		lineageTag: ebeb895f-0533-4264-87a4-09d1c4fdb0f0
+		summarizeBy: none
+		sourceColumn: expense_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column allocated_mb
+		dataType: double
+		lineageTag: 3ea60ee8-5726-4029-90cd-9eb11893863e
+		summarizeBy: sum
+		sourceColumn: allocated_mb
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column disbursed_mb
+		dataType: double
+		lineageTag: f371d3ef-c441-483a-8edc-b0d7251db0a4
+		summarizeBy: sum
+		sourceColumn: disbursed_mb
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column disbursed_pct
+		dataType: double
+		lineageTag: 07d33b35-bf4d-41a8-b9dc-505d414b4516
+		summarizeBy: sum
+		sourceColumn: disbursed_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition fact_disbursement = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(File.Contents("C:\Users\DELL\OneDrive\Keep going\Project and Reseacher\SBP_Dashboard\04_output\powerbi\SBP_PowerBI.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "fact_disbursement", Kind = "Sheet"]}[Data],
+				  #"Promoted headers" = Table.PromoteHeaders(#"Navigation 1", [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"district", type text}, {"expense_type", type text}, {"allocated_mb", type number}, {"disbursed_mb", type number}, {"disbursed_pct", type number}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

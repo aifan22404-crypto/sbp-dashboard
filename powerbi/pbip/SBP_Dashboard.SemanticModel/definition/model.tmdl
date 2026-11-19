@@ -1,0 +1,33 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: th-TH
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["dim_area","dim_indicator","dim_year","fact_disbursement","fact_district","fact_fish","fact_hypothesis","fact_incident_types","fact_lq","fact_panel","fact_price_monthly","fact_sections","_Measures"]
+
+annotation PBI_ProTooling = ["DaxQueryView_Desktop","DevMode"]
+
+ref table dim_area
+ref table dim_indicator
+ref table dim_year
+ref table fact_disbursement
+ref table fact_district
+ref table fact_fish
+ref table fact_hypothesis
+ref table fact_incident_types
+ref table fact_lq
+ref table fact_panel
+ref table fact_price_monthly
+ref table fact_sections
+ref table _Measures
+ref table DateTableTemplate_b15fc303-2c17-4894-b97c-35d7b72a07dc
+ref table LocalDateTable_3b4b5953-fcf7-4b33-8302-624464051c48
+
+ref cultureInfo en-US
+

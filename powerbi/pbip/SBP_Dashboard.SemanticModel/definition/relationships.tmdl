@@ -1,0 +1,41 @@
+relationship AutoDetected_181bfdbe-74a0-4f57-bf93-9c0b05de5ec8
+	fromColumn: fact_panel.area
+	toColumn: dim_area.area
+
+relationship AutoDetected_30e5cf3a-12ad-49a2-b607-526d93f8e3fa
+	fromColumn: fact_panel.indicator_code
+	toColumn: dim_indicator.indicator_code
+
+relationship AutoDetected_cf88c27a-3a9d-405f-af7c-50a269f8c537
+	fromColumn: fact_panel.year_BE
+	toColumn: dim_year.year_BE
+
+relationship a9ee83de-de8c-5674-cb75-b5a2cb52b2a0
+	fromColumn: fact_sections.area
+	toColumn: dim_area.area
+
+relationship 74397bf6-c7ce-1e46-d0e4-dd1f09fd55ca
+	fromColumn: fact_lq.province
+	toColumn: dim_area.area
+
+relationship 794f2647-3f71-5ba1-ea2a-b80d1eed2a25
+	fromColumn: fact_district.province
+	toColumn: dim_area.area
+
+relationship e9110231-5bf7-58a5-3734-22130088a063
+	fromColumn: fact_fish.province
+	toColumn: dim_area.area
+
+relationship 0255e5e9-6c07-7fe6-eaac-b722e35db0eb
+	fromColumn: fact_fish.year
+	toColumn: dim_year.year_BE
+
+relationship 4831f96d-ef14-f139-8ccb-3901b13442ec
+	fromColumn: fact_price_monthly.year_be
+	toColumn: dim_year.year_BE
+
+relationship 4d53b0b9-a296-421f-898c-4d8cbfe49995
+	joinOnDateBehavior: datePartOnly
+	fromColumn: fact_price_monthly.month_date
+	toColumn: LocalDateTable_3b4b5953-fcf7-4b33-8302-624464051c48.Date
+

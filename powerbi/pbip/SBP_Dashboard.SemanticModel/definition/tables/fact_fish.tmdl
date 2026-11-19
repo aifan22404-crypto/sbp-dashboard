@@ -1,0 +1,62 @@
+table fact_fish
+	lineageTag: d87cced3-c154-46bb-8abc-2c30a389dc42
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: 8058c99d-6f16-4751-b902-8c4f5068aa58
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column province
+		dataType: string
+		lineageTag: f6e2781f-79d6-469b-980a-5f938a67f254
+		summarizeBy: none
+		sourceColumn: province
+
+		annotation SummarizationSetBy = Automatic
+
+	column tonnes
+		dataType: int64
+		formatString: 0
+		lineageTag: e7426861-ea9e-4a84-9016-63bfdad12799
+		summarizeBy: sum
+		sourceColumn: tonnes
+
+		annotation SummarizationSetBy = Automatic
+
+	column value_mb
+		dataType: double
+		lineageTag: 790934f9-5017-46f2-a1de-0c54565b214f
+		summarizeBy: sum
+		sourceColumn: value_mb
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column share_national_tonnes_pct
+		dataType: double
+		lineageTag: 9b7b3f62-94aa-483f-a4ef-e0212cfc35ce
+		summarizeBy: sum
+		sourceColumn: share_national_tonnes_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition fact_fish = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(File.Contents("C:\Users\DELL\OneDrive\Keep going\Project and Reseacher\SBP_Dashboard\04_output\powerbi\SBP_PowerBI.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "fact_fish", Kind = "Sheet"]}[Data],
+				  #"Promoted headers" = Table.PromoteHeaders(#"Navigation 1", [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"year", Int64.Type}, {"province", type text}, {"tonnes", Int64.Type}, {"value_mb", type number}, {"share_national_tonnes_pct", type number}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

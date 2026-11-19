@@ -1,0 +1,176 @@
+table _Measures
+	lineageTag: 177a4d1a-4f4e-4be3-baa3-83d8e838bb3f
+
+	measure Value = IF ( HASONEVALUE ( dim_indicator[indicator_code] ), CALCULATE ( SUM ( fact_panel[value] ), fact_panel[usable] = 1 ) )
+		lineageTag: 1eb8e1f8-4db2-4da6-8c7a-803035adc32c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Latest Year' = CALCULATE ( MAX ( fact_panel[year_BE] ), fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) )
+		formatString: 0
+		lineageTag: 8927ad9e-ee80-4bfb-9eb2-2ef279bee43b
+
+	measure 'Value Latest' = VAR y = [Latest Year] RETURN CALCULATE ( [Value], dim_year[year_BE] = y )
+		lineageTag: 3731ee01-9038-4076-91a3-7ed6f23421c5
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Kingdom Value' = CALCULATE ( [Value], REMOVEFILTERS ( dim_area ), dim_area[area] = "Whole Kingdom" )
+		lineageTag: eb99aced-301b-4a44-9594-27fa5ae6001b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure LQ = AVERAGE ( fact_lq[lq] )
+		formatString: 0.00
+		lineageTag: 20a05093-eb12-47ef-b8d0-2ac1c6bdb4ea
+
+	measure 'Fish Landings (t)' = SUM ( fact_fish[tonnes] )
+		formatString: 0
+		lineageTag: e57e2e02-85c4-4466-b91f-4e618e07f1c4
+
+	measure Visitors = CALCULATE ( [Value], dim_indicator[indicator_code] = "tour_visitors" )
+		formatString: #,0
+		lineageTag: 195b3727-3820-4894-8d84-11cdcff04fd8
+
+	measure 'Poverty %' = CALCULATE ( [Value], dim_indicator[indicator_code] = "poverty_rate_pct" )
+		formatString: 0.0
+		lineageTag: a5eeaae8-fffb-4c38-9dae-1380593a01df
+
+	measure 'New Capital (mb)' = CALCULATE ( [Value], dim_indicator[indicator_code] = "dbd_new_capital_mb" )
+		formatString: #,0
+		lineageTag: d4c39e04-2be7-42bc-a26f-4bf6a077af1e
+
+	measure 'Official Incidents' = CALCULATE ( [Value], dim_indicator[indicator_code] = "sec_official_incidents" )
+		formatString: #,0
+		lineageTag: e1bcc394-f5b7-4dd2-9e32-48dbee6bd75b
+
+	measure 'Lethal Events (UCDP)' = CALCULATE ( [Value], dim_indicator[indicator_code] = "sec_ucdp_lethal_events" )
+		formatString: #,0
+		lineageTag: dfca3517-712f-4f8c-a8b1-702b8beab256
+
+	measure 'Fishing Vessels' = CALCULATE ( [Value], dim_indicator[indicator_code] = "fish_vessels_licensed" )
+		formatString: #,0
+		lineageTag: e4728f27-6214-447d-b5c5-f0fe3e278af8
+
+	measure 'Unemployment %' = CALCULATE ( [Value], dim_indicator[indicator_code] = "unemployment_rate_pct" )
+		formatString: 0.0
+		lineageTag: fa24dfda-8df3-4d77-bf80-12e0e080f7be
+
+	measure 'HH Income (baht/month)' = CALCULATE ( [Value], dim_indicator[indicator_code] = "hh_income_month_baht" )
+		formatString: #,0
+		lineageTag: c20e7e92-ad32-4230-919e-ebe7039d3d30
+
+	measure 'GPP per Capita' = CALCULATE ( [Value], dim_indicator[indicator_code] = "gpp_per_capita_baht" )
+		formatString: #,0
+		lineageTag: 597b804a-a2b6-440a-bf89-53c7b429a6b6
+
+	measure 'Rubber Price (baht/kg)' = CALCULATE ( AVERAGE ( fact_price_monthly[price_baht_per_kg] ), fact_price_monthly[product] = "ยางแผ่นดิบ ชั้น 3" )
+		formatString: 0.00
+		lineageTag: 3bec0be6-6e3d-443e-a0cd-22d65725f1d5
+
+	measure 'Dissolved per 100 New' = DIVIDE ( SUM ( fact_sections[dissolved] ), SUM ( fact_sections[new_firms] ) ) * 100
+		formatString: 0.0
+		lineageTag: 7b1abdd4-9948-4200-8e39-13165bf0b878
+
+	measure 'Lethal Events (district)' = SUM ( fact_district[ucdp_lethal_events_2564_2568] )
+		formatString: 0
+		lineageTag: 4b1d7145-9c1c-4043-8479-bce0eed36609
+
+	measure 'New Firms (district)' = SUM ( fact_district[new_firms_2565_2568] )
+		formatString: 0
+		lineageTag: 4ced2a15-b332-471a-90f3-4d08375f9e87
+
+	measure 'Disbursed %' = DIVIDE ( SUM ( fact_disbursement[disbursed_mb] ), SUM ( fact_disbursement[allocated_mb] ) )
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 1b6829f5-4638-4576-a85d-8c5129554aae
+
+	measure 'Spearman rho' = VAR n = COUNTROWS ( fact_district ) VAR mx = AVERAGE ( fact_district[rank_lethal_events] ) VAR my = AVERAGE ( fact_district[rank_new_firms] ) VAR sxy = SUMX ( fact_district, ( fact_district[rank_lethal_events] - mx ) * ( fact_district[rank_new_firms] - my ) ) VAR sxx = SUMX ( fact_district, ( fact_district[rank_lethal_events] - mx ) ^ 2 ) VAR syy = SUMX ( fact_district, ( fact_district[rank_new_firms] - my ) ^ 2 ) RETURN IF ( n >= 5, DIVIDE ( sxy, SQRT ( sxx * syy ) ) )
+		formatString: 0.00
+		lineageTag: 9994bec0-62c3-47b2-83ce-3d9f4347608d
+
+	measure 'Poverty % (Kingdom)' = CALCULATE([Poverty %], REMOVEFILTERS(dim_area), dim_area[area] = "Whole Kingdom")
+		formatString: 0.0
+		lineageTag: f16e3297-3da7-47e5-832d-058d45ca1603
+
+	measure 'HH Income (Kingdom)' = CALCULATE([HH Income (baht/month)], REMOVEFILTERS(dim_area), dim_area[area] = "Whole Kingdom")
+		formatString: #,0
+		lineageTag: 32f36a9b-2e8e-4887-a872-5370eef70560
+
+	measure 'ผู้เยี่ยมเยือน ปีล่าสุด (คน)' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "tour_visitors", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [Visitors], dim_year[year_BE] = y )
+		formatString: #,0
+
+	measure 'สัตว์น้ำขึ้นท่า ปีล่าสุด (ตัน)' = VAR y = CALCULATE ( MAX ( fact_fish[year] ), NOT ISBLANK ( fact_fish[tonnes] ) ) RETURN CALCULATE ( [Fish Landings (t)], fact_fish[year] = y )
+		formatString: #,0
+
+	measure 'สาขาที่ LQ สูงสุด' = VAR t = TOPN ( 1, VALUES ( fact_lq[sector_th] ), [LQ], DESC ) RETURN CONCATENATEX ( t, fact_lq[sector_th], ", " )
+
+	measure 'LQ สูงสุด' = MAXX ( VALUES ( fact_lq[sector_th] ), [LQ] )
+		formatString: 0.00
+
+	measure 'สัดส่วนคนจน ปีล่าสุด (%)' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "poverty_rate_pct", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [Poverty %], dim_year[year_BE] = y )
+		formatString: 0.0
+
+	measure 'ห่างจากทั้งประเทศ (จุด %)' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "poverty_rate_pct", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [Poverty %] - [Poverty % (Kingdom)], dim_year[year_BE] = y )
+		formatString: +0.0;-0.0;0.0
+
+	measure 'รายได้ครัวเรือน ปีล่าสุด (บาท/เดือน)' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "hh_income_month_baht", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [HH Income (baht/month)], dim_year[year_BE] = y )
+		formatString: #,0
+
+	measure 'GPP ต่อหัว ปีล่าสุด (บาท/ปี)' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "gpp_per_capita_baht", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [GPP per Capita], dim_year[year_BE] = y )
+		formatString: #,0
+
+	measure 'เหตุการณ์ทางการ ปีล่าสุด (ครั้ง)' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "sec_official_incidents", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [Official Incidents], dim_year[year_BE] = y )
+		formatString: #,0
+
+	measure 'เหตุมีผู้เสียชีวิต UCDP ปีล่าสุด' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "sec_ucdp_lethal_events", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [Lethal Events (UCDP)], dim_year[year_BE] = y )
+		formatString: #,0
+
+	measure 'Spearman ρ ความรุนแรง vs ธุรกิจใหม่' = CALCULATE ( [Spearman rho], REMOVEFILTERS ( dim_area ), REMOVEFILTERS ( fact_district ) )
+		formatString: 0.00
+
+	measure 'จำนวนอำเภอที่วิเคราะห์' = CALCULATE ( COUNTROWS ( fact_district ), REMOVEFILTERS ( dim_area ), REMOVEFILTERS ( fact_district ) )
+		formatString: #,0
+
+	measure 'ราคายางเฉลี่ยปีล่าสุด (บาท/กก.)' = VAR y = CALCULATE ( MAX ( fact_price_monthly[year_be] ), fact_price_monthly[product] = "ยางแผ่นดิบ ชั้น 3" ) RETURN CALCULATE ( [Rubber Price (baht/kg)], fact_price_monthly[year_be] = y )
+		formatString: 0.00
+
+	measure 'เรือประมงที่ได้รับอนุญาต ปีล่าสุด (ลำ)' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "fish_vessels_licensed", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [Fishing Vessels], dim_year[year_BE] = y )
+		formatString: #,0
+
+	measure 'เรือประมง เปลี่ยนแปลงจากปี 2564' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "fish_vessels_licensed", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) VAR last = CALCULATE ( [Fishing Vessels], dim_year[year_BE] = y ) VAR base = CALCULATE ( [Fishing Vessels], dim_year[year_BE] = 2564 ) RETURN DIVIDE ( last - base, base )
+		formatString: +0.0%;-0.0%;0.0%
+
+	measure 'เลิกกิจการต่อตั้งใหม่ 100 ราย (3 จังหวัด)' = CALCULATE ( [Dissolved per 100 New], REMOVEFILTERS ( dim_area ), CONTAINSSTRING ( fact_sections[area], "3 provinces" ) )
+		formatString: 0.0
+
+	measure 'สอดคล้อง' = CALCULATE ( COUNTROWS ( fact_hypothesis ), fact_hypothesis[result] = "สอดคล้อง" ) + 0
+		formatString: 0
+
+	measure 'ตรงบางส่วน' = CALCULATE ( COUNTROWS ( fact_hypothesis ), fact_hypothesis[result] = "ตรงบางส่วน" ) + 0
+		formatString: 0
+
+	measure 'ไม่ตรง' = CALCULATE ( COUNTROWS ( fact_hypothesis ), fact_hypothesis[result] = "ไม่ตรง" ) + 0
+		formatString: 0
+
+	measure 'ทดสอบไม่ได้' = CALCULATE ( COUNTROWS ( fact_hypothesis ), fact_hypothesis[result] = "ทดสอบไม่ได้" ) + 0
+		formatString: 0
+
+
+	column Column1
+		dataType: string
+		lineageTag: 7f8bb738-1d7d-40c4-84fc-8fb8bc1203ef
+		summarizeBy: none
+		sourceColumn: Column1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				  Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t])
+				in
+				  Source
+
+	annotation PBI_ResultType = Table
+

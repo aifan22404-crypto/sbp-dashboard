@@ -1,0 +1,42 @@
+table fact_incident_types
+	lineageTag: 71d111f7-4fa7-4cb6-9886-cc01fed48422
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: 3c848b4d-d236-4020-b05f-3065b15d42f7
+		summarizeBy: sum
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column type
+		dataType: string
+		lineageTag: b4540735-446b-40cf-815f-673c3b451703
+		summarizeBy: none
+		sourceColumn: type
+
+		annotation SummarizationSetBy = Automatic
+
+	column incidents
+		dataType: int64
+		formatString: 0
+		lineageTag: 6855dbd9-14d1-4bf2-b90c-9b223e90a954
+		summarizeBy: sum
+		sourceColumn: incidents
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_incident_types = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(File.Contents("C:\Users\DELL\OneDrive\Keep going\Project and Reseacher\SBP_Dashboard\04_output\powerbi\SBP_PowerBI.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "fact_incident_types", Kind = "Sheet"]}[Data],
+				  #"Promoted headers" = Table.PromoteHeaders(#"Navigation 1", [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"year", Int64.Type}, {"type", type text}, {"incidents", Int64.Type}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

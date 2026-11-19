@@ -1,0 +1,106 @@
+table fact_district
+	lineageTag: 48307295-d4d7-46ee-8677-0bca8ec82718
+
+	column province
+		dataType: string
+		lineageTag: 713ece75-5a06-4265-ab5b-b2092b7465f1
+		summarizeBy: none
+		sourceColumn: province
+
+		annotation SummarizationSetBy = Automatic
+
+	column district
+		dataType: string
+		lineageTag: c6ca3608-9520-4da2-948a-6b0e7db570b9
+		summarizeBy: none
+		sourceColumn: district
+
+		annotation SummarizationSetBy = Automatic
+
+	column new_firms_2565_2568
+		dataType: int64
+		formatString: 0
+		lineageTag: 9f836e17-57dd-43ad-b5a2-9e300c9a6cfc
+		summarizeBy: sum
+		sourceColumn: new_firms_2565_2568
+
+		annotation SummarizationSetBy = Automatic
+
+	column dissolved_2565_2568
+		dataType: int64
+		formatString: 0
+		lineageTag: f208f1cc-e70b-46c2-a5d3-4824446751f7
+		summarizeBy: sum
+		sourceColumn: dissolved_2565_2568
+
+		annotation SummarizationSetBy = Automatic
+
+	column ucdp_lethal_events_2564_2568
+		dataType: int64
+		formatString: 0
+		lineageTag: 8e807a73-66fe-4707-8b57-08a8b9fff1a4
+		summarizeBy: sum
+		sourceColumn: ucdp_lethal_events_2564_2568
+
+		annotation SummarizationSetBy = Automatic
+
+	column ucdp_deaths_2564_2568
+		dataType: int64
+		formatString: 0
+		lineageTag: 6d5bbbe8-1f0e-4ab7-bd79-08741befa523
+		summarizeBy: sum
+		sourceColumn: ucdp_deaths_2564_2568
+
+		annotation SummarizationSetBy = Automatic
+
+	column rank_new_firms
+		dataType: int64
+		formatString: 0
+		lineageTag: 30c87c95-dd05-4660-b363-220077aceed3
+		summarizeBy: sum
+		sourceColumn: rank_new_firms
+
+		annotation SummarizationSetBy = Automatic
+
+	column rank_lethal_events
+		dataType: double
+		lineageTag: d8fe4781-9acb-412b-8db0-a300a65060b0
+		summarizeBy: sum
+		sourceColumn: rank_lethal_events
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column is_muang
+		dataType: int64
+		formatString: 0
+		lineageTag: 634d2bbb-7b57-4d98-a34c-3fcc46e24700
+		summarizeBy: sum
+		sourceColumn: is_muang
+
+		annotation SummarizationSetBy = Automatic
+
+	column dissolved_per_100_new
+		dataType: double
+		lineageTag: 3b4e3b54-b615-465c-a7a4-9294d48bf84f
+		summarizeBy: sum
+		sourceColumn: dissolved_per_100_new
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition fact_district = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(File.Contents("C:\Users\DELL\OneDrive\Keep going\Project and Reseacher\SBP_Dashboard\04_output\powerbi\SBP_PowerBI.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "fact_district", Kind = "Sheet"]}[Data],
+				  #"Promoted headers" = Table.PromoteHeaders(#"Navigation 1", [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"province", type text}, {"district", type text}, {"new_firms_2565_2568", Int64.Type}, {"dissolved_2565_2568", Int64.Type}, {"ucdp_lethal_events_2564_2568", Int64.Type}, {"ucdp_deaths_2564_2568", Int64.Type}, {"rank_new_firms", Int64.Type}, {"rank_lethal_events", type number}, {"is_muang", Int64.Type}, {"dissolved_per_100_new", type number}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,98 @@
+table fact_lq
+	lineageTag: aae929e4-7245-46db-aacc-2946d02fa306
+
+	column province
+		dataType: string
+		lineageTag: 38f94181-5759-41c7-ba19-c46a75cd1e27
+		summarizeBy: none
+		sourceColumn: province
+
+		annotation SummarizationSetBy = Automatic
+
+	column sector
+		dataType: string
+		lineageTag: f47b43a7-42a2-4a57-9974-76d08eb3ea10
+		summarizeBy: none
+		sourceColumn: sector
+
+		annotation SummarizationSetBy = Automatic
+
+	column sector_th
+		dataType: string
+		lineageTag: 3cbd5a33-0fe6-42e9-bce6-d8baaef7205b
+		summarizeBy: none
+		sourceColumn: sector_th
+
+		annotation SummarizationSetBy = Automatic
+
+	column gpp_2024_mb
+		dataType: double
+		lineageTag: 61848fd1-5e93-4258-89e2-b306a320eb13
+		summarizeBy: sum
+		sourceColumn: gpp_2024_mb
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column share_pct
+		dataType: double
+		lineageTag: 43790fe7-4922-4d45-97b7-ac419923f0f5
+		summarizeBy: sum
+		sourceColumn: share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column national_share_pct
+		dataType: double
+		lineageTag: 55aa3856-108a-483a-b597-0234a15af6a4
+		summarizeBy: sum
+		sourceColumn: national_share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lq
+		dataType: double
+		lineageTag: d8aa3184-df58-44ac-933b-a854e604a851
+		summarizeBy: sum
+		sourceColumn: lq
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column real_cagr_2021_2024_pct
+		dataType: double
+		lineageTag: 2ef7df4e-53ef-4100-b0fd-7b9c93cfd1bc
+		summarizeBy: sum
+		sourceColumn: real_cagr_2021_2024_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lq_class
+		dataType: string
+		lineageTag: 140b00ca-dc96-4542-826e-6dafeffc23c6
+		summarizeBy: none
+		sourceColumn: lq_class
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_lq = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(File.Contents("C:\Users\DELL\OneDrive\Keep going\Project and Reseacher\SBP_Dashboard\04_output\powerbi\SBP_PowerBI.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "fact_lq", Kind = "Sheet"]}[Data],
+				  #"Promoted headers" = Table.PromoteHeaders(#"Navigation 1", [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"province", type text}, {"sector", type text}, {"sector_th", type text}, {"gpp_2024_mb", type number}, {"share_pct", type number}, {"national_share_pct", type number}, {"lq", type number}, {"real_cagr_2021_2024_pct", type number}, {"lq_class", type text}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

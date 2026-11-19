@@ -1,0 +1,86 @@
+table fact_price_monthly
+	lineageTag: 3880e1d9-eb89-49c6-95b1-636fc7d11999
+
+	column year_ad
+		dataType: int64
+		formatString: 0
+		lineageTag: 76e29ad4-c521-45b7-960f-8ee064ebf362
+		summarizeBy: sum
+		sourceColumn: year_ad
+
+		annotation SummarizationSetBy = Automatic
+
+	column year_be
+		dataType: int64
+		formatString: 0
+		lineageTag: 13ed807c-120b-4745-895f-ad2492635308
+		summarizeBy: none
+		sourceColumn: year_be
+
+		annotation SummarizationSetBy = Automatic
+
+	column month
+		dataType: int64
+		formatString: 0
+		lineageTag: 7c3d33d3-c017-43b1-84aa-96013fbf5dbf
+		summarizeBy: sum
+		sourceColumn: month
+
+		annotation SummarizationSetBy = Automatic
+
+	column product
+		dataType: string
+		lineageTag: 9dd01754-ef85-47cb-a1d5-ede0743d2ddf
+		summarizeBy: none
+		sourceColumn: product
+
+		annotation SummarizationSetBy = Automatic
+
+	column price_baht_per_kg
+		dataType: double
+		lineageTag: 0380430b-2d85-4f7e-bc93-6be286100a23
+		summarizeBy: sum
+		sourceColumn: price_baht_per_kg
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column date
+		dataType: int64
+		formatString: 0
+		lineageTag: b992aedf-53b8-4a84-ac2b-69cec26af1ef
+		summarizeBy: sum
+		sourceColumn: date
+
+		annotation SummarizationSetBy = Automatic
+
+	column month_date = DATE(fact_price_monthly[year_ad], fact_price_monthly[month], 1)
+		formatString: Long Date
+		lineageTag: 5e05de21-2fb7-41c7-8df4-1442a028c40c
+		summarizeBy: none
+
+		variation Variation
+			isDefault
+			relationship: 4d53b0b9-a296-421f-898c-4d8cbfe49995
+			defaultHierarchy: LocalDateTable_3b4b5953-fcf7-4b33-8302-624464051c48.'Date Hierarchy'
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition fact_price_monthly = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(File.Contents("C:\Users\DELL\OneDrive\Keep going\Project and Reseacher\SBP_Dashboard\04_output\powerbi\SBP_PowerBI.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "fact_price_monthly", Kind = "Sheet"]}[Data],
+				  #"Promoted headers" = Table.PromoteHeaders(#"Navigation 1", [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"year_ad", Int64.Type}, {"year_be", Int64.Type}, {"month", Int64.Type}, {"product", type text}, {"price_baht_per_kg", type number}, {"date", Int64.Type}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

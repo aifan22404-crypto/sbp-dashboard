@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "3319bd1892ab8ad0e438",
+  "displayName": "P2 Development Priority",
+  "displayOption": "FitToPage",
+  "height": 1080,
+  "width": 1920,
+  "visualInteractions": [
+    {
+      "source": "16c3652b91730831a63d",
+      "target": "e3a34bdb037c85388cdb",
+      "type": "NoFilter"
+    }
+  ]
+}

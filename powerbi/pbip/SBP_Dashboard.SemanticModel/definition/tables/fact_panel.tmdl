@@ -1,0 +1,94 @@
+table fact_panel
+	lineageTag: 5297afc1-e282-4620-ab3d-a83813cb927e
+
+	column area
+		dataType: string
+		lineageTag: 278e782a-5a44-4c3d-a9e0-b13754cee460
+		summarizeBy: none
+		sourceColumn: area
+
+		annotation SummarizationSetBy = Automatic
+
+	column year_BE
+		dataType: int64
+		formatString: 0
+		lineageTag: 58cd69db-42c8-4b97-87f8-61ff09a3e214
+		summarizeBy: none
+		sourceColumn: year_BE
+
+		annotation SummarizationSetBy = Automatic
+
+	column year_CE
+		dataType: int64
+		formatString: 0
+		lineageTag: 2599ed3e-1521-40e7-8538-e3119c3ecaa3
+		summarizeBy: sum
+		sourceColumn: year_CE
+
+		annotation SummarizationSetBy = Automatic
+
+	column period_type
+		dataType: string
+		lineageTag: 33050618-b0a3-4b7f-98af-b0d172063373
+		summarizeBy: none
+		sourceColumn: period_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column indicator_code
+		dataType: string
+		lineageTag: acbe619e-15ff-4373-a7fa-cdaa63fbf294
+		summarizeBy: none
+		sourceColumn: indicator_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column value
+		dataType: double
+		lineageTag: 988420b7-4332-4449-b7ff-7d35c5b43448
+		summarizeBy: sum
+		sourceColumn: value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column quality_flag
+		dataType: string
+		lineageTag: 6c0839f3-bc76-4957-a9d4-9cf21d647b2f
+		summarizeBy: none
+		sourceColumn: quality_flag
+
+		annotation SummarizationSetBy = Automatic
+
+	column usable
+		dataType: int64
+		formatString: 0
+		lineageTag: 9e2341e4-b4a5-4885-b591-144f22e475f8
+		summarizeBy: sum
+		sourceColumn: usable
+
+		annotation SummarizationSetBy = Automatic
+
+	column caution
+		dataType: int64
+		formatString: 0
+		lineageTag: a12a19c0-4c7f-45f6-8e55-d77767a9ce7a
+		summarizeBy: sum
+		sourceColumn: caution
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_panel = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(File.Contents("C:\Users\DELL\OneDrive\Keep going\Project and Reseacher\SBP_Dashboard\04_output\powerbi\SBP_PowerBI.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "fact_panel", Kind = "Sheet"]}[Data],
+				  #"Promoted headers" = Table.PromoteHeaders(#"Navigation 1", [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"area", type text}, {"year_BE", Int64.Type}, {"year_CE", Int64.Type}, {"period_type", type text}, {"indicator_code", type text}, {"value", type number}, {"quality_flag", type text}, {"usable", Int64.Type}, {"caution", Int64.Type}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

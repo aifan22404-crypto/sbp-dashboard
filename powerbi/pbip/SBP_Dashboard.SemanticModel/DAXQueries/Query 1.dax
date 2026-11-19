@@ -1,0 +1,19 @@
+DEFINE
+	MEASURE '_Measures'[Visitors] = CALCULATE ( [Value], dim_indicator[indicator_code] = "tour_visitors" )
+	MEASURE '_Measures'[Poverty %] = CALCULATE ( [Value], dim_indicator[indicator_code] = "poverty_rate_pct" )
+	MEASURE '_Measures'[New Capital (mb)] = CALCULATE ( [Value], dim_indicator[indicator_code] = "dbd_new_capital_mb" )
+	MEASURE '_Measures'[Official Incidents] = CALCULATE ( [Value], dim_indicator[indicator_code] = "sec_official_incidents" )
+	MEASURE '_Measures'[Lethal Events (UCDP)] = CALCULATE ( [Value], dim_indicator[indicator_code] = "sec_ucdp_lethal_events" )
+	MEASURE '_Measures'[Fishing Vessels] = CALCULATE ( [Value], dim_indicator[indicator_code] = "fish_vessels_licensed" )
+	MEASURE '_Measures'[Unemployment %] = CALCULATE ( [Value], dim_indicator[indicator_code] = "unemployment_rate_pct" )
+	MEASURE '_Measures'[HH Income (baht/month)] = CALCULATE ( [Value], dim_indicator[indicator_code] = "hh_income_month_baht" )
+	MEASURE '_Measures'[GPP per Capita] = CALCULATE ( [Value], dim_indicator[indicator_code] = "gpp_per_capita_baht" )
+	MEASURE '_Measures'[Rubber Price (baht/kg)] = CALCULATE ( AVERAGE ( fact_price_monthly[price_baht_per_kg] ), fact_price_monthly[product] = "ยางแผ่นดิบ ชั้น 3" )
+	MEASURE '_Measures'[Dissolved per 100 New] = DIVIDE ( SUM ( fact_sections[dissolved] ), SUM ( fact_sections[new_firms] ) ) * 100
+	MEASURE '_Measures'[Lethal Events (district)] = SUM ( fact_district[ucdp_lethal_events_2564_2568] )
+	MEASURE '_Measures'[New Firms (district)] = SUM ( fact_district[new_firms_2565_2568] )
+	MEASURE '_Measures'[Disbursed %] = DIVIDE ( SUM ( fact_disbursement[disbursed_mb] ), SUM ( fact_disbursement[allocated_mb] ) )
+	MEASURE '_Measures'[Spearman rho] = VAR n = COUNTROWS ( fact_district ) VAR mx = AVERAGE ( fact_district[rank_lethal_events] ) VAR my = AVERAGE ( fact_district[rank_new_firms] ) VAR sxy = SUMX ( fact_district, ( fact_district[rank_lethal_events] - mx ) * ( fact_district[rank_new_firms] - my ) ) VAR sxx = SUMX ( fact_district, ( fact_district[rank_lethal_events] - mx ) ^ 2 ) VAR syy = SUMX ( fact_district, ( fact_district[rank_new_firms] - my ) ^ 2 ) RETURN IF ( n >= 5, DIVIDE ( sxy, SQRT ( sxx * syy ) ) )
+
+EVALUATE
+	{ [Visitors], [Poverty %], [Spearman rho], [Dissolved per 100 New] }

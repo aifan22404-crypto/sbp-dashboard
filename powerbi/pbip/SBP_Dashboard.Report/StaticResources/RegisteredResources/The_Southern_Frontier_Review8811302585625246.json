@@ -1,0 +1,97 @@
+{
+  "name": "The Southern Frontier Review",
+  "dataColors": ["#2D63B0", "#1A9A74", "#C0392B", "#A8844A", "#14202E", "#9A9488", "#5E6673", "#7FA0CF"],
+  "background": "#FFFFFF",
+  "foreground": "#14202E",
+  "tableAccent": "#A8844A",
+  "good": "#1A7F5E",
+  "neutral": "#A9741A",
+  "bad": "#B0332A",
+  "maximum": "#0F2236",
+  "center": "#E6DED0",
+  "minimum": "#FBF7F0",
+  "textClasses": {
+    "title": { "fontFace": "Georgia", "fontSize": 14, "color": "#14202E" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#14202E" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 11, "color": "#5E6673" },
+    "callout": { "fontFace": "Georgia", "fontSize": 30, "color": "#0F2236" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E8E1D4" } }, "radius": 10, "width": 1 }],
+        "dropShadow": [{ "show": true, "color": { "solid": { "color": "#14202E" } }, "position": "Outer", "preset": "Custom", "shadowSpread": 0, "shadowBlur": 14, "angle": 90, "shadowDistance": 3, "transparency": 88 }],
+        "padding": [{ "top": 14, "bottom": 12, "left": 18, "right": 18 }],
+        "title": [{ "show": true, "fontFamily": "Georgia", "fontSize": 15, "bold": true, "fontColor": { "solid": { "color": "#14202E" } }, "alignment": "left" }],
+        "subTitle": [{ "fontFamily": "Segoe UI", "fontSize": 10, "fontColor": { "solid": { "color": "#7A7F88" } } }],
+        "divider": [{ "show": false }],
+        "visualHeader": [{ "show": true, "background": { "solid": { "color": "#FFFFFF" } }, "foreground": { "solid": { "color": "#9A9488" } }, "transparency": 0 }],
+        "categoryAxis": [{ "showAxisTitle": false, "gridlineShow": false, "fontSize": 10, "labelColor": { "solid": { "color": "#5E6673" } } }],
+        "valueAxis": [{ "showAxisTitle": false, "gridlineShow": true, "gridlineColor": { "solid": { "color": "#EFE9DE" } }, "gridlineStyle": "dashed", "fontSize": 10, "labelColor": { "solid": { "color": "#8A8F98" } } }],
+        "legend": [{ "show": true, "position": "TopLeft", "fontSize": 10, "labelColor": { "solid": { "color": "#5E6673" } } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F1ECE3" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#E6DFD2" } }, "transparency": 0 }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "lineStyles": [{ "lineChartType": "linear", "strokeWidth": 3, "showMarker": true, "markerSize": 6, "markerShape": "circle" }],
+        "labels": [{ "show": true, "fontSize": 9, "color": { "solid": { "color": "#5E6673" } } }]
+      }
+    },
+    "clusteredColumnChart": {
+      "*": {
+        "labels": [{ "show": true, "fontSize": 9, "color": { "solid": { "color": "#14202E" } } }],
+        "layout": [{ "innerPadding": 30 }]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "labels": [{ "show": true, "fontSize": 9, "color": { "solid": { "color": "#14202E" } } }],
+        "layout": [{ "innerPadding": 25 }]
+      }
+    },
+    "scatterChart": {
+      "*": {
+        "bubbles": [{ "bubbleSize": 0 }],
+        "categoryLabels": [{ "show": false }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "fontFamily": "Georgia", "fontSize": 30, "color": { "solid": { "color": "#0F2236" } } }],
+        "categoryLabels": [{ "show": true, "fontFamily": "Segoe UI", "fontSize": 11, "color": { "solid": { "color": "#7A7F88" } } }],
+        "padding": [{ "top": 10, "bottom": 10, "left": 18, "right": 18 }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [{ "fontColor": { "solid": { "color": "#14202E" } }, "background": { "solid": { "color": "#FFFFFF" } }, "textSize": 12 }],
+        "header": [{ "fontColor": { "solid": { "color": "#7A7F88" } }, "textSize": 9 }],
+        "dropShadow": [{ "show": false }],
+        "border": [{ "show": false }],
+        "padding": [{ "top": 6, "bottom": 6, "left": 12, "right": 12 }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#FBF7F0" } }, "backColor": { "solid": { "color": "#0F2236" } }, "fontFamily": "Segoe UI Semibold" }],
+        "values": [{ "fontColorPrimary": { "solid": { "color": "#14202E" } }, "backColorPrimary": { "solid": { "color": "#FFFFFF" } }, "backColorSecondary": { "solid": { "color": "#FAF6EF" } } }],
+        "grid": [{ "gridVertical": false, "gridHorizontal": true, "gridHorizontalColor": { "solid": { "color": "#E8E1D4" } }, "rowPadding": 6 }]
+      }
+    },
+    "textbox": {
+      "*": {
+        "background": [{ "show": false }],
+        "border": [{ "show": false }],
+        "dropShadow": [{ "show": false }],
+        "padding": [{ "top": 0, "bottom": 0, "left": 0, "right": 0 }]
+      }
+    }
+  }
+}

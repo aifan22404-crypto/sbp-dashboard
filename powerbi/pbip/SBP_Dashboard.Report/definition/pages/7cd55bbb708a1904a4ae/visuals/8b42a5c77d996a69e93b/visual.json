@@ -1,0 +1,178 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "8b42a5c77d996a69e93b",
+  "position": {
+    "x": 16,
+    "y": 657.0,
+    "z": 3,
+    "height": 393.0,
+    "width": 1888,
+    "tabOrder": 3
+  },
+  "visual": {
+    "visualType": "scatterChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_district"
+                    }
+                  },
+                  "Property": "district"
+                }
+              },
+              "queryRef": "fact_district.district",
+              "nativeQueryRef": "district",
+              "active": true,
+              "displayName": "อำเภอ"
+            }
+          ]
+        },
+        "X": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "New Firms (district)"
+                }
+              },
+              "queryRef": "_Measures.New Firms (district)",
+              "nativeQueryRef": "New Firms (district)",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Lethal Events (district)"
+                }
+              },
+              "queryRef": "_Measures.Lethal Events (district)",
+              "nativeQueryRef": "Lethal Events (district)"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'37 อำเภอ: เหตุที่มีผู้เสียชีวิต 2564–2568 เทียบธุรกิจตั้งใหม่ 2565–2568'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'แต่ละจุด = 1 อำเภอ · ยังไม่ปรับตามประชากร · ไม่เปลี่ยนตามพื้นที่ที่เลือก'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#2D63B0'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'ธุรกิจตั้งใหม่ 2565–2568 (ราย)'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'เหตุที่มีผู้เสียชีวิต 2564–2568 (ครั้ง)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

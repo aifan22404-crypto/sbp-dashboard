@@ -1,0 +1,180 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "28570acd254e30d2a249",
+  "position": {
+    "x": 16,
+    "y": 248,
+    "z": 0,
+    "height": 802,
+    "width": 1888,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_hypothesis"
+                    }
+                  },
+                  "Property": "no"
+                }
+              },
+              "queryRef": "Sum(fact_hypothesis.no)",
+              "nativeQueryRef": "no",
+              "displayName": "ข้อ"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_hypothesis"
+                    }
+                  },
+                  "Property": "P"
+                }
+              },
+              "queryRef": "fact_hypothesis.P",
+              "nativeQueryRef": "P",
+              "displayName": "ส่วน"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_hypothesis"
+                    }
+                  },
+                  "Property": "hypothesis"
+                }
+              },
+              "queryRef": "fact_hypothesis.hypothesis",
+              "nativeQueryRef": "hypothesis",
+              "displayName": "ความเชื่อก่อนดูข้อมูล"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_hypothesis"
+                    }
+                  },
+                  "Property": "result"
+                }
+              },
+              "queryRef": "fact_hypothesis.result",
+              "nativeQueryRef": "result",
+              "displayName": "ผล"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_hypothesis"
+                    }
+                  },
+                  "Property": "evidence"
+                }
+              },
+              "queryRef": "fact_hypothesis.evidence",
+              "nativeQueryRef": "evidence",
+              "displayName": "หลักฐานจากข้อมูล"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "fact_hypothesis"
+                  }
+                },
+                "Property": "P"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
+                }
+              }
+            },
+            "rowPadding": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'ความเชื่อของผู้วิจัย เทียบกับผลจากข้อมูล'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'ผลทั้งหมดเป็นความสัมพันธ์เชิงพรรณนา ไม่ใช่เหตุและผล'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+table fact_hypothesis
+	lineageTag: 7b486c06-bbdf-4315-8566-e604261c754c
+
+	column no
+		dataType: int64
+		formatString: 0
+		lineageTag: dad8fc81-5e9d-4f9f-9589-ed05b6cb8732
+		summarizeBy: sum
+		sourceColumn: no
+
+		annotation SummarizationSetBy = Automatic
+
+	column P
+		dataType: string
+		lineageTag: 1b6035d4-3990-4bb9-a073-6b6ee4015eed
+		summarizeBy: none
+		sourceColumn: P
+
+		annotation SummarizationSetBy = Automatic
+
+	column hypothesis
+		dataType: string
+		lineageTag: d3dc8d7f-d339-4425-81fd-cef64e167da9
+		summarizeBy: none
+		sourceColumn: hypothesis
+
+		annotation SummarizationSetBy = Automatic
+
+	column result
+		dataType: string
+		lineageTag: e7f2f8ad-4d18-4c89-9af7-6d521ade9694
+		summarizeBy: none
+		sourceColumn: result
+
+		annotation SummarizationSetBy = Automatic
+
+	column evidence
+		dataType: string
+		lineageTag: f8d075f4-abf7-43ed-af10-0484f6a04a64
+		summarizeBy: none
+		sourceColumn: evidence
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_hypothesis = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(File.Contents("C:\Users\DELL\OneDrive\Keep going\Project and Reseacher\SBP_Dashboard\04_output\powerbi\SBP_PowerBI.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "fact_hypothesis", Kind = "Sheet"]}[Data],
+				  #"Promoted headers" = Table.PromoteHeaders(#"Navigation 1", [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"no", Int64.Type}, {"P", type text}, {"hypothesis", type text}, {"result", type text}, {"evidence", type text}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

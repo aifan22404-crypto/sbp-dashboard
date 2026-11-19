@@ -1,0 +1,1 @@
+EVALUATE ADDCOLUMNS(VALUES(fact_sections[area]), "rows", CALCULATE(COUNTROWS(fact_sections)), "d100", CALCULATE([Dissolved per 100 New]), "in_dim_area", CONTAINS(dim_area, dim_area[area], fact_sections[area]))

@@ -1,0 +1,116 @@
+table dim_indicator
+	lineageTag: 65d2576d-fb59-4913-a269-1c2dbcd18693
+
+	column indicator_code
+		dataType: string
+		lineageTag: 24644474-52e4-4c17-ae53-ad7771891cb4
+		summarizeBy: none
+		sourceColumn: indicator_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column indicator_th
+		dataType: string
+		lineageTag: cb29c353-7c21-436d-ab9b-91d66ae058b7
+		summarizeBy: none
+		sourceColumn: indicator_th
+
+		annotation SummarizationSetBy = Automatic
+
+	column indicator_en
+		dataType: string
+		lineageTag: 3bfa3fab-1e29-41c2-af81-2f5a96e88c69
+		summarizeBy: none
+		sourceColumn: indicator_en
+
+		annotation SummarizationSetBy = Automatic
+
+	column domain
+		dataType: string
+		lineageTag: bfa54bc5-12ad-4c7b-a2d5-517d1171bd1b
+		summarizeBy: none
+		sourceColumn: domain
+
+		annotation SummarizationSetBy = Automatic
+
+	column unit
+		dataType: string
+		lineageTag: 16072fca-e686-43c7-9dc3-4a8758fdd142
+		summarizeBy: none
+		sourceColumn: unit
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_id
+		dataType: string
+		lineageTag: 0c8b935c-a03d-4970-b5a6-016262df1c68
+		summarizeBy: none
+		sourceColumn: source_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column used_in
+		dataType: string
+		lineageTag: de084bf6-fad7-4d2a-8819-876f57c519ac
+		summarizeBy: none
+		sourceColumn: used_in
+
+		annotation SummarizationSetBy = Automatic
+
+	column domain_th
+		dataType: string
+		lineageTag: 99994943-dc3e-4fa4-8992-3309f7d323c1
+		summarizeBy: none
+		sourceColumn: domain_th
+
+		annotation SummarizationSetBy = Automatic
+
+	column P1
+		dataType: int64
+		formatString: 0
+		lineageTag: ad26b0d0-c993-435f-9f2c-d1a0d3cace45
+		summarizeBy: none
+		sourceColumn: P1
+
+		annotation SummarizationSetBy = Automatic
+
+	column P2
+		dataType: int64
+		formatString: 0
+		lineageTag: f9bc866e-8e87-453a-826e-35f5212534a8
+		summarizeBy: none
+		sourceColumn: P2
+
+		annotation SummarizationSetBy = Automatic
+
+	column P3
+		dataType: int64
+		formatString: 0
+		lineageTag: ee5f8cf2-edf6-4ce7-83e4-5c5d5377a87e
+		summarizeBy: none
+		sourceColumn: P3
+
+		annotation SummarizationSetBy = Automatic
+
+	column P4
+		dataType: int64
+		formatString: 0
+		lineageTag: f00f79d7-711f-4b56-8359-9ce8eaa7a688
+		summarizeBy: none
+		sourceColumn: P4
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_indicator = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(File.Contents("C:\Users\DELL\OneDrive\Keep going\Project and Reseacher\SBP_Dashboard\04_output\powerbi\SBP_PowerBI.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "dim_indicator", Kind = "Sheet"]}[Data],
+				  #"Promoted headers" = Table.PromoteHeaders(#"Navigation 1", [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"indicator_code", type text}, {"indicator_th", type text}, {"indicator_en", type text}, {"domain", type text}, {"unit", type text}, {"source_id", type text}, {"used_in", type text}, {"domain_th", type text}, {"P1", Int64.Type}, {"P2", Int64.Type}, {"P3", Int64.Type}, {"P4", Int64.Type}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+
