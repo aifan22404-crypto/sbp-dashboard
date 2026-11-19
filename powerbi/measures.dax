@@ -1,0 +1,118 @@
+// SBP Dashboard — DAX measures (17 พ.ย. 2569)
+// วิธีใช้: Home > New measure แล้ววางทีละ measure (หนึ่ง measure = หนึ่งบล็อก)
+// แนะนำให้สร้างตารางเปล่าชื่อ _Measures (Home > Enter data > Load) แล้วเก็บ measure ทั้งหมดไว้ในนั้น
+
+// ───────── 1. ค่าพื้นฐาน ─────────
+// คืนค่าก็ต่อเมื่อเลือกตัวชี้วัดเดียว เพราะตัวชี้วัดต่างหน่วยบวกกันไม่ได้
+Value =
+IF (
+    HASONEVALUE ( dim_indicator[indicator_code] ),
+    CALCULATE ( SUM ( fact_panel[value] ), fact_panel[usable] = 1 )
+)
+
+Value Raw (incl. flagged) =
+IF ( HASONEVALUE ( dim_indicator[indicator_code] ), SUM ( fact_panel[value] ) )
+
+Latest Year =
+CALCULATE ( MAX ( fact_panel[year_BE] ), fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) )
+
+Value Latest =
+VAR y = [Latest Year]
+RETURN CALCULATE ( [Value], dim_year[year_BE] = y )
+
+Value Prev Year =
+VAR y = SELECTEDVALUE ( dim_year[year_BE] )
+RETURN CALCULATE ( [Value], dim_year[year_BE] = y - 1 )
+
+YoY % =
+DIVIDE ( [Value] - [Value Prev Year], [Value Prev Year] )
+
+Change since 2564 % =
+VAR base = CALCULATE ( [Value], dim_year[year_BE] = 2564 )
+VAR last = [Value Latest]
+RETURN DIVIDE ( last - base, base )
+
+// ───────── 2. เทียบกับประเทศ / สงขลา ─────────
+Kingdom Value =
+CALCULATE ( [Value], REMOVEFILTERS ( dim_area ), dim_area[area] = "Whole Kingdom" )
+
+Gap vs Kingdom =
+[Value] - [Kingdom Value]
+
+Ratio to Kingdom =
+DIVIDE ( [Value], [Kingdom Value] )
+
+Songkhla Value =
+CALCULATE ( [Value], REMOVEFILTERS ( dim_area ), dim_area[area] = "Songkhla" )
+
+Data Caution =
+IF ( CALCULATE ( MAX ( fact_panel[caution] ) ) = 1, "⚠ ดูหมายเหตุคุณภาพข้อมูล", "" )
+
+// ───────── 3. P1 โอกาส (Location Quotient) ─────────
+LQ =
+AVERAGE ( fact_lq[lq] )
+
+Sector Share % =
+AVERAGE ( fact_lq[share_pct] )
+
+National Share % =
+AVERAGE ( fact_lq[national_share_pct] )
+
+Sectors with LQ > 1 =
+CALCULATE ( DISTINCTCOUNT ( fact_lq[sector] ), fact_lq[lq] > 1 )
+
+Fish Landings (t) =
+SUM ( fact_fish[tonnes] )
+
+Fish Share of National % =
+AVERAGE ( fact_fish[share_national_tonnes_pct] )
+
+// ───────── 4. P2 / P4 ธุรกิจ ─────────
+New Firms (district) =
+SUM ( fact_district[new_firms_2565_2568] )
+
+Dissolved (district) =
+SUM ( fact_district[dissolved_2565_2568] )
+
+Dissolved per 100 New =
+DIVIDE ( SUM ( fact_sections[dissolved] ), SUM ( fact_sections[new_firms] ) ) * 100
+
+New Capital (mb) =
+SUM ( fact_sections[new_capital_mb] )
+
+Disbursed % =
+DIVIDE ( SUM ( fact_disbursement[disbursed_mb] ), SUM ( fact_disbursement[allocated_mb] ) )
+
+Undisbursed (mb) =
+SUM ( fact_disbursement[allocated_mb] ) - SUM ( fact_disbursement[disbursed_mb] )
+
+// ───────── 5. P3 ความเสี่ยง ─────────
+Lethal Events (district) =
+SUM ( fact_district[ucdp_lethal_events_2564_2568] )
+
+Deaths (district) =
+SUM ( fact_district[ucdp_deaths_2564_2568] )
+
+Incidents by Type =
+SUM ( fact_incident_types[incidents] )
+
+// Spearman rho ระหว่างเหตุรุนแรงถึงชีวิตกับธุรกิจตั้งใหม่ รายอำเภอ (คำนวณจากอันดับที่เตรียมไว้ในไฟล์)
+// ค่าที่ถูกต้องเมื่อไม่กรองจังหวัด = -0.06 (37 อำเภอ) ถ้ากรองจังหวัด อันดับยังเป็นอันดับรวม 37 อำเภอ ให้อ่านเป็นค่าประมาณ
+Spearman rho (events vs new firms) =
+VAR n = COUNTROWS ( fact_district )
+VAR mx = AVERAGE ( fact_district[rank_lethal_events] )
+VAR my = AVERAGE ( fact_district[rank_new_firms] )
+VAR sxy = SUMX ( fact_district, ( fact_district[rank_lethal_events] - mx ) * ( fact_district[rank_new_firms] - my ) )
+VAR sxx = SUMX ( fact_district, ( fact_district[rank_lethal_events] - mx ) ^ 2 )
+VAR syy = SUMX ( fact_district, ( fact_district[rank_new_firms] - my ) ^ 2 )
+RETURN IF ( n >= 5, DIVIDE ( sxy, SQRT ( sxx * syy ) ) )
+
+// ───────── 6. P4 ราคายาง ─────────
+Rubber Price (baht/kg) =
+CALCULATE ( AVERAGE ( fact_price_monthly[price_baht_per_kg] ), fact_price_monthly[product] = "ยางแผ่นดิบ ชั้น 3" )
+
+Rubber Price Max =
+CALCULATE ( MAX ( fact_price_monthly[price_baht_per_kg] ), fact_price_monthly[product] = "ยางแผ่นดิบ ชั้น 3" )
+
+Months Rubber >= 100 =
+CALCULATE ( COUNTROWS ( fact_price_monthly ), fact_price_monthly[product] = "ยางแผ่นดิบ ชั้น 3", fact_price_monthly[price_baht_per_kg] >= 100 )

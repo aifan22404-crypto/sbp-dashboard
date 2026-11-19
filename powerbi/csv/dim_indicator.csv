@@ -1,0 +1,114 @@
+﻿indicator_code,indicator_th,indicator_en,domain,unit,source_id,used_in,domain_th,P1,P2,P3,P4
+agri_output_coconut_t,ผลผลิต Coconut,Output: Coconut,Agriculture,tonnes (coconut: as source),AG01,"P1,P3,P4",เกษตร,1,0,1,1
+agri_output_durian_t,ผลผลิต Durian,Output: Durian,Agriculture,tonnes (coconut: as source),AG01,"P1,P3,P4",เกษตร,1,0,1,1
+agri_output_longkong_t,ผลผลิต Longkong,Output: Longkong,Agriculture,tonnes (coconut: as source),AG01,"P1,P3,P4",เกษตร,1,0,1,1
+agri_output_mangosteen_t,ผลผลิต Mangosteen,Output: Mangosteen,Agriculture,tonnes (coconut: as source),AG01,"P1,P3,P4",เกษตร,1,0,1,1
+agri_output_oil_palm_t,ผลผลิต Oil palm,Output: Oil palm,Agriculture,tonnes (coconut: as source),AG01,"P1,P3,P4",เกษตร,1,0,1,1
+agri_output_rambutan_t,ผลผลิต Rambutan,Output: Rambutan,Agriculture,tonnes (coconut: as source),AG01,"P1,P3,P4",เกษตร,1,0,1,1
+agri_output_rubber_t,ผลผลิต Rubber,Output: Rubber,Agriculture,tonnes (coconut: as source),AG01,"P1,P3,P4",เกษตร,1,0,1,1
+price_oilpalm_baht_kg,ราคาผลปาล์มน้ำมันทั้งทะลาย คละ,Farm-gate price: oil palm FFB,Agriculture,baht/kg,AG02,"P3,P4",เกษตร,0,0,1,1
+price_rubber_rss3_baht_kg,ราคายางแผ่นดิบ ชั้น 3,Farm-gate price: rubber RSS3,Agriculture,baht/kg,AG02,"P3,P4",เกษตร,0,0,1,1
+dbd_dissolved,นิติบุคคลเลิกกิจการ,Dissolved juristic persons,Business,firms,DBD01-03 / DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_sec?,เลิกกิจการ หมวด ? ไม่ระบุ,"Dissolved firms, TSIC section ?",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secA,เลิกกิจการ หมวด A เกษตร ป่าไม้ ประมง,"Dissolved firms, TSIC section A",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secB,เลิกกิจการ หมวด B เหมืองแร่,"Dissolved firms, TSIC section B",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secC,เลิกกิจการ หมวด C การผลิต (อุตสาหกรรม),"Dissolved firms, TSIC section C",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secD,เลิกกิจการ หมวด D ไฟฟ้า ก๊าซ,"Dissolved firms, TSIC section D",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secE,เลิกกิจการ หมวด E น้ำ จัดการของเสีย,"Dissolved firms, TSIC section E",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secF,เลิกกิจการ หมวด F ก่อสร้าง,"Dissolved firms, TSIC section F",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secG,เลิกกิจการ หมวด G ค้าส่ง ค้าปลีก ซ่อมยานยนต์,"Dissolved firms, TSIC section G",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secH,เลิกกิจการ หมวด H ขนส่ง คลังสินค้า,"Dissolved firms, TSIC section H",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secI,เลิกกิจการ หมวด I ที่พักและอาหาร,"Dissolved firms, TSIC section I",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secJ,เลิกกิจการ หมวด J ข้อมูลข่าวสารและสื่อสาร,"Dissolved firms, TSIC section J",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secK,เลิกกิจการ หมวด K การเงิน ประกันภัย,"Dissolved firms, TSIC section K",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secL,เลิกกิจการ หมวด L อสังหาริมทรัพย์,"Dissolved firms, TSIC section L",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secM,เลิกกิจการ หมวด M วิชาชีพ วิทยาศาสตร์ เทคนิค,"Dissolved firms, TSIC section M",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secN,เลิกกิจการ หมวด N บริหารและบริการสนับสนุน,"Dissolved firms, TSIC section N",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secO,เลิกกิจการ หมวด O บริหารราชการ,"Dissolved firms, TSIC section O",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secP,เลิกกิจการ หมวด P การศึกษา,"Dissolved firms, TSIC section P",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secQ,เลิกกิจการ หมวด Q สุขภาพ สังคมสงเคราะห์,"Dissolved firms, TSIC section Q",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secR,เลิกกิจการ หมวด R ศิลปะ บันเทิง นันทนาการ,"Dissolved firms, TSIC section R",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_dissolved_secS,เลิกกิจการ หมวด S บริการอื่น ๆ,"Dissolved firms, TSIC section S",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_net_formation,ตั้งใหม่สุทธิ,Net firm formation,Business,firms,DBD01-03 / DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_capital_mb,ทุนจดทะเบียนตั้งใหม่,Registered capital of new firms,Business,million baht,DBD01-03 / DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_firms,นิติบุคคลตั้งใหม่,New juristic persons,Business,firms,DBD01-03 / DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_sec?,ตั้งใหม่ หมวด ? ไม่ระบุ,"New firms, TSIC section ?",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secA,ตั้งใหม่ หมวด A เกษตร ป่าไม้ ประมง,"New firms, TSIC section A",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secB,ตั้งใหม่ หมวด B เหมืองแร่,"New firms, TSIC section B",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secC,ตั้งใหม่ หมวด C การผลิต (อุตสาหกรรม),"New firms, TSIC section C",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secD,ตั้งใหม่ หมวด D ไฟฟ้า ก๊าซ,"New firms, TSIC section D",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secE,ตั้งใหม่ หมวด E น้ำ จัดการของเสีย,"New firms, TSIC section E",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secF,ตั้งใหม่ หมวด F ก่อสร้าง,"New firms, TSIC section F",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secG,ตั้งใหม่ หมวด G ค้าส่ง ค้าปลีก ซ่อมยานยนต์,"New firms, TSIC section G",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secH,ตั้งใหม่ หมวด H ขนส่ง คลังสินค้า,"New firms, TSIC section H",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secI,ตั้งใหม่ หมวด I ที่พักและอาหาร,"New firms, TSIC section I",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secJ,ตั้งใหม่ หมวด J ข้อมูลข่าวสารและสื่อสาร,"New firms, TSIC section J",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secK,ตั้งใหม่ หมวด K การเงิน ประกันภัย,"New firms, TSIC section K",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secL,ตั้งใหม่ หมวด L อสังหาริมทรัพย์,"New firms, TSIC section L",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secM,ตั้งใหม่ หมวด M วิชาชีพ วิทยาศาสตร์ เทคนิค,"New firms, TSIC section M",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secN,ตั้งใหม่ หมวด N บริหารและบริการสนับสนุน,"New firms, TSIC section N",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secO,ตั้งใหม่ หมวด O บริหารราชการ,"New firms, TSIC section O",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secP,ตั้งใหม่ หมวด P การศึกษา,"New firms, TSIC section P",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secQ,ตั้งใหม่ หมวด Q สุขภาพ สังคมสงเคราะห์,"New firms, TSIC section Q",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secR,ตั้งใหม่ หมวด R ศิลปะ บันเทิง นันทนาการ,"New firms, TSIC section R",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+dbd_new_secS,ตั้งใหม่ หมวด S บริการอื่น ๆ,"New firms, TSIC section S",Business,firms,DBD04,"P1,P4",ธุรกิจ,1,0,0,1
+gpp_current_mb,ผลิตภัณฑ์มวลรวมจังหวัด (ราคาประจำปี),"GPP, current prices",Economy,million baht,GPP01,"P1,P2,P4",เศรษฐกิจ,1,1,0,1
+gpp_per_capita_baht,GPP ต่อหัว,GPP per capita,Economy,baht/person/year,GPP01,P2,เศรษฐกิจ,0,1,0,0
+gpp_real_growth_accom_pct,การเติบโตที่แท้จริงสาขา accom,Real growth: Accommodation and food service activities,Economy,%,GPP01,"P1,P3",เศรษฐกิจ,1,0,1,0
+gpp_real_growth_agri_pct,การเติบโตที่แท้จริงสาขา agri,"Real growth: Agriculture, forestry and fishing",Economy,%,GPP01,"P1,P3",เศรษฐกิจ,1,0,1,0
+gpp_real_growth_constr_pct,การเติบโตที่แท้จริงสาขา constr,Real growth: Construction,Economy,%,GPP01,"P1,P3",เศรษฐกิจ,1,0,1,0
+gpp_real_growth_educ_pct,การเติบโตที่แท้จริงสาขา educ,Real growth: Education,Economy,%,GPP01,"P1,P3",เศรษฐกิจ,1,0,1,0
+gpp_real_growth_health_pct,การเติบโตที่แท้จริงสาขา health,Real growth: Human health and social work activities,Economy,%,GPP01,"P1,P3",เศรษฐกิจ,1,0,1,0
+gpp_real_growth_manuf_pct,การเติบโตที่แท้จริงสาขา manuf,Real growth: Manufacturing,Economy,%,GPP01,"P1,P3",เศรษฐกิจ,1,0,1,0
+gpp_real_growth_mining_pct,การเติบโตที่แท้จริงสาขา mining,Real growth: Mining and quarrying,Economy,%,GPP01,"P1,P3",เศรษฐกิจ,1,0,1,0
+gpp_real_growth_pct,อัตราการเติบโตที่แท้จริงของ GPP,GPP real growth (CVM),Economy,%,GPP01,"P1,P2,P3",เศรษฐกิจ,1,1,1,0
+gpp_real_growth_pubadmin_pct,การเติบโตที่แท้จริงสาขา pubadmin,Real growth: Public administration and defence; compulsory social security,Economy,%,GPP01,"P1,P3",เศรษฐกิจ,1,0,1,0
+gpp_real_growth_trade_pct,การเติบโตที่แท้จริงสาขา trade,Real growth: Wholesale and retail trade and repair of motor vehicles and motorcycle,Economy,%,GPP01,"P1,P3",เศรษฐกิจ,1,0,1,0
+gpp_real_growth_transport_pct,การเติบโตที่แท้จริงสาขา transport,Real growth: Transportation and storage,Economy,%,GPP01,"P1,P3",เศรษฐกิจ,1,0,1,0
+gpp_share_accom_pct,สัดส่วนสาขา accom ใน GPP,GPP share: Accommodation and food service activities,Economy,% of GPP,GPP01,"P1,P2",เศรษฐกิจ,1,1,0,0
+gpp_share_agri_pct,สัดส่วนสาขา agri ใน GPP,"GPP share: Agriculture, forestry and fishing",Economy,% of GPP,GPP01,"P1,P2",เศรษฐกิจ,1,1,0,0
+gpp_share_constr_pct,สัดส่วนสาขา constr ใน GPP,GPP share: Construction,Economy,% of GPP,GPP01,"P1,P2",เศรษฐกิจ,1,1,0,0
+gpp_share_educ_pct,สัดส่วนสาขา educ ใน GPP,GPP share: Education,Economy,% of GPP,GPP01,"P1,P2",เศรษฐกิจ,1,1,0,0
+gpp_share_health_pct,สัดส่วนสาขา health ใน GPP,GPP share: Human health and social work activities,Economy,% of GPP,GPP01,"P1,P2",เศรษฐกิจ,1,1,0,0
+gpp_share_manuf_pct,สัดส่วนสาขา manuf ใน GPP,GPP share: Manufacturing,Economy,% of GPP,GPP01,"P1,P2",เศรษฐกิจ,1,1,0,0
+gpp_share_mining_pct,สัดส่วนสาขา mining ใน GPP,GPP share: Mining and quarrying,Economy,% of GPP,GPP01,"P1,P2",เศรษฐกิจ,1,1,0,0
+gpp_share_pubadmin_pct,สัดส่วนสาขา pubadmin ใน GPP,GPP share: Public administration and defence; compulsory social security,Economy,% of GPP,GPP01,"P1,P2",เศรษฐกิจ,1,1,0,0
+gpp_share_trade_pct,สัดส่วนสาขา trade ใน GPP,GPP share: Wholesale and retail trade and repair of motor vehicles and motorcycle,Economy,% of GPP,GPP01,"P1,P2",เศรษฐกิจ,1,1,0,0
+gpp_share_transport_pct,สัดส่วนสาขา transport ใน GPP,GPP share: Transportation and storage,Economy,% of GPP,GPP01,"P1,P2",เศรษฐกิจ,1,1,0,0
+population_1000,ประชากร (ประมาณการ สศช.),Population (NESDC estimate),Economy,"1,000 persons",GPP01,All,เศรษฐกิจ,1,1,1,1
+fish_landings_t,สัตว์น้ำเค็มขึ้นท่า (กรมประมง),Saltwater landings (DoF),Fisheries,tonnes,FI-DoF,"P1,P3,P4",ประมง,1,0,1,1
+fish_landings_value_mb,มูลค่าสัตว์น้ำขึ้นท่า,Landings value (DoF),Fisheries,million baht,FI-DoF,"P1,P4",ประมง,1,0,0,1
+fish_vessels_licensed,เรือประมงพาณิชย์ที่ได้รับอนุญาต,Licensed commercial fishing vessels,Fisheries,vessels,FI-DoF,"P3,P4",ประมง,0,0,1,1
+fmo_port_volume_t,ปริมาณสัตว์น้ำผ่านท่า อสป. (ปีงบ),FMO port volume (fiscal year),Fisheries,tonnes,FI01,"P1,P4",ประมง,1,0,0,1
+boi_investment_mb,เงินลงทุนที่ได้รับอนุมัติ,BOI approved investment,Investment,million baht,BOI01,"P1,P2",การลงทุน,1,1,0,0
+boi_jobs,การจ้างงานของโครงการ BOI,BOI approved jobs,Investment,persons,BOI01,"P1,P2",การลงทุน,1,1,0,0
+boi_projects,โครงการ BOI ที่อนุมัติ,BOI approved projects,Investment,projects,BOI01,"P1,P2",การลงทุน,1,1,0,0
+employed_persons,ผู้มีงานทำ,Employed persons,Labour,persons,LFS01,P2,แรงงาน,0,1,0,0
+lfp_rate_pct,อัตราการมีส่วนร่วมในกำลังแรงงาน,Labour force participation rate,Labour,%,LFS01,P2,แรงงาน,0,1,0,0
+unemployment_rate_pct,อัตราการว่างงาน (เฉลี่ย 4 ไตรมาส),Unemployment rate (4-quarter avg),Labour,%,LFS01,"P2,P3",แรงงาน,0,1,1,0
+gini_income,สัมประสิทธิ์ความไม่เสมอภาค (รายได้),Gini coefficient (income),Poverty,0–1,PV04,P2,ความยากจนและรายได้,0,1,0,0
+hh_debt_baht,หนี้สินเฉลี่ยต่อครัวเรือน,Household debt,Poverty,baht,PV05/PV06,"P2,P4",ความยากจนและรายได้,0,1,0,1
+hh_exp_to_income_pct,สัดส่วนค่าใช้จ่ายต่อรายได้,Expenditure / income,Poverty,%,PV05/PV06,"P2,P4",ความยากจนและรายได้,0,1,0,1
+hh_expenditure_month_baht,ค่าใช้จ่ายเฉลี่ยต่อเดือนต่อครัวเรือน,Household expenditure per month,Poverty,baht,PV05/PV06,"P2,P4",ความยากจนและรายได้,0,1,0,1
+hh_farm_income_share_pct,สัดส่วนรายได้จากการเกษตร,Share of income from farming,Poverty,%,PV06,"P2,P4",ความยากจนและรายได้,0,1,0,1
+hh_income_month_baht,รายได้เฉลี่ยต่อเดือนต่อครัวเรือน,Household income per month,Poverty,baht,PV05/PV06,"P2,P4",ความยากจนและรายได้,0,1,0,1
+hh_informal_debt_baht,หนี้นอกระบบเฉลี่ยต่อครัวเรือน,Informal debt per household,Poverty,baht,PV06,"P3,P4",ความยากจนและรายได้,0,0,1,1
+hh_transfers_share_pct,สัดส่วนรายได้จากเงินช่วยเหลือ,Share of income from transfers,Poverty,%,PV06,P2,ความยากจนและรายได้,0,1,0,0
+poverty_rank_77,อันดับความยากจน (1=จนที่สุด),Poverty rank of 77 (1=poorest),Poverty,rank,PV02,P2,ความยากจนและรายได้,0,1,0,0
+poverty_rate_pct,สัดส่วนคนจน (สศช.),Poverty headcount ratio (NESDC),Poverty,% of population,PV02,"P2,P4",ความยากจนและรายได้,0,1,0,1
+tpmap_target_poor_rate_pct,สัดส่วนคนจนเป้าหมาย TPMAP,TPMAP target-poor rate,Poverty,% of จปฐ. persons,PV01,P2 (where only),ความยากจนและรายได้,0,1,0,0
+budget_capital_mb,งบลงทุนที่จัดสรร,Capital budget allocated,Public budget,million baht,BUD01,P2,งบประมาณรัฐ,0,1,0,0
+budget_capital_share_pct,สัดส่วนงบลงทุน,Capital share of allocation,Public budget,%,BUD01,P2,งบประมาณรัฐ,0,1,0,0
+budget_total_mb,งบประมาณที่จัดสรรลงจังหวัด,Budget allocated to province,Public budget,million baht,BUD01,P2,งบประมาณรัฐ,0,1,0,0
+bot_customs_exports_mb,มูลค่าส่งออกผ่านด่านศุลกากรภาคใต้,Exports via southern customs,Region,million baht,BOT01,Context,ภาพรวมภาค,0,0,0,0
+bot_private_investment_index,ดัชนีการลงทุนภาคเอกชน ภาคใต้,"Private investment index, South (2561=100)",Region,index,BOT01,Context,ภาพรวมภาค,0,0,0,0
+sec_official_incidents,เหตุการณ์ความไม่สงบทุกประเภท (ทางการ),"Unrest incidents, all types (official)",Security,incidents,SEC02,"P3,P4",ความมั่นคง,0,0,1,1
+sec_ucdp_deaths,ผู้เสียชีวิตจากความไม่สงบ (UCDP),Conflict deaths (UCDP best estimate),Security,persons,SEC01,"P3,P4",ความมั่นคง,0,0,1,1
+sec_ucdp_lethal_events,เหตุการณ์ที่มีผู้เสียชีวิต (UCDP),Lethal conflict events (UCDP),Security,events,SEC01,"P3,P4",ความมั่นคง,0,0,1,1
+tour_hotel_guests_malaysian,ผู้เข้าพักชาวมาเลเซีย,Malaysian hotel guests,Tourism,persons,TO01,"P1,P3,P4",ท่องเที่ยว,1,0,1,1
+tour_occupancy_pct,อัตราการเข้าพัก,Hotel occupancy,Tourism,%,TO01,"P1,P3,P4",ท่องเที่ยว,1,0,1,1
+tour_revenue_mb,รายได้จากการท่องเที่ยว,Tourism revenue,Tourism,million baht,TO01,"P1,P3,P4",ท่องเที่ยว,1,0,1,1
+tour_spend_per_day_baht,ค่าใช้จ่ายเฉลี่ยต่อคนต่อวัน,Average spend per visitor per day,Tourism,baht,TO01,"P1,P3,P4",ท่องเที่ยว,1,0,1,1
+tour_visitors,ผู้เยี่ยมเยือน,Visitors,Tourism,persons,TO01,"P1,P3,P4",ท่องเที่ยว,1,0,1,1
+tour_visitors_foreign,ผู้เยี่ยมเยือนชาวต่างชาติ,Foreign visitors,Tourism,persons,TO01,"P1,P3,P4",ท่องเที่ยว,1,0,1,1
+border_trade_mb,มูลค่าการค้าชายแดน (ส่งออก+นำเข้า),Border trade value (export+import),Trade,million baht,BT01-03,"P1,P3",การค้าชายแดน,1,0,1,0

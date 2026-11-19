@@ -1,0 +1,9 @@
+﻿area,area_level,scope,area_th,sort,is_focus_province
+Pattani,province,in scope,ปัตตานี,1,1
+Yala,province,in scope,ยะลา,2,1
+Narathiwat,province,in scope,นราธิวาส,3,1
+Songkhla-4districts,district group (in scope),in scope,สงขลา 4 อำเภอ,4,0
+Songkhla,province (context: whole),context (whole province),สงขลา (ทั้งจังหวัด),5,0
+3 provinces (PTN+YLA+NWT),province group,in scope,รวม 3 จังหวัด,6,0
+South region,region,benchmark,ภาคใต้,7,0
+Whole Kingdom,national,benchmark,ทั้งประเทศ,8,0

@@ -1,0 +1,2148 @@
+﻿area,year_BE,year_CE,period_type,indicator_code,value,quality_flag,usable,caution
+Narathiwat,2563,2020,calendar,agri_output_coconut_t,32071093.0,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,agri_output_coconut_t,33532229.0,ok,1,0
+Narathiwat,2565,2022,calendar,agri_output_coconut_t,33961394.0,ok,1,0
+Narathiwat,2566,2023,calendar,agri_output_coconut_t,29831054.0,ok,1,0
+Narathiwat,2567,2024,calendar,agri_output_coconut_t,28951239.0,ok,1,0
+Narathiwat,2568,2025,calendar,agri_output_coconut_t,29790533.0,PRELIMINARY — do not use (RF10),0,1
+Pattani,2563,2020,calendar,agri_output_coconut_t,20450637.0,base year (before scope),1,0
+Pattani,2564,2021,calendar,agri_output_coconut_t,22816559.0,ok,1,0
+Pattani,2565,2022,calendar,agri_output_coconut_t,24523040.0,ok,1,0
+Pattani,2566,2023,calendar,agri_output_coconut_t,24121946.0,ok,1,0
+Pattani,2567,2024,calendar,agri_output_coconut_t,25100696.0,ok,1,0
+Pattani,2568,2025,calendar,agri_output_coconut_t,25842698.0,PRELIMINARY — do not use (RF10),0,1
+Songkhla,2563,2020,calendar,agri_output_coconut_t,4450959.0,base year (before scope),1,0
+Songkhla,2564,2021,calendar,agri_output_coconut_t,4580531.0,ok,1,0
+Songkhla,2565,2022,calendar,agri_output_coconut_t,4925569.0,ok,1,0
+Songkhla,2566,2023,calendar,agri_output_coconut_t,4644817.0,ok,1,0
+Songkhla,2567,2024,calendar,agri_output_coconut_t,4262507.0,ok,1,0
+Songkhla,2568,2025,calendar,agri_output_coconut_t,4689913.0,PRELIMINARY — do not use (RF10),0,1
+Yala,2563,2020,calendar,agri_output_coconut_t,2132793.0,base year (before scope),1,0
+Yala,2564,2021,calendar,agri_output_coconut_t,2239682.0,ok,1,0
+Yala,2565,2022,calendar,agri_output_coconut_t,2333995.0,ok,1,0
+Yala,2566,2023,calendar,agri_output_coconut_t,2332906.0,ok,1,0
+Yala,2567,2024,calendar,agri_output_coconut_t,2057446.0,ok,1,0
+Yala,2568,2025,calendar,agri_output_coconut_t,2021683.0,PRELIMINARY — do not use (RF10),0,1
+Narathiwat,2563,2020,calendar,agri_output_durian_t,9344.0,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,agri_output_durian_t,13577.0,ok,1,0
+Narathiwat,2565,2022,calendar,agri_output_durian_t,3939.0,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Narathiwat,2566,2023,calendar,agri_output_durian_t,23830.0,ok,1,0
+Narathiwat,2567,2024,calendar,agri_output_durian_t,13479.0,ok,1,0
+Narathiwat,2568,2025,calendar,agri_output_durian_t,527.0,PRELIMINARY — do not use (RF10),0,1
+Pattani,2563,2020,calendar,agri_output_durian_t,3993.0,base year (before scope),1,0
+Pattani,2564,2021,calendar,agri_output_durian_t,4447.0,ok,1,0
+Pattani,2565,2022,calendar,agri_output_durian_t,2786.0,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Pattani,2566,2023,calendar,agri_output_durian_t,5145.0,ok,1,0
+Pattani,2567,2024,calendar,agri_output_durian_t,3997.0,ok,1,0
+Pattani,2568,2025,calendar,agri_output_durian_t,3486.0,PRELIMINARY — do not use (RF10),0,1
+Songkhla,2563,2020,calendar,agri_output_durian_t,11772.0,base year (before scope),1,0
+Songkhla,2564,2021,calendar,agri_output_durian_t,13437.0,ok,1,0
+Songkhla,2565,2022,calendar,agri_output_durian_t,5919.0,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Songkhla,2566,2023,calendar,agri_output_durian_t,13243.0,ok,1,0
+Songkhla,2567,2024,calendar,agri_output_durian_t,11392.0,ok,1,0
+Songkhla,2568,2025,calendar,agri_output_durian_t,8445.0,PRELIMINARY — do not use (RF10),0,1
+Yala,2563,2020,calendar,agri_output_durian_t,53023.0,base year (before scope),1,0
+Yala,2564,2021,calendar,agri_output_durian_t,56695.0,ok,1,0
+Yala,2565,2022,calendar,agri_output_durian_t,28622.0,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Yala,2566,2023,calendar,agri_output_durian_t,89661.0,ok,1,0
+Yala,2567,2024,calendar,agri_output_durian_t,71210.0,ok,1,0
+Yala,2568,2025,calendar,agri_output_durian_t,45426.0,PRELIMINARY — do not use (RF10),0,1
+Narathiwat,2563,2020,calendar,agri_output_longkong_t,4355.0,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,agri_output_longkong_t,4392.0,ok,1,0
+Narathiwat,2565,2022,calendar,agri_output_longkong_t,4.07,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Narathiwat,2566,2023,calendar,agri_output_longkong_t,10689.0,ok,1,0
+Narathiwat,2567,2024,calendar,agri_output_longkong_t,6841.0,ok,1,0
+Narathiwat,2568,2025,calendar,agri_output_longkong_t,0.0,PRELIMINARY — do not use (RF10),0,1
+Pattani,2563,2020,calendar,agri_output_longkong_t,3702.0,base year (before scope),1,0
+Pattani,2564,2021,calendar,agri_output_longkong_t,2114.0,ok,1,0
+Pattani,2565,2022,calendar,agri_output_longkong_t,130.0,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Pattani,2566,2023,calendar,agri_output_longkong_t,4122.0,ok,1,0
+Pattani,2567,2024,calendar,agri_output_longkong_t,2751.0,ok,1,0
+Pattani,2568,2025,calendar,agri_output_longkong_t,45.0,PRELIMINARY — do not use (RF10),0,1
+Songkhla,2563,2020,calendar,agri_output_longkong_t,2808.0,base year (before scope),1,0
+Songkhla,2564,2021,calendar,agri_output_longkong_t,2899.0,ok,1,0
+Songkhla,2565,2022,calendar,agri_output_longkong_t,285.0,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Songkhla,2566,2023,calendar,agri_output_longkong_t,1651.0,ok,1,0
+Songkhla,2567,2024,calendar,agri_output_longkong_t,1164.0,ok,1,0
+Songkhla,2568,2025,calendar,agri_output_longkong_t,4.54,PRELIMINARY — do not use (RF10),0,1
+Yala,2563,2020,calendar,agri_output_longkong_t,1086.0,base year (before scope),1,0
+Yala,2564,2021,calendar,agri_output_longkong_t,6851.0,ok,1,0
+Yala,2565,2022,calendar,agri_output_longkong_t,29.0,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Yala,2566,2023,calendar,agri_output_longkong_t,5101.0,ok,1,0
+Yala,2567,2024,calendar,agri_output_longkong_t,4609.0,ok,1,0
+Yala,2568,2025,calendar,agri_output_longkong_t,0.0,PRELIMINARY — do not use (RF10),0,1
+Narathiwat,2563,2020,calendar,agri_output_mangosteen_t,4328.0,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,agri_output_mangosteen_t,8747.0,ok,1,0
+Narathiwat,2565,2022,calendar,agri_output_mangosteen_t,549.0,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Narathiwat,2566,2023,calendar,agri_output_mangosteen_t,11234.0,ok,1,0
+Narathiwat,2567,2024,calendar,agri_output_mangosteen_t,7922.0,ok,1,0
+Narathiwat,2568,2025,calendar,agri_output_mangosteen_t,305.0,PRELIMINARY — do not use (RF10),0,1
+Pattani,2563,2020,calendar,agri_output_mangosteen_t,1291.0,base year (before scope),1,0
+Pattani,2564,2021,calendar,agri_output_mangosteen_t,1398.0,ok,1,0
+Pattani,2565,2022,calendar,agri_output_mangosteen_t,347.0,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Pattani,2566,2023,calendar,agri_output_mangosteen_t,1259.0,ok,1,0
+Pattani,2567,2024,calendar,agri_output_mangosteen_t,1014.0,ok,1,0
+Pattani,2568,2025,calendar,agri_output_mangosteen_t,691.0,PRELIMINARY — do not use (RF10),0,1
+Songkhla,2563,2020,calendar,agri_output_mangosteen_t,1905.0,base year (before scope),1,0
+Songkhla,2564,2021,calendar,agri_output_mangosteen_t,2306.0,ok,1,0
+Songkhla,2565,2022,calendar,agri_output_mangosteen_t,464.0,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Songkhla,2566,2023,calendar,agri_output_mangosteen_t,2117.0,ok,1,0
+Songkhla,2567,2024,calendar,agri_output_mangosteen_t,1579.0,ok,1,0
+Songkhla,2568,2025,calendar,agri_output_mangosteen_t,1128.0,PRELIMINARY — do not use (RF10),0,1
+Yala,2563,2020,calendar,agri_output_mangosteen_t,1762.0,base year (before scope),1,0
+Yala,2564,2021,calendar,agri_output_mangosteen_t,4312.0,ok,1,0
+Yala,2565,2022,calendar,agri_output_mangosteen_t,748.0,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Yala,2566,2023,calendar,agri_output_mangosteen_t,2444.0,ok,1,0
+Yala,2567,2024,calendar,agri_output_mangosteen_t,3393.0,ok,1,0
+Yala,2568,2025,calendar,agri_output_mangosteen_t,403.0,PRELIMINARY — do not use (RF10),0,1
+Narathiwat,2563,2020,calendar,agri_output_oil_palm_t,130783.0,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,agri_output_oil_palm_t,141665.0,ok,1,0
+Narathiwat,2565,2022,calendar,agri_output_oil_palm_t,151028.0,ok,1,0
+Narathiwat,2566,2023,calendar,agri_output_oil_palm_t,140354.0,ok,1,0
+Narathiwat,2567,2024,calendar,agri_output_oil_palm_t,152452.0,ok,1,0
+Pattani,2563,2020,calendar,agri_output_oil_palm_t,56099.0,base year (before scope),1,0
+Pattani,2564,2021,calendar,agri_output_oil_palm_t,57447.0,ok,1,0
+Pattani,2565,2022,calendar,agri_output_oil_palm_t,60407.0,ok,1,0
+Pattani,2566,2023,calendar,agri_output_oil_palm_t,58293.0,ok,1,0
+Pattani,2567,2024,calendar,agri_output_oil_palm_t,56681.0,ok,1,0
+Songkhla,2563,2020,calendar,agri_output_oil_palm_t,181634.0,base year (before scope),1,0
+Songkhla,2564,2021,calendar,agri_output_oil_palm_t,198515.0,ok,1,0
+Songkhla,2565,2022,calendar,agri_output_oil_palm_t,213298.0,ok,1,0
+Songkhla,2566,2023,calendar,agri_output_oil_palm_t,217996.0,ok,1,0
+Songkhla,2567,2024,calendar,agri_output_oil_palm_t,222347.0,ok,1,0
+Yala,2563,2020,calendar,agri_output_oil_palm_t,9672.0,base year (before scope),1,0
+Yala,2564,2021,calendar,agri_output_oil_palm_t,12514.0,ok,1,0
+Yala,2565,2022,calendar,agri_output_oil_palm_t,14262.0,ok,1,0
+Yala,2566,2023,calendar,agri_output_oil_palm_t,14908.0,ok,1,0
+Yala,2567,2024,calendar,agri_output_oil_palm_t,14245.0,ok,1,0
+Narathiwat,2563,2020,calendar,agri_output_rambutan_t,5507.0,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,agri_output_rambutan_t,7269.0,ok,1,0
+Narathiwat,2565,2022,calendar,agri_output_rambutan_t,1621.96,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Narathiwat,2566,2023,calendar,agri_output_rambutan_t,6590.0,ok,1,0
+Narathiwat,2567,2024,calendar,agri_output_rambutan_t,5043.0,ok,1,0
+Narathiwat,2568,2025,calendar,agri_output_rambutan_t,36.0,PRELIMINARY — do not use (RF10),0,1
+Pattani,2563,2020,calendar,agri_output_rambutan_t,642.0,base year (before scope),1,0
+Pattani,2564,2021,calendar,agri_output_rambutan_t,700.0,ok,1,0
+Pattani,2565,2022,calendar,agri_output_rambutan_t,467.8,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Pattani,2566,2023,calendar,agri_output_rambutan_t,964.0,ok,1,0
+Pattani,2567,2024,calendar,agri_output_rambutan_t,778.0,ok,1,0
+Pattani,2568,2025,calendar,agri_output_rambutan_t,399.0,PRELIMINARY — do not use (RF10),0,1
+Songkhla,2563,2020,calendar,agri_output_rambutan_t,966.0,base year (before scope),1,0
+Songkhla,2564,2021,calendar,agri_output_rambutan_t,1753.0,ok,1,0
+Songkhla,2565,2022,calendar,agri_output_rambutan_t,699.0,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Songkhla,2566,2023,calendar,agri_output_rambutan_t,1698.0,ok,1,0
+Songkhla,2567,2024,calendar,agri_output_rambutan_t,1229.0,ok,1,0
+Songkhla,2568,2025,calendar,agri_output_rambutan_t,841.0,PRELIMINARY — do not use (RF10),0,1
+Yala,2563,2020,calendar,agri_output_rambutan_t,800.0,base year (before scope),1,0
+Yala,2564,2021,calendar,agri_output_rambutan_t,1116.0,ok,1,0
+Yala,2565,2022,calendar,agri_output_rambutan_t,515.0,caution RF23 (source reports near-zero fruit output 2565; cause unverified),0,1
+Yala,2566,2023,calendar,agri_output_rambutan_t,1249.0,ok,1,0
+Yala,2567,2024,calendar,agri_output_rambutan_t,1104.0,ok,1,0
+Yala,2568,2025,calendar,agri_output_rambutan_t,238.0,PRELIMINARY — do not use (RF10),0,1
+Narathiwat,2563,2020,calendar,agri_output_rubber_t,178472.0,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,agri_output_rubber_t,185739.0,ok,1,0
+Narathiwat,2565,2022,calendar,agri_output_rubber_t,180224.0,ok,1,0
+Narathiwat,2566,2023,calendar,agri_output_rubber_t,177142.0,ok,1,0
+Narathiwat,2567,2024,calendar,agri_output_rubber_t,183524.0,ok,1,0
+Pattani,2563,2020,calendar,agri_output_rubber_t,82305.0,base year (before scope),1,0
+Pattani,2564,2021,calendar,agri_output_rubber_t,83989.0,ok,1,0
+Pattani,2565,2022,calendar,agri_output_rubber_t,82021.0,ok,1,0
+Pattani,2566,2023,calendar,agri_output_rubber_t,82147.0,ok,1,0
+Pattani,2567,2024,calendar,agri_output_rubber_t,81990.0,ok,1,0
+Songkhla,2563,2020,calendar,agri_output_rubber_t,437226.0,base year (before scope),1,0
+Songkhla,2564,2021,calendar,agri_output_rubber_t,427607.0,ok,1,0
+Songkhla,2565,2022,calendar,agri_output_rubber_t,411181.0,ok,1,0
+Songkhla,2566,2023,calendar,agri_output_rubber_t,417094.0,ok,1,0
+Songkhla,2567,2024,calendar,agri_output_rubber_t,408123.0,ok,1,0
+Yala,2563,2020,calendar,agri_output_rubber_t,244664.0,base year (before scope),1,0
+Yala,2564,2021,calendar,agri_output_rubber_t,255531.0,ok,1,0
+Yala,2565,2022,calendar,agri_output_rubber_t,249273.0,ok,1,0
+Yala,2566,2023,calendar,agri_output_rubber_t,244269.0,ok,1,0
+Yala,2567,2024,calendar,agri_output_rubber_t,238134.0,ok,1,0
+Whole Kingdom,2566,2023,calendar,price_oilpalm_baht_kg,5.37,partial year (7 months),1,0
+Whole Kingdom,2567,2024,calendar,price_oilpalm_baht_kg,5.88,ok,1,0
+Whole Kingdom,2568,2025,calendar,price_oilpalm_baht_kg,6.3,ok,1,0
+Whole Kingdom,2569,2026,calendar,price_oilpalm_baht_kg,7.36,partial year (9 months),1,0
+Whole Kingdom,2563,2020,calendar,price_rubber_rss3_baht_kg,42.92,base year (before scope),1,0
+Whole Kingdom,2564,2021,calendar,price_rubber_rss3_baht_kg,52.66,ok,1,0
+Whole Kingdom,2565,2022,calendar,price_rubber_rss3_baht_kg,53.45,ok,1,0
+Whole Kingdom,2566,2023,calendar,price_rubber_rss3_baht_kg,45.36,ok,1,0
+Whole Kingdom,2567,2024,calendar,price_rubber_rss3_baht_kg,69.87,ok,1,0
+Whole Kingdom,2568,2025,calendar,price_rubber_rss3_baht_kg,60.29,ok,1,0
+Whole Kingdom,2569,2026,calendar,price_rubber_rss3_baht_kg,72.04,partial year (9 months),1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved,168.0,from firm lists (DBD04),1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved,175.0,from firm lists (DBD04),1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved,121.0,from firm lists (DBD04),1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved,171.0,from firm lists (DBD04),1,0
+Narathiwat,2564,2021,calendar,dbd_dissolved,51.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved,38.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved,63.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved,46.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved,54.0,ok,1,0
+Pattani,2564,2021,calendar,dbd_dissolved,38.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved,69.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved,66.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved,35.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_dissolved,72.0,ok,1,0
+Songkhla,2564,2021,calendar,dbd_dissolved,274.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved,357.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved,356.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved,294.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved,301.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved,26.0,from firm lists (DBD04),1,0
+Songkhla-4districts,2566,2023,calendar,dbd_dissolved,23.0,from firm lists (DBD04),1,0
+Songkhla-4districts,2567,2024,calendar,dbd_dissolved,17.0,from firm lists (DBD04),1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved,18.0,from firm lists (DBD04),1,0
+Yala,2564,2021,calendar,dbd_dissolved,48.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved,61.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved,46.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved,40.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved,45.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_sec?,0.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved_sec?,0.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_sec?,1.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_sec?,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secA,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secA,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secA,2.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secA,0.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved_secA,1.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secA,1.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secA,0.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secA,4.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secA,0.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secA,5.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secA,2.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved_secA,2.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_dissolved_secA,0.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_dissolved_secA,0.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secA,0.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secA,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secB,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secB,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secB,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secB,0.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secB,0.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secB,0.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secB,0.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secB,0.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_dissolved_secB,0.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secB,0.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secB,0.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secB,2.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secB,0.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved_secB,0.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secB,1.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secB,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secC,13.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secC,19.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secC,10.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secC,16.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secC,2.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved_secC,4.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secC,3.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secC,4.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secC,8.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secC,10.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secC,4.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_dissolved_secC,8.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secC,27.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secC,38.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secC,17.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secC,25.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved_secC,2.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_dissolved_secC,2.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_dissolved_secC,1.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved_secC,3.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secC,3.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secC,5.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secC,3.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secC,4.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secD,3.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secD,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secD,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secD,1.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secD,1.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secD,0.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secD,1.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secD,1.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secD,1.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secD,9.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secD,0.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secD,0.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secD,4.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved_secD,9.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_dissolved_secD,0.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved_secD,0.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secD,1.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secD,1.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secD,1.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secD,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secE,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secE,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secE,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secE,0.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secE,0.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secE,0.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secE,2.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secE,0.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secE,1.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secE,0.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secE,1.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secE,1.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved_secE,1.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secE,0.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secE,0.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secE,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secF,50.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secF,56.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secF,30.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secF,33.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secF,9.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved_secF,21.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secF,13.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secF,13.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secF,20.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secF,22.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secF,8.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_dissolved_secF,10.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secF,62.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secF,49.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secF,36.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secF,40.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved_secF,3.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_dissolved_secF,4.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_dissolved_secF,5.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved_secF,4.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secF,21.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secF,13.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secF,9.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secF,10.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secG,58.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secG,47.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secG,49.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secG,77.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secG,16.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved_secG,22.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secG,19.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secG,25.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secG,23.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secG,13.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secG,14.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_dissolved_secG,35.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secG,137.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secG,142.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secG,125.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secG,125.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved_secG,8.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_dissolved_secG,8.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_dissolved_secG,9.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved_secG,9.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secG,19.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secG,12.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secG,16.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secG,17.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secH,9.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secH,10.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secH,6.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secH,4.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secH,5.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved_secH,5.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secH,3.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secH,0.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secH,3.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secH,4.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secH,1.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_dissolved_secH,2.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secH,20.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secH,19.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secH,20.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secH,17.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved_secH,0.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_dissolved_secH,4.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_dissolved_secH,1.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved_secH,1.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secH,1.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secH,1.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secH,2.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secH,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secI,3.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secI,9.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secI,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secI,6.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secI,1.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved_secI,3.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secI,0.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secI,0.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secI,1.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secI,1.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secI,0.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_dissolved_secI,5.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secI,14.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secI,18.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secI,19.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secI,28.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved_secI,0.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_dissolved_secI,0.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_dissolved_secI,0.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved_secI,0.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secI,1.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secI,5.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secI,0.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secI,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secJ,5.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secJ,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secJ,3.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secJ,1.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secJ,1.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved_secJ,0.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secJ,1.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secJ,1.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secJ,0.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secJ,0.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secJ,2.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secJ,16.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secJ,11.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secJ,7.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secJ,6.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved_secJ,1.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_dissolved_secJ,1.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved_secJ,0.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secJ,4.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secJ,2.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secJ,0.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secJ,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secK,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secK,3.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secK,3.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secK,2.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secK,0.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved_secK,2.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secK,2.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secK,1.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secK,0.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secK,0.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secK,1.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_dissolved_secK,0.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secK,5.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secK,8.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secK,3.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secK,2.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved_secK,0.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_dissolved_secK,0.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_dissolved_secK,0.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved_secK,0.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secK,1.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secK,1.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secK,0.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secK,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secL,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secL,7.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secL,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secL,9.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secL,1.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved_secL,2.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secL,1.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secL,3.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secL,1.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secL,4.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secL,0.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_dissolved_secL,2.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secL,13.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secL,17.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secL,19.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secL,7.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved_secL,0.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_dissolved_secL,0.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_dissolved_secL,1.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved_secL,0.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secL,0.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secL,1.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secL,0.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secL,4.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secM,5.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secM,6.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secM,3.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secM,7.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secM,1.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved_secM,1.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secM,1.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secM,0.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secM,3.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secM,3.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secM,0.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_dissolved_secM,6.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secM,15.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secM,19.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secM,12.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secM,12.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved_secM,0.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_dissolved_secM,2.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_dissolved_secM,0.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved_secM,0.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secM,1.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secM,2.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secM,2.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secM,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secN,10.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secN,8.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secN,11.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secN,12.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secN,0.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved_secN,2.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secN,2.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secN,5.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secN,5.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secN,4.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secN,4.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_dissolved_secN,4.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secN,22.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secN,22.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secN,20.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secN,14.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved_secN,0.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_dissolved_secN,1.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_dissolved_secN,0.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved_secN,1.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secN,5.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secN,2.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secN,5.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secN,3.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secO,1.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secO,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secP,4.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secP,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secP,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secP,2.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secP,0.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secP,0.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secP,3.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secP,1.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secP,3.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secP,1.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secP,2.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secP,5.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secP,1.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secP,0.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secP,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secQ,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secQ,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secQ,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secQ,1.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secQ,0.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved_secQ,0.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secQ,1.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secQ,0.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secQ,0.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secQ,0.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_dissolved_secQ,0.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secQ,3.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secQ,4.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secQ,3.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secQ,2.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_dissolved_secQ,0.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved_secQ,0.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secQ,1.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secQ,1.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secQ,0.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secQ,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secR,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secR,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secR,0.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_dissolved_secR,1.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secR,0.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secR,0.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secR,0.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_dissolved_secR,0.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secR,2.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secR,1.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secR,1.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secR,1.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_dissolved_secR,0.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_dissolved_secR,0.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secR,0.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secR,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_dissolved_secS,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_dissolved_secS,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_dissolved_secS,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_dissolved_secS,0.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_dissolved_secS,0.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_dissolved_secS,0.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_dissolved_secS,0.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_dissolved_secS,1.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_dissolved_secS,1.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_dissolved_secS,0.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_dissolved_secS,0.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_dissolved_secS,4.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_dissolved_secS,6.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_dissolved_secS,2.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_dissolved_secS,9.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_dissolved_secS,1.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_dissolved_secS,0.0,ok,1,0
+Yala,2565,2022,calendar,dbd_dissolved_secS,1.0,ok,1,0
+Yala,2566,2023,calendar,dbd_dissolved_secS,0.0,ok,1,0
+Yala,2567,2024,calendar,dbd_dissolved_secS,1.0,ok,1,0
+Yala,2568,2025,calendar,dbd_dissolved_secS,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_net_formation,320.0,from firm lists (DBD04),1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_net_formation,271.0,from firm lists (DBD04),1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_net_formation,299.0,from firm lists (DBD04),1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_net_formation,310.0,from firm lists (DBD04),1,0
+Narathiwat,2564,2021,calendar,dbd_net_formation,102.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_net_formation,116.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_net_formation,98.0,corrected Apr-2566 (RF02 resolved),1,1
+Narathiwat,2567,2024,calendar,dbd_net_formation,89.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_net_formation,113.0,ok,1,0
+Pattani,2564,2021,calendar,dbd_net_formation,162.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_net_formation,117.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_net_formation,78.0,corrected Apr-2566 (RF02 resolved),1,1
+Pattani,2567,2024,calendar,dbd_net_formation,107.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_net_formation,86.0,ok,1,0
+Songkhla,2564,2021,calendar,dbd_net_formation,864.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_net_formation,714.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_net_formation,696.0,corrected Apr-2566 (RF02 resolved),1,1
+Songkhla,2567,2024,calendar,dbd_net_formation,856.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_net_formation,1073.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_net_formation,43.0,from firm lists (DBD04),1,0
+Songkhla-4districts,2566,2023,calendar,dbd_net_formation,54.0,from firm lists (DBD04),1,0
+Songkhla-4districts,2567,2024,calendar,dbd_net_formation,51.0,from firm lists (DBD04),1,0
+Songkhla-4districts,2568,2025,calendar,dbd_net_formation,64.0,from firm lists (DBD04),1,0
+Yala,2564,2021,calendar,dbd_net_formation,100.0,ok,1,0
+Yala,2565,2022,calendar,dbd_net_formation,87.0,ok,1,0
+Yala,2566,2023,calendar,dbd_net_formation,95.0,corrected Apr-2566 (RF02 resolved),1,1
+Yala,2567,2024,calendar,dbd_net_formation,103.0,ok,1,0
+Yala,2568,2025,calendar,dbd_net_formation,111.0,ok,1,0
+Narathiwat,2564,2021,calendar,dbd_new_capital_mb,264.42,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_capital_mb,291.18,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_capital_mb,257.12,caution: Apr-2566 capital by province uncorrected,1,1
+Narathiwat,2567,2024,calendar,dbd_new_capital_mb,546.44,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_capital_mb,226.15,ok,1,0
+Pattani,2564,2021,calendar,dbd_new_capital_mb,283.14,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_capital_mb,333.7,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_capital_mb,216.98,caution: Apr-2566 capital by province uncorrected,1,1
+Pattani,2567,2024,calendar,dbd_new_capital_mb,345.07,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_capital_mb,334.45,ok,1,0
+Songkhla,2564,2021,calendar,dbd_new_capital_mb,2658.07,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_capital_mb,1913.8,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_capital_mb,1866.48,caution: Apr-2566 capital by province uncorrected,1,1
+Songkhla,2567,2024,calendar,dbd_new_capital_mb,2215.97,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_capital_mb,2059.56,ok,1,0
+Yala,2564,2021,calendar,dbd_new_capital_mb,230.98,ok,1,0
+Yala,2565,2022,calendar,dbd_new_capital_mb,260.1,ok,1,0
+Yala,2566,2023,calendar,dbd_new_capital_mb,260.2,caution: Apr-2566 capital by province uncorrected,1,1
+Yala,2567,2024,calendar,dbd_new_capital_mb,256.76,ok,1,0
+Yala,2568,2025,calendar,dbd_new_capital_mb,268.54,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_firms,488.0,from firm lists (DBD04),1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_firms,446.0,from firm lists (DBD04),1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_firms,420.0,from firm lists (DBD04),1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_firms,481.0,from firm lists (DBD04),1,0
+Narathiwat,2564,2021,calendar,dbd_new_firms,153.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_firms,154.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_firms,161.0,corrected Apr-2566 (RF02 resolved),1,1
+Narathiwat,2567,2024,calendar,dbd_new_firms,135.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_firms,167.0,ok,1,0
+Pattani,2564,2021,calendar,dbd_new_firms,200.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_firms,186.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_firms,144.0,corrected Apr-2566 (RF02 resolved),1,1
+Pattani,2567,2024,calendar,dbd_new_firms,142.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_firms,158.0,ok,1,0
+Songkhla,2564,2021,calendar,dbd_new_firms,1138.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_firms,1071.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_firms,1052.0,corrected Apr-2566 (RF02 resolved),1,1
+Songkhla,2567,2024,calendar,dbd_new_firms,1150.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_firms,1374.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_firms,69.0,from firm lists (DBD04),1,0
+Songkhla-4districts,2566,2023,calendar,dbd_new_firms,77.0,from firm lists (DBD04),1,0
+Songkhla-4districts,2567,2024,calendar,dbd_new_firms,68.0,from firm lists (DBD04),1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_firms,82.0,from firm lists (DBD04),1,0
+Yala,2564,2021,calendar,dbd_new_firms,148.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_firms,148.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_firms,141.0,corrected Apr-2566 (RF02 resolved),1,1
+Yala,2567,2024,calendar,dbd_new_firms,143.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_firms,156.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_sec?,1.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_sec?,1.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_sec?,0.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_sec?,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secA,5.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secA,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secA,4.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secA,2.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_secA,0.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secA,2.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secA,1.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secA,23.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secA,11.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secA,5.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secA,12.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_secA,1.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_new_secA,1.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_new_secA,1.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secA,2.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secA,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secB,3.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secB,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secB,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secB,2.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secB,1.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secB,1.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secB,1.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secB,1.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_secB,1.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secB,3.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secB,1.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secB,0.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secB,2.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_secB,1.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secB,1.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secB,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secC,26.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secC,30.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secC,33.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secC,26.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secC,5.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_secC,13.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secC,12.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secC,7.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secC,12.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secC,9.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secC,8.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_secC,9.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secC,84.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secC,108.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secC,97.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secC,80.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_secC,5.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_new_secC,9.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_new_secC,4.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_secC,7.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secC,9.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secC,8.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secC,13.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secC,10.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secD,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secD,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secD,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secD,2.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secD,0.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secD,1.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secD,0.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secD,2.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secD,1.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secD,2.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secD,4.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secD,6.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secD,3.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_secD,1.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_new_secD,2.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_secD,2.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secD,0.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secD,0.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secD,0.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secD,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secE,3.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secE,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secE,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secE,2.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secE,2.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secE,2.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secE,0.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secE,1.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secE,4.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secE,4.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secE,7.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secE,4.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_secE,0.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secE,1.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secE,2.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secE,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secF,127.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secF,88.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secF,89.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secF,90.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secF,49.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_secF,36.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secF,30.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secF,25.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secF,40.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secF,22.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secF,29.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_secF,31.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secF,148.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secF,141.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secF,154.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secF,158.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_secF,16.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_new_secF,18.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_new_secF,14.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_secF,12.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secF,38.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secF,30.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secF,30.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secF,34.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secG,174.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secG,171.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secG,159.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secG,212.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secG,56.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_secG,60.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secG,52.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secG,73.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secG,66.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secG,60.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secG,56.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_secG,78.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secG,405.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secG,369.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secG,442.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secG,608.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_secG,27.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_new_secG,21.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_new_secG,30.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_secG,39.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secG,52.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secG,51.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secG,51.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secG,61.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secH,13.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secH,28.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secH,12.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secH,14.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secH,3.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_secH,9.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secH,3.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secH,2.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secH,6.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secH,12.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secH,4.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_secH,5.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secH,70.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secH,74.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secH,60.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secH,66.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_secH,3.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_new_secH,6.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_new_secH,3.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_secH,3.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secH,4.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secH,7.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secH,5.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secH,7.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secI,12.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secI,17.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secI,16.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secI,27.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secI,4.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_secI,9.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secI,4.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secI,8.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secI,4.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secI,4.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secI,6.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_secI,9.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secI,63.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secI,76.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secI,106.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secI,93.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_secI,1.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_new_secI,4.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_new_secI,1.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_secI,1.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secI,4.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secI,4.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secI,6.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secI,10.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secJ,9.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secJ,8.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secJ,12.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secJ,3.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secJ,3.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_secJ,1.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secJ,5.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secJ,1.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secJ,3.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secJ,4.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secJ,4.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secJ,22.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secJ,12.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secJ,24.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secJ,16.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_secJ,2.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_new_secJ,1.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_secJ,1.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secJ,3.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secJ,3.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secJ,3.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secJ,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secK,8.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secK,11.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secK,13.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secK,18.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secK,4.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_secK,6.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secK,3.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secK,14.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secK,1.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secK,3.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secK,9.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_secK,2.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secK,18.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secK,23.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secK,10.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secK,38.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_secK,1.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_new_secK,1.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_new_secK,1.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_secK,1.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secK,3.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secK,2.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secK,1.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secK,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secL,17.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secL,11.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secL,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secL,9.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secL,4.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_secL,4.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secL,0.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secL,4.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secL,8.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secL,2.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secL,1.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_secL,1.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secL,39.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secL,39.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secL,36.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secL,50.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_secL,2.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_new_secL,2.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_new_secL,1.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_secL,2.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secL,5.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secL,5.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secL,1.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secL,4.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secM,22.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secM,17.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secM,16.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secM,19.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secM,4.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_secM,1.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secM,4.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secM,6.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secM,13.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secM,8.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secM,6.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_secM,10.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secM,81.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secM,62.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secM,76.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secM,91.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_secM,3.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_new_secM,4.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_new_secM,4.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_secM,4.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secM,5.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secM,8.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secM,6.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secM,3.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secN,43.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secN,46.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secN,31.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secN,38.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secN,14.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_secN,15.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secN,13.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secN,17.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secN,15.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secN,15.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secN,8.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_secN,8.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secN,52.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secN,63.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secN,70.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secN,72.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_secN,6.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_new_secN,7.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_new_secN,6.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_secN,7.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secN,14.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secN,16.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secN,10.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secN,13.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secO,0.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secO,0.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secP,6.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secP,3.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secP,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secP,4.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secP,2.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secP,2.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secP,2.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secP,2.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secP,11.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secP,12.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secP,6.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secP,16.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secP,4.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secP,1.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secP,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secQ,10.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secQ,5.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secQ,11.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secQ,9.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secQ,4.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_secQ,3.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secQ,4.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secQ,4.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secQ,1.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secQ,5.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_secQ,2.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secQ,19.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secQ,21.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secQ,22.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secQ,22.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,dbd_new_secQ,1.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_secQ,1.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secQ,2.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secQ,1.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secQ,6.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secQ,3.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secR,2.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secR,5.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secR,2.0,ok,1,0
+Narathiwat,2565,2022,calendar,dbd_new_secR,1.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secR,1.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secR,1.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secR,1.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_secR,1.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secR,8.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secR,6.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secR,10.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secR,14.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_new_secR,1.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,dbd_new_secR,1.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secR,3.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secR,1.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2565,2022,calendar,dbd_new_secS,6.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2566,2023,calendar,dbd_new_secS,7.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2567,2024,calendar,dbd_new_secS,10.0,ok,1,0
+3 provinces (PTN+YLA+NWT),2568,2025,calendar,dbd_new_secS,4.0,ok,1,0
+Narathiwat,2566,2023,calendar,dbd_new_secS,3.0,ok,1,0
+Narathiwat,2567,2024,calendar,dbd_new_secS,2.0,ok,1,0
+Narathiwat,2568,2025,calendar,dbd_new_secS,1.0,ok,1,0
+Pattani,2565,2022,calendar,dbd_new_secS,5.0,ok,1,0
+Pattani,2566,2023,calendar,dbd_new_secS,2.0,ok,1,0
+Pattani,2567,2024,calendar,dbd_new_secS,3.0,ok,1,0
+Pattani,2568,2025,calendar,dbd_new_secS,1.0,ok,1,0
+Songkhla,2565,2022,calendar,dbd_new_secS,20.0,ok,1,0
+Songkhla,2566,2023,calendar,dbd_new_secS,26.0,ok,1,0
+Songkhla,2567,2024,calendar,dbd_new_secS,19.0,ok,1,0
+Songkhla,2568,2025,calendar,dbd_new_secS,29.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,dbd_new_secS,2.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,dbd_new_secS,1.0,ok,1,0
+Yala,2565,2022,calendar,dbd_new_secS,1.0,ok,1,0
+Yala,2566,2023,calendar,dbd_new_secS,2.0,ok,1,0
+Yala,2567,2024,calendar,dbd_new_secS,5.0,ok,1,0
+Yala,2568,2025,calendar,dbd_new_secS,2.0,ok,1,0
+Narathiwat,2563,2020,calendar,gpp_current_mb,42264.7,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_current_mb,46031.0,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_current_mb,45476.2,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_current_mb,47513.0,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_current_mb,49622.3,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_current_mb,48476.5,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_current_mb,51078.8,ok,1,0
+Pattani,2565,2022,calendar,gpp_current_mb,53160.3,ok,1,0
+Pattani,2566,2023,calendar,gpp_current_mb,54285.0,ok,1,0
+Pattani,2567,2024,calendar,gpp_current_mb,55343.3,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_current_mb,230481.6,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_current_mb,244567.5,ok,1,0
+Songkhla,2565,2022,calendar,gpp_current_mb,256061.8,ok,1,0
+Songkhla,2566,2023,calendar,gpp_current_mb,253204.2,ok,1,0
+Songkhla,2567,2024,calendar,gpp_current_mb,268678.7,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_current_mb,48064.7,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_current_mb,51134.0,ok,1,0
+Yala,2565,2022,calendar,gpp_current_mb,47549.2,ok,1,0
+Yala,2566,2023,calendar,gpp_current_mb,52511.4,ok,1,0
+Yala,2567,2024,calendar,gpp_current_mb,59060.3,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_per_capita_baht,57954.0,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_per_capita_baht,62801.0,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_per_capita_baht,61748.0,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_per_capita_baht,64221.0,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_per_capita_baht,66785.0,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_per_capita_baht,75077.0,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_per_capita_baht,78869.0,ok,1,0
+Pattani,2565,2022,calendar,gpp_per_capita_baht,81855.0,ok,1,0
+Pattani,2566,2023,calendar,gpp_per_capita_baht,83374.0,ok,1,0
+Pattani,2567,2024,calendar,gpp_per_capita_baht,84804.0,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_per_capita_baht,138606.0,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_per_capita_baht,145922.0,ok,1,0
+Songkhla,2565,2022,calendar,gpp_per_capita_baht,151637.0,ok,1,0
+Songkhla,2566,2023,calendar,gpp_per_capita_baht,148803.0,ok,1,0
+Songkhla,2567,2024,calendar,gpp_per_capita_baht,156755.0,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_per_capita_baht,101238.0,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_per_capita_baht,107016.0,ok,1,0
+Yala,2565,2022,calendar,gpp_per_capita_baht,98903.0,ok,1,0
+Yala,2566,2023,calendar,gpp_per_capita_baht,108582.0,ok,1,0
+Yala,2567,2024,calendar,gpp_per_capita_baht,121437.0,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_real_growth_accom_pct,-40.58,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_real_growth_accom_pct,-21.52,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_real_growth_accom_pct,65.25,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_real_growth_accom_pct,63.22,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_real_growth_accom_pct,31.11,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_real_growth_accom_pct,-36.0,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_real_growth_accom_pct,-4.47,ok,1,0
+Pattani,2565,2022,calendar,gpp_real_growth_accom_pct,62.55,ok,1,0
+Pattani,2566,2023,calendar,gpp_real_growth_accom_pct,103.66,ok,1,0
+Pattani,2567,2024,calendar,gpp_real_growth_accom_pct,41.18,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_real_growth_accom_pct,-27.81,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_real_growth_accom_pct,-29.58,ok,1,0
+Songkhla,2565,2022,calendar,gpp_real_growth_accom_pct,8.79,ok,1,0
+Songkhla,2566,2023,calendar,gpp_real_growth_accom_pct,45.75,ok,1,0
+Songkhla,2567,2024,calendar,gpp_real_growth_accom_pct,35.15,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_real_growth_accom_pct,-28.84,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_real_growth_accom_pct,-11.14,ok,1,0
+Yala,2565,2022,calendar,gpp_real_growth_accom_pct,93.15,ok,1,0
+Yala,2566,2023,calendar,gpp_real_growth_accom_pct,92.33,ok,1,0
+Yala,2567,2024,calendar,gpp_real_growth_accom_pct,22.55,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_real_growth_agri_pct,-18.91,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_real_growth_agri_pct,11.11,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_real_growth_agri_pct,-14.44,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_real_growth_agri_pct,21.58,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_real_growth_agri_pct,-12.93,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_real_growth_agri_pct,-12.68,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_real_growth_agri_pct,2.2,ok,1,0
+Pattani,2565,2022,calendar,gpp_real_growth_agri_pct,1.73,ok,1,0
+Pattani,2566,2023,calendar,gpp_real_growth_agri_pct,3.28,ok,1,0
+Pattani,2567,2024,calendar,gpp_real_growth_agri_pct,-3.25,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_real_growth_agri_pct,-6.36,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_real_growth_agri_pct,3.45,ok,1,0
+Songkhla,2565,2022,calendar,gpp_real_growth_agri_pct,-0.99,ok,1,0
+Songkhla,2566,2023,calendar,gpp_real_growth_agri_pct,0.47,ok,1,0
+Songkhla,2567,2024,calendar,gpp_real_growth_agri_pct,-4.26,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_real_growth_agri_pct,0.15,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_real_growth_agri_pct,4.85,ok,1,0
+Yala,2565,2022,calendar,gpp_real_growth_agri_pct,-21.95,ok,1,0
+Yala,2566,2023,calendar,gpp_real_growth_agri_pct,44.88,ok,1,0
+Yala,2567,2024,calendar,gpp_real_growth_agri_pct,-5.86,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_real_growth_constr_pct,3.2,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_real_growth_constr_pct,13.34,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_real_growth_constr_pct,-4.1,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_real_growth_constr_pct,-20.87,caution RF07 (watch),1,1
+Narathiwat,2567,2024,calendar,gpp_real_growth_constr_pct,-1.89,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_real_growth_constr_pct,0.92,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_real_growth_constr_pct,11.85,ok,1,0
+Pattani,2565,2022,calendar,gpp_real_growth_constr_pct,0.21,ok,1,0
+Pattani,2566,2023,calendar,gpp_real_growth_constr_pct,27.12,ok,1,0
+Pattani,2567,2024,calendar,gpp_real_growth_constr_pct,-9.17,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_real_growth_constr_pct,-3.81,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_real_growth_constr_pct,6.81,ok,1,0
+Songkhla,2565,2022,calendar,gpp_real_growth_constr_pct,-8.94,ok,1,0
+Songkhla,2566,2023,calendar,gpp_real_growth_constr_pct,22.76,ok,1,0
+Songkhla,2567,2024,calendar,gpp_real_growth_constr_pct,-6.33,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_real_growth_constr_pct,7.62,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_real_growth_constr_pct,9.73,ok,1,0
+Yala,2565,2022,calendar,gpp_real_growth_constr_pct,-8.45,ok,1,0
+Yala,2566,2023,calendar,gpp_real_growth_constr_pct,-22.87,caution RF07 (watch),1,1
+Yala,2567,2024,calendar,gpp_real_growth_constr_pct,11.72,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_real_growth_educ_pct,1.37,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_real_growth_educ_pct,0.71,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_real_growth_educ_pct,-0.35,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_real_growth_educ_pct,0.38,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_real_growth_educ_pct,-7.56,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_real_growth_educ_pct,2.22,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_real_growth_educ_pct,1.34,ok,1,0
+Pattani,2565,2022,calendar,gpp_real_growth_educ_pct,-2.07,ok,1,0
+Pattani,2566,2023,calendar,gpp_real_growth_educ_pct,-1.05,ok,1,0
+Pattani,2567,2024,calendar,gpp_real_growth_educ_pct,-3.65,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_real_growth_educ_pct,3.84,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_real_growth_educ_pct,3.13,ok,1,0
+Songkhla,2565,2022,calendar,gpp_real_growth_educ_pct,-2.5,ok,1,0
+Songkhla,2566,2023,calendar,gpp_real_growth_educ_pct,1.74,ok,1,0
+Songkhla,2567,2024,calendar,gpp_real_growth_educ_pct,2.64,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_real_growth_educ_pct,8.26,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_real_growth_educ_pct,1.57,ok,1,0
+Yala,2565,2022,calendar,gpp_real_growth_educ_pct,0.15,ok,1,0
+Yala,2566,2023,calendar,gpp_real_growth_educ_pct,0.64,ok,1,0
+Yala,2567,2024,calendar,gpp_real_growth_educ_pct,6.34,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_real_growth_health_pct,14.03,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_real_growth_health_pct,1.66,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_real_growth_health_pct,3.66,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_real_growth_health_pct,1.34,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_real_growth_health_pct,-5.38,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_real_growth_health_pct,10.45,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_real_growth_health_pct,16.85,ok,1,0
+Pattani,2565,2022,calendar,gpp_real_growth_health_pct,13.63,ok,1,0
+Pattani,2566,2023,calendar,gpp_real_growth_health_pct,4.44,ok,1,0
+Pattani,2567,2024,calendar,gpp_real_growth_health_pct,1.78,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_real_growth_health_pct,-3.7,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_real_growth_health_pct,4.23,ok,1,0
+Songkhla,2565,2022,calendar,gpp_real_growth_health_pct,4.81,ok,1,0
+Songkhla,2566,2023,calendar,gpp_real_growth_health_pct,0.23,ok,1,0
+Songkhla,2567,2024,calendar,gpp_real_growth_health_pct,2.6,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_real_growth_health_pct,1.06,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_real_growth_health_pct,-0.16,ok,1,0
+Yala,2565,2022,calendar,gpp_real_growth_health_pct,0.35,ok,1,0
+Yala,2566,2023,calendar,gpp_real_growth_health_pct,-0.5,ok,1,0
+Yala,2567,2024,calendar,gpp_real_growth_health_pct,5.31,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_real_growth_manuf_pct,-2.42,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_real_growth_manuf_pct,4.2,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_real_growth_manuf_pct,7.41,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_real_growth_manuf_pct,2.74,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_real_growth_manuf_pct,4.31,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_real_growth_manuf_pct,-12.72,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_real_growth_manuf_pct,-0.06,ok,1,0
+Pattani,2565,2022,calendar,gpp_real_growth_manuf_pct,5.53,ok,1,0
+Pattani,2566,2023,calendar,gpp_real_growth_manuf_pct,14.36,ok,1,0
+Pattani,2567,2024,calendar,gpp_real_growth_manuf_pct,2.67,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_real_growth_manuf_pct,0.61,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_real_growth_manuf_pct,-1.38,ok,1,0
+Songkhla,2565,2022,calendar,gpp_real_growth_manuf_pct,-2.46,ok,1,0
+Songkhla,2566,2023,calendar,gpp_real_growth_manuf_pct,-10.74,ok,1,0
+Songkhla,2567,2024,calendar,gpp_real_growth_manuf_pct,1.13,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_real_growth_manuf_pct,3.84,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_real_growth_manuf_pct,6.13,ok,1,0
+Yala,2565,2022,calendar,gpp_real_growth_manuf_pct,0.62,ok,1,0
+Yala,2566,2023,calendar,gpp_real_growth_manuf_pct,-4.08,ok,1,0
+Yala,2567,2024,calendar,gpp_real_growth_manuf_pct,-2.41,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_real_growth_mining_pct,12.7,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_real_growth_mining_pct,16.36,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_real_growth_mining_pct,-55.66,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_real_growth_mining_pct,61.97,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_real_growth_mining_pct,-5.22,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_real_growth_mining_pct,-32.94,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_real_growth_mining_pct,6.54,ok,1,0
+Pattani,2565,2022,calendar,gpp_real_growth_mining_pct,-1.06,ok,1,0
+Pattani,2566,2023,calendar,gpp_real_growth_mining_pct,-13.77,ok,1,0
+Pattani,2567,2024,calendar,gpp_real_growth_mining_pct,12.38,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_real_growth_mining_pct,-4.1,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_real_growth_mining_pct,11.32,ok,1,0
+Songkhla,2565,2022,calendar,gpp_real_growth_mining_pct,-8.96,ok,1,0
+Songkhla,2566,2023,calendar,gpp_real_growth_mining_pct,4.6,ok,1,0
+Songkhla,2567,2024,calendar,gpp_real_growth_mining_pct,11.2,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_real_growth_mining_pct,-14.86,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_real_growth_mining_pct,1.97,ok,1,0
+Yala,2565,2022,calendar,gpp_real_growth_mining_pct,16.12,ok,1,0
+Yala,2566,2023,calendar,gpp_real_growth_mining_pct,-18.33,ok,1,0
+Yala,2567,2024,calendar,gpp_real_growth_mining_pct,-2.31,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_real_growth_pct,-5.22,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_real_growth_pct,5.55,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_real_growth_pct,-5.44,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_real_growth_pct,6.37,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_real_growth_pct,-4.29,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_real_growth_pct,-4.33,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_real_growth_pct,3.05,ok,1,0
+Pattani,2565,2022,calendar,gpp_real_growth_pct,0.17,ok,1,0
+Pattani,2566,2023,calendar,gpp_real_growth_pct,2.52,ok,1,0
+Pattani,2567,2024,calendar,gpp_real_growth_pct,-0.62,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_real_growth_pct,-3.55,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_real_growth_pct,2.76,ok,1,0
+Songkhla,2565,2022,calendar,gpp_real_growth_pct,-1.47,ok,1,0
+Songkhla,2566,2023,calendar,gpp_real_growth_pct,-0.6,ok,1,0
+Songkhla,2567,2024,calendar,gpp_real_growth_pct,2.84,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_real_growth_pct,2.06,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_real_growth_pct,3.84,ok,1,0
+Yala,2565,2022,calendar,gpp_real_growth_pct,-9.52,ok,1,0
+Yala,2566,2023,calendar,gpp_real_growth_pct,12.44,caution RF06 (base effect),1,1
+Yala,2567,2024,calendar,gpp_real_growth_pct,1.2,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_real_growth_pubadmin_pct,-1.03,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_real_growth_pubadmin_pct,-3.56,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_real_growth_pubadmin_pct,-4.13,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_real_growth_pubadmin_pct,-6.28,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_real_growth_pubadmin_pct,-1.08,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_real_growth_pubadmin_pct,0.8,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_real_growth_pubadmin_pct,-4.29,ok,1,0
+Pattani,2565,2022,calendar,gpp_real_growth_pubadmin_pct,-4.64,ok,1,0
+Pattani,2566,2023,calendar,gpp_real_growth_pubadmin_pct,-0.2,ok,1,0
+Pattani,2567,2024,calendar,gpp_real_growth_pubadmin_pct,2.76,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_real_growth_pubadmin_pct,-1.58,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_real_growth_pubadmin_pct,-3.08,ok,1,0
+Songkhla,2565,2022,calendar,gpp_real_growth_pubadmin_pct,-0.89,ok,1,0
+Songkhla,2566,2023,calendar,gpp_real_growth_pubadmin_pct,2.69,ok,1,0
+Songkhla,2567,2024,calendar,gpp_real_growth_pubadmin_pct,-1.75,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_real_growth_pubadmin_pct,1.62,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_real_growth_pubadmin_pct,-2.93,ok,1,0
+Yala,2565,2022,calendar,gpp_real_growth_pubadmin_pct,2.03,ok,1,0
+Yala,2566,2023,calendar,gpp_real_growth_pubadmin_pct,-9.97,ok,1,0
+Yala,2567,2024,calendar,gpp_real_growth_pubadmin_pct,6.09,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_real_growth_trade_pct,-5.27,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_real_growth_trade_pct,9.79,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_real_growth_trade_pct,-11.79,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_real_growth_trade_pct,5.97,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_real_growth_trade_pct,4.83,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_real_growth_trade_pct,-9.24,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_real_growth_trade_pct,-1.74,ok,1,0
+Pattani,2565,2022,calendar,gpp_real_growth_trade_pct,-3.92,ok,1,0
+Pattani,2566,2023,calendar,gpp_real_growth_trade_pct,-4.94,ok,1,0
+Pattani,2567,2024,calendar,gpp_real_growth_trade_pct,-3.31,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_real_growth_trade_pct,-5.1,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_real_growth_trade_pct,1.11,ok,1,0
+Songkhla,2565,2022,calendar,gpp_real_growth_trade_pct,5.37,ok,1,0
+Songkhla,2566,2023,calendar,gpp_real_growth_trade_pct,-10.62,ok,1,0
+Songkhla,2567,2024,calendar,gpp_real_growth_trade_pct,2.71,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_real_growth_trade_pct,5.18,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_real_growth_trade_pct,4.53,ok,1,0
+Yala,2565,2022,calendar,gpp_real_growth_trade_pct,-19.31,ok,1,0
+Yala,2566,2023,calendar,gpp_real_growth_trade_pct,13.03,ok,1,0
+Yala,2567,2024,calendar,gpp_real_growth_trade_pct,5.46,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_real_growth_transport_pct,0.5,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_real_growth_transport_pct,35.67,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_real_growth_transport_pct,-4.94,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_real_growth_transport_pct,-7.35,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_real_growth_transport_pct,11.35,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_real_growth_transport_pct,21.73,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_real_growth_transport_pct,28.43,ok,1,0
+Pattani,2565,2022,calendar,gpp_real_growth_transport_pct,13.39,ok,1,0
+Pattani,2566,2023,calendar,gpp_real_growth_transport_pct,-10.91,ok,1,0
+Pattani,2567,2024,calendar,gpp_real_growth_transport_pct,2.55,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_real_growth_transport_pct,-14.49,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_real_growth_transport_pct,15.29,ok,1,0
+Songkhla,2565,2022,calendar,gpp_real_growth_transport_pct,-3.49,ok,1,0
+Songkhla,2566,2023,calendar,gpp_real_growth_transport_pct,-2.06,ok,1,0
+Songkhla,2567,2024,calendar,gpp_real_growth_transport_pct,5.67,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_real_growth_transport_pct,8.69,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_real_growth_transport_pct,16.51,ok,1,0
+Yala,2565,2022,calendar,gpp_real_growth_transport_pct,-2.1,ok,1,0
+Yala,2566,2023,calendar,gpp_real_growth_transport_pct,4.15,ok,1,0
+Yala,2567,2024,calendar,gpp_real_growth_transport_pct,9.59,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_share_accom_pct,0.37,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_share_accom_pct,0.26,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_share_accom_pct,0.46,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_share_accom_pct,0.85,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_share_accom_pct,1.16,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_share_accom_pct,0.29,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_share_accom_pct,0.22,ok,1,0
+Pattani,2565,2022,calendar,gpp_share_accom_pct,0.37,ok,1,0
+Pattani,2566,2023,calendar,gpp_share_accom_pct,0.92,ok,1,0
+Pattani,2567,2024,calendar,gpp_share_accom_pct,1.42,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_share_accom_pct,2.58,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_share_accom_pct,1.73,ok,1,0
+Songkhla,2565,2022,calendar,gpp_share_accom_pct,1.93,ok,1,0
+Songkhla,2566,2023,calendar,gpp_share_accom_pct,3.2,ok,1,0
+Songkhla,2567,2024,calendar,gpp_share_accom_pct,4.35,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_share_accom_pct,0.98,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_share_accom_pct,0.69,ok,1,0
+Yala,2565,2022,calendar,gpp_share_accom_pct,1.56,ok,1,0
+Yala,2566,2023,calendar,gpp_share_accom_pct,3.35,ok,1,0
+Yala,2567,2024,calendar,gpp_share_accom_pct,4.06,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_share_agri_pct,24.67,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_share_agri_pct,27.34,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_share_agri_pct,25.42,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_share_agri_pct,26.31,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_share_agri_pct,29.26,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_share_agri_pct,22.71,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_share_agri_pct,23.68,ok,1,0
+Pattani,2565,2022,calendar,gpp_share_agri_pct,24.61,ok,1,0
+Pattani,2566,2023,calendar,gpp_share_agri_pct,23.03,ok,1,0
+Pattani,2567,2024,calendar,gpp_share_agri_pct,23.92,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_share_agri_pct,12.21,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_share_agri_pct,12.99,ok,1,0
+Songkhla,2565,2022,calendar,gpp_share_agri_pct,12.97,ok,1,0
+Songkhla,2566,2023,calendar,gpp_share_agri_pct,11.97,ok,1,0
+Songkhla,2567,2024,calendar,gpp_share_agri_pct,13.38,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_share_agri_pct,32.78,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_share_agri_pct,33.9,ok,1,0
+Yala,2565,2022,calendar,gpp_share_agri_pct,28.05,ok,1,0
+Yala,2566,2023,calendar,gpp_share_agri_pct,33.18,ok,1,0
+Yala,2567,2024,calendar,gpp_share_agri_pct,36.85,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_share_constr_pct,6.08,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_share_constr_pct,6.42,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_share_constr_pct,6.4,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_share_constr_pct,4.89,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_share_constr_pct,4.6,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_share_constr_pct,4.55,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_share_constr_pct,4.89,ok,1,0
+Pattani,2565,2022,calendar,gpp_share_constr_pct,4.85,ok,1,0
+Pattani,2566,2023,calendar,gpp_share_constr_pct,6.1,ok,1,0
+Pattani,2567,2024,calendar,gpp_share_constr_pct,5.45,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_share_constr_pct,4.71,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_share_constr_pct,4.81,ok,1,0
+Songkhla,2565,2022,calendar,gpp_share_constr_pct,4.29,ok,1,0
+Songkhla,2566,2023,calendar,gpp_share_constr_pct,5.37,ok,1,0
+Songkhla,2567,2024,calendar,gpp_share_constr_pct,4.75,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_share_constr_pct,5.46,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_share_constr_pct,5.7,ok,1,0
+Yala,2565,2022,calendar,gpp_share_constr_pct,5.76,ok,1,0
+Yala,2566,2023,calendar,gpp_share_constr_pct,4.06,ok,1,0
+Yala,2567,2024,calendar,gpp_share_constr_pct,4.04,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_share_educ_pct,19.48,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_share_educ_pct,18.35,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_share_educ_pct,19.06,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_share_educ_pct,18.64,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_share_educ_pct,16.78,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_share_educ_pct,16.39,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_share_educ_pct,16.03,ok,1,0
+Pattani,2565,2022,calendar,gpp_share_educ_pct,15.55,ok,1,0
+Pattani,2566,2023,calendar,gpp_share_educ_pct,15.32,ok,1,0
+Pattani,2567,2024,calendar,gpp_share_educ_pct,14.69,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_share_educ_pct,10.14,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_share_educ_pct,10.05,ok,1,0
+Songkhla,2565,2022,calendar,gpp_share_educ_pct,9.65,ok,1,0
+Songkhla,2566,2023,calendar,gpp_share_educ_pct,10.11,ok,1,0
+Songkhla,2567,2024,calendar,gpp_share_educ_pct,9.94,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_share_educ_pct,10.54,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_share_educ_pct,10.23,ok,1,0
+Yala,2565,2022,calendar,gpp_share_educ_pct,11.35,ok,1,0
+Yala,2566,2023,calendar,gpp_share_educ_pct,10.52,ok,1,0
+Yala,2567,2024,calendar,gpp_share_educ_pct,10.1,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_share_health_pct,4.83,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_share_health_pct,4.62,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_share_health_pct,5.04,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_share_health_pct,4.98,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_share_health_pct,4.6,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_share_health_pct,3.37,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_share_health_pct,3.83,ok,1,0
+Pattani,2565,2022,calendar,gpp_share_health_pct,4.34,ok,1,0
+Pattani,2566,2023,calendar,gpp_share_health_pct,4.52,ok,1,0
+Pattani,2567,2024,calendar,gpp_share_health_pct,4.6,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_share_health_pct,3.49,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_share_health_pct,3.5,ok,1,0
+Songkhla,2565,2022,calendar,gpp_share_health_pct,3.62,ok,1,0
+Songkhla,2566,2023,calendar,gpp_share_health_pct,3.75,ok,1,0
+Songkhla,2567,2024,calendar,gpp_share_health_pct,3.68,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_share_health_pct,4.09,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_share_health_pct,3.93,ok,1,0
+Yala,2565,2022,calendar,gpp_share_health_pct,4.39,ok,1,0
+Yala,2566,2023,calendar,gpp_share_health_pct,4.04,ok,1,0
+Yala,2567,2024,calendar,gpp_share_health_pct,3.85,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_share_manuf_pct,6.5,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_share_manuf_pct,6.59,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_share_manuf_pct,7.54,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_share_manuf_pct,7.21,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_share_manuf_pct,7.55,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_share_manuf_pct,7.67,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_share_manuf_pct,7.71,ok,1,0
+Pattani,2565,2022,calendar,gpp_share_manuf_pct,7.92,ok,1,0
+Pattani,2566,2023,calendar,gpp_share_manuf_pct,8.59,ok,1,0
+Pattani,2567,2024,calendar,gpp_share_manuf_pct,8.72,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_share_manuf_pct,19.98,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_share_manuf_pct,19.81,ok,1,0
+Songkhla,2565,2022,calendar,gpp_share_manuf_pct,19.82,ok,1,0
+Songkhla,2566,2023,calendar,gpp_share_manuf_pct,17.63,ok,1,0
+Songkhla,2567,2024,calendar,gpp_share_manuf_pct,17.5,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_share_manuf_pct,7.34,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_share_manuf_pct,7.9,ok,1,0
+Yala,2565,2022,calendar,gpp_share_manuf_pct,9.26,ok,1,0
+Yala,2566,2023,calendar,gpp_share_manuf_pct,7.73,ok,1,0
+Yala,2567,2024,calendar,gpp_share_manuf_pct,6.97,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_share_mining_pct,0.7,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_share_mining_pct,0.77,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_share_mining_pct,0.36,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_share_mining_pct,0.57,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_share_mining_pct,0.54,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_share_mining_pct,0.07,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_share_mining_pct,0.07,ok,1,0
+Pattani,2565,2022,calendar,gpp_share_mining_pct,0.07,ok,1,0
+Pattani,2566,2023,calendar,gpp_share_mining_pct,0.06,ok,1,0
+Pattani,2567,2024,calendar,gpp_share_mining_pct,0.07,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_share_mining_pct,8.93,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_share_mining_pct,9.91,ok,1,0
+Songkhla,2565,2022,calendar,gpp_share_mining_pct,10.6,ok,1,0
+Songkhla,2566,2023,calendar,gpp_share_mining_pct,10.21,ok,1,0
+Songkhla,2567,2024,calendar,gpp_share_mining_pct,10.3,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_share_mining_pct,0.46,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_share_mining_pct,0.46,ok,1,0
+Yala,2565,2022,calendar,gpp_share_mining_pct,0.6,ok,1,0
+Yala,2566,2023,calendar,gpp_share_mining_pct,0.46,ok,1,0
+Yala,2567,2024,calendar,gpp_share_mining_pct,0.41,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_share_pubadmin_pct,10.95,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_share_pubadmin_pct,9.92,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_share_pubadmin_pct,9.94,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_share_pubadmin_pct,9.07,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_share_pubadmin_pct,8.75,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_share_pubadmin_pct,19.38,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_share_pubadmin_pct,18.02,ok,1,0
+Pattani,2565,2022,calendar,gpp_share_pubadmin_pct,17.04,ok,1,0
+Pattani,2566,2023,calendar,gpp_share_pubadmin_pct,16.95,ok,1,0
+Pattani,2567,2024,calendar,gpp_share_pubadmin_pct,17.39,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_share_pubadmin_pct,6.38,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_share_pubadmin_pct,5.97,ok,1,0
+Songkhla,2565,2022,calendar,gpp_share_pubadmin_pct,5.83,ok,1,0
+Songkhla,2566,2023,calendar,gpp_share_pubadmin_pct,6.16,ok,1,0
+Songkhla,2567,2024,calendar,gpp_share_pubadmin_pct,5.81,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_share_pubadmin_pct,8.49,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_share_pubadmin_pct,7.93,ok,1,0
+Yala,2565,2022,calendar,gpp_share_pubadmin_pct,8.98,ok,1,0
+Yala,2566,2023,calendar,gpp_share_pubadmin_pct,7.45,ok,1,0
+Yala,2567,2024,calendar,gpp_share_pubadmin_pct,7.16,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_share_trade_pct,10.06,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_share_trade_pct,9.93,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_share_trade_pct,9.18,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_share_trade_pct,9.64,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_share_trade_pct,9.78,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_share_trade_pct,11.96,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_share_trade_pct,10.46,ok,1,0
+Pattani,2565,2022,calendar,gpp_share_trade_pct,9.91,ok,1,0
+Pattani,2566,2023,calendar,gpp_share_trade_pct,9.62,ok,1,0
+Pattani,2567,2024,calendar,gpp_share_trade_pct,8.93,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_share_trade_pct,12.46,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_share_trade_pct,11.31,ok,1,0
+Songkhla,2565,2022,calendar,gpp_share_trade_pct,11.32,ok,1,0
+Songkhla,2566,2023,calendar,gpp_share_trade_pct,10.56,ok,1,0
+Songkhla,2567,2024,calendar,gpp_share_trade_pct,10.02,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_share_trade_pct,13.06,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_share_trade_pct,12.68,ok,1,0
+Yala,2565,2022,calendar,gpp_share_trade_pct,11.34,ok,1,0
+Yala,2566,2023,calendar,gpp_share_trade_pct,12.04,ok,1,0
+Yala,2567,2024,calendar,gpp_share_trade_pct,11.4,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,gpp_share_transport_pct,2.11,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,gpp_share_transport_pct,2.61,ok,1,0
+Narathiwat,2565,2022,calendar,gpp_share_transport_pct,2.55,ok,1,0
+Narathiwat,2566,2023,calendar,gpp_share_transport_pct,2.27,ok,1,0
+Narathiwat,2567,2024,calendar,gpp_share_transport_pct,2.43,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,gpp_share_transport_pct,2.66,base year (before scope),1,0
+Pattani,2564,2021,calendar,gpp_share_transport_pct,3.24,ok,1,0
+Pattani,2565,2022,calendar,gpp_share_transport_pct,3.53,ok,1,0
+Pattani,2566,2023,calendar,gpp_share_transport_pct,3.09,ok,1,0
+Pattani,2567,2024,calendar,gpp_share_transport_pct,3.1,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,gpp_share_transport_pct,3.87,base year (before scope),1,0
+Songkhla,2564,2021,calendar,gpp_share_transport_pct,4.33,ok,1,0
+Songkhla,2565,2022,calendar,gpp_share_transport_pct,4.05,ok,1,0
+Songkhla,2566,2023,calendar,gpp_share_transport_pct,4.0,ok,1,0
+Songkhla,2567,2024,calendar,gpp_share_transport_pct,4.05,preliminary (2024p),1,1
+Yala,2563,2020,calendar,gpp_share_transport_pct,2.22,base year (before scope),1,0
+Yala,2564,2021,calendar,gpp_share_transport_pct,2.42,ok,1,0
+Yala,2565,2022,calendar,gpp_share_transport_pct,2.62,ok,1,0
+Yala,2566,2023,calendar,gpp_share_transport_pct,2.5,ok,1,0
+Yala,2567,2024,calendar,gpp_share_transport_pct,2.43,preliminary (2024p),1,1
+Narathiwat,2563,2020,calendar,population_1000,729.3,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,population_1000,733.0,ok,1,0
+Narathiwat,2565,2022,calendar,population_1000,736.5,ok,1,0
+Narathiwat,2566,2023,calendar,population_1000,739.8,ok,1,0
+Narathiwat,2567,2024,calendar,population_1000,743.0,preliminary (2024p),1,1
+Pattani,2563,2020,calendar,population_1000,645.7,base year (before scope),1,0
+Pattani,2564,2021,calendar,population_1000,647.6,ok,1,0
+Pattani,2565,2022,calendar,population_1000,649.4,ok,1,0
+Pattani,2566,2023,calendar,population_1000,651.1,ok,1,0
+Pattani,2567,2024,calendar,population_1000,652.6,preliminary (2024p),1,1
+Songkhla,2563,2020,calendar,population_1000,1662.9,base year (before scope),1,0
+Songkhla,2564,2021,calendar,population_1000,1676.0,ok,1,0
+Songkhla,2565,2022,calendar,population_1000,1688.7,ok,1,0
+Songkhla,2566,2023,calendar,population_1000,1701.6,ok,1,0
+Songkhla,2567,2024,calendar,population_1000,1714.0,preliminary (2024p),1,1
+Yala,2563,2020,calendar,population_1000,474.8,base year (before scope),1,0
+Yala,2564,2021,calendar,population_1000,477.8,ok,1,0
+Yala,2565,2022,calendar,population_1000,480.8,ok,1,0
+Yala,2566,2023,calendar,population_1000,483.6,ok,1,0
+Yala,2567,2024,calendar,population_1000,486.3,preliminary (2024p),1,1
+Narathiwat,2564,2021,calendar,fish_landings_t,1916.0,ok,1,0
+Narathiwat,2565,2022,calendar,fish_landings_t,1308.0,ok,1,0
+Narathiwat,2566,2023,calendar,fish_landings_t,1673.0,ok,1,0
+Narathiwat,2567,2024,calendar,fish_landings_t,772.0,ok,1,0
+Pattani,2564,2021,calendar,fish_landings_t,76537.0,ok,1,0
+Pattani,2565,2022,calendar,fish_landings_t,82151.0,ok,1,0
+Pattani,2566,2023,calendar,fish_landings_t,83530.0,ok,1,0
+Pattani,2567,2024,calendar,fish_landings_t,84694.0,ok,1,0
+Songkhla,2564,2021,calendar,fish_landings_t,29499.0,ok,1,0
+Songkhla,2565,2022,calendar,fish_landings_t,34841.0,ok,1,0
+Songkhla,2566,2023,calendar,fish_landings_t,28843.0,ok,1,0
+Songkhla,2567,2024,calendar,fish_landings_t,26217.0,ok,1,0
+Narathiwat,2564,2021,calendar,fish_landings_value_mb,61.9,ok,1,0
+Narathiwat,2565,2022,calendar,fish_landings_value_mb,37.1,ok,1,0
+Narathiwat,2566,2023,calendar,fish_landings_value_mb,38.7,ok,1,0
+Narathiwat,2567,2024,calendar,fish_landings_value_mb,25.0,ok,1,0
+Pattani,2564,2021,calendar,fish_landings_value_mb,3132.7,ok,1,0
+Pattani,2565,2022,calendar,fish_landings_value_mb,3042.5,ok,1,0
+Pattani,2566,2023,calendar,fish_landings_value_mb,3145.2,ok,1,0
+Pattani,2567,2024,calendar,fish_landings_value_mb,3359.3,ok,1,0
+Songkhla,2564,2021,calendar,fish_landings_value_mb,1293.4,ok,1,0
+Songkhla,2565,2022,calendar,fish_landings_value_mb,1650.8,ok,1,0
+Songkhla,2566,2023,calendar,fish_landings_value_mb,1244.1,ok,1,0
+Songkhla,2567,2024,calendar,fish_landings_value_mb,1133.8,ok,1,0
+Narathiwat,2563,2020,calendar,fish_vessels_licensed,96.0,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,fish_vessels_licensed,87.0,ok,1,0
+Narathiwat,2565,2022,calendar,fish_vessels_licensed,93.0,ok,1,0
+Narathiwat,2566,2023,calendar,fish_vessels_licensed,90.0,ok,1,0
+Narathiwat,2567,2024,calendar,fish_vessels_licensed,75.0,ok,1,0
+Narathiwat,2568,2025,calendar,fish_vessels_licensed,73.0,ok,1,0
+Pattani,2563,2020,calendar,fish_vessels_licensed,2040.0,base year (before scope),1,0
+Pattani,2564,2021,calendar,fish_vessels_licensed,2214.0,ok,1,0
+Pattani,2565,2022,calendar,fish_vessels_licensed,2178.0,ok,1,0
+Pattani,2566,2023,calendar,fish_vessels_licensed,2168.0,ok,1,0
+Pattani,2567,2024,calendar,fish_vessels_licensed,1822.0,ok,1,0
+Pattani,2568,2025,calendar,fish_vessels_licensed,1624.0,ok,1,0
+Songkhla,2563,2020,calendar,fish_vessels_licensed,996.0,base year (before scope),1,0
+Songkhla,2564,2021,calendar,fish_vessels_licensed,995.0,ok,1,0
+Songkhla,2565,2022,calendar,fish_vessels_licensed,903.0,ok,1,0
+Songkhla,2566,2023,calendar,fish_vessels_licensed,897.0,ok,1,0
+Songkhla,2567,2024,calendar,fish_vessels_licensed,807.0,ok,1,0
+Songkhla,2568,2025,calendar,fish_vessels_licensed,792.0,ok,1,0
+Narathiwat,2565,2022,fiscal,fmo_port_volume_t,701.0,fiscal year (Oct–Sep),1,0
+Narathiwat,2566,2023,fiscal,fmo_port_volume_t,57.8,INCOMPLETE,0,0
+Narathiwat,2567,2024,fiscal,fmo_port_volume_t,245.7,fiscal year (Oct–Sep),1,0
+Narathiwat,2568,2025,fiscal,fmo_port_volume_t,88.5,fiscal year (Oct–Sep),1,0
+Pattani,2565,2022,fiscal,fmo_port_volume_t,81966.5,fiscal year (Oct–Sep),1,0
+Pattani,2566,2023,fiscal,fmo_port_volume_t,21528.2,INCOMPLETE,0,0
+Pattani,2567,2024,fiscal,fmo_port_volume_t,72621.4,fiscal year (Oct–Sep),1,0
+Pattani,2568,2025,fiscal,fmo_port_volume_t,55713.3,fiscal year (Oct–Sep),1,0
+Narathiwat,2564,2021,calendar,boi_investment_mb,310.29,approval ≠ realised (RF04),1,1
+Narathiwat,2565,2022,calendar,boi_investment_mb,21.3,approval ≠ realised (RF04),1,1
+Narathiwat,2566,2023,calendar,boi_investment_mb,64.73,approval ≠ realised (RF04),1,1
+Narathiwat,2567,2024,calendar,boi_investment_mb,0.0,approval ≠ realised (RF04),1,1
+Narathiwat,2568,2025,calendar,boi_investment_mb,2289.62,caution RF03/RF04 (approval ≠ realised; solar-heavy),1,1
+Pattani,2564,2021,calendar,boi_investment_mb,188.82,approval ≠ realised (RF04),1,1
+Pattani,2565,2022,calendar,boi_investment_mb,71.8,approval ≠ realised (RF04),1,1
+Pattani,2566,2023,calendar,boi_investment_mb,174.04,approval ≠ realised (RF04),1,1
+Pattani,2567,2024,calendar,boi_investment_mb,21.61,approval ≠ realised (RF04),1,1
+Pattani,2568,2025,calendar,boi_investment_mb,3182.35,caution RF03/RF04 (approval ≠ realised; solar-heavy),1,1
+Songkhla,2564,2021,calendar,boi_investment_mb,9180.91,approval ≠ realised (RF04),1,1
+Songkhla,2565,2022,calendar,boi_investment_mb,1551.3,approval ≠ realised (RF04),1,1
+Songkhla,2566,2023,calendar,boi_investment_mb,5519.98,approval ≠ realised (RF04),1,1
+Songkhla,2567,2024,calendar,boi_investment_mb,3048.26,approval ≠ realised (RF04),1,1
+Songkhla,2568,2025,calendar,boi_investment_mb,4103.17,caution RF03/RF04 (approval ≠ realised; solar-heavy),1,1
+Yala,2564,2021,calendar,boi_investment_mb,150.0,approval ≠ realised (RF04),1,1
+Yala,2565,2022,calendar,boi_investment_mb,41.0,approval ≠ realised (RF04),1,1
+Yala,2566,2023,calendar,boi_investment_mb,548.45,approval ≠ realised (RF04),1,1
+Yala,2567,2024,calendar,boi_investment_mb,567.15,approval ≠ realised (RF04),1,1
+Yala,2568,2025,calendar,boi_investment_mb,66.74,caution RF03/RF04 (approval ≠ realised; solar-heavy),1,1
+Narathiwat,2564,2021,calendar,boi_jobs,81.0,approval ≠ realised (RF04),1,1
+Narathiwat,2565,2022,calendar,boi_jobs,0.0,approval ≠ realised (RF04),1,1
+Narathiwat,2566,2023,calendar,boi_jobs,0.0,approval ≠ realised (RF04),1,1
+Narathiwat,2567,2024,calendar,boi_jobs,0.0,approval ≠ realised (RF04),1,1
+Narathiwat,2568,2025,calendar,boi_jobs,22.0,caution RF03/RF04 (approval ≠ realised; solar-heavy),1,1
+Pattani,2564,2021,calendar,boi_jobs,480.0,approval ≠ realised (RF04),1,1
+Pattani,2565,2022,calendar,boi_jobs,2.0,approval ≠ realised (RF04),1,1
+Pattani,2566,2023,calendar,boi_jobs,31.0,approval ≠ realised (RF04),1,1
+Pattani,2567,2024,calendar,boi_jobs,0.0,approval ≠ realised (RF04),1,1
+Pattani,2568,2025,calendar,boi_jobs,100.0,caution RF03/RF04 (approval ≠ realised; solar-heavy),1,1
+Songkhla,2564,2021,calendar,boi_jobs,2254.0,approval ≠ realised (RF04),1,1
+Songkhla,2565,2022,calendar,boi_jobs,505.0,approval ≠ realised (RF04),1,1
+Songkhla,2566,2023,calendar,boi_jobs,2795.0,approval ≠ realised (RF04),1,1
+Songkhla,2567,2024,calendar,boi_jobs,1557.0,approval ≠ realised (RF04),1,1
+Songkhla,2568,2025,calendar,boi_jobs,1153.0,caution RF03/RF04 (approval ≠ realised; solar-heavy),1,1
+Yala,2564,2021,calendar,boi_jobs,94.0,approval ≠ realised (RF04),1,1
+Yala,2565,2022,calendar,boi_jobs,1.0,approval ≠ realised (RF04),1,1
+Yala,2566,2023,calendar,boi_jobs,56.0,approval ≠ realised (RF04),1,1
+Yala,2567,2024,calendar,boi_jobs,71.0,approval ≠ realised (RF04),1,1
+Yala,2568,2025,calendar,boi_jobs,31.0,caution RF03/RF04 (approval ≠ realised; solar-heavy),1,1
+Narathiwat,2564,2021,calendar,boi_projects,2.0,approval ≠ realised (RF04),1,1
+Narathiwat,2565,2022,calendar,boi_projects,1.0,approval ≠ realised (RF04),1,1
+Narathiwat,2566,2023,calendar,boi_projects,2.0,approval ≠ realised (RF04),1,1
+Narathiwat,2567,2024,calendar,boi_projects,0.0,approval ≠ realised (RF04),1,1
+Narathiwat,2568,2025,calendar,boi_projects,3.0,caution RF03/RF04 (approval ≠ realised; solar-heavy),1,1
+Pattani,2564,2021,calendar,boi_projects,1.0,approval ≠ realised (RF04),1,1
+Pattani,2565,2022,calendar,boi_projects,2.0,approval ≠ realised (RF04),1,1
+Pattani,2566,2023,calendar,boi_projects,5.0,approval ≠ realised (RF04),1,1
+Pattani,2567,2024,calendar,boi_projects,1.0,approval ≠ realised (RF04),1,1
+Pattani,2568,2025,calendar,boi_projects,3.0,caution RF03/RF04 (approval ≠ realised; solar-heavy),1,1
+Songkhla,2564,2021,calendar,boi_projects,24.0,approval ≠ realised (RF04),1,1
+Songkhla,2565,2022,calendar,boi_projects,22.0,approval ≠ realised (RF04),1,1
+Songkhla,2566,2023,calendar,boi_projects,31.0,approval ≠ realised (RF04),1,1
+Songkhla,2567,2024,calendar,boi_projects,25.0,approval ≠ realised (RF04),1,1
+Songkhla,2568,2025,calendar,boi_projects,28.0,caution RF03/RF04 (approval ≠ realised; solar-heavy),1,1
+Yala,2564,2021,calendar,boi_projects,1.0,approval ≠ realised (RF04),1,1
+Yala,2565,2022,calendar,boi_projects,2.0,approval ≠ realised (RF04),1,1
+Yala,2566,2023,calendar,boi_projects,3.0,approval ≠ realised (RF04),1,1
+Yala,2567,2024,calendar,boi_projects,4.0,approval ≠ realised (RF04),1,1
+Yala,2568,2025,calendar,boi_projects,2.0,caution RF03/RF04 (approval ≠ realised; solar-heavy),1,1
+Narathiwat,2564,2021,calendar,employed_persons,309507.4,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Narathiwat,2565,2022,calendar,employed_persons,350676.7,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Narathiwat,2566,2023,calendar,employed_persons,357283.63,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Narathiwat,2567,2024,calendar,employed_persons,345695.99,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Narathiwat,2568,2025,calendar,employed_persons,369011.89,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Pattani,2564,2021,calendar,employed_persons,309482.78,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Pattani,2565,2022,calendar,employed_persons,338734.23,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Pattani,2566,2023,calendar,employed_persons,345653.82,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Pattani,2567,2024,calendar,employed_persons,342193.73,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Pattani,2568,2025,calendar,employed_persons,335714.93,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Songkhla,2564,2021,calendar,employed_persons,844507.71,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Songkhla,2565,2022,calendar,employed_persons,911354.54,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Songkhla,2566,2023,calendar,employed_persons,912082.94,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Songkhla,2567,2024,calendar,employed_persons,914187.57,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Songkhla,2568,2025,calendar,employed_persons,918648.0,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Yala,2564,2021,calendar,employed_persons,224142.02,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Yala,2565,2022,calendar,employed_persons,261023.39,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Yala,2566,2023,calendar,employed_persons,261549.43,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Yala,2567,2024,calendar,employed_persons,259468.17,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Yala,2568,2025,calendar,employed_persons,257142.58,caution RF01 (weight break 2564→2565; compare levels from 2565 only),1,1
+Narathiwat,2564,2021,calendar,lfp_rate_pct,64.86,ok,1,0
+Narathiwat,2565,2022,calendar,lfp_rate_pct,64.65,ok,1,0
+Narathiwat,2566,2023,calendar,lfp_rate_pct,63.91,ok,1,0
+Narathiwat,2567,2024,calendar,lfp_rate_pct,61.11,ok,1,0
+Narathiwat,2568,2025,calendar,lfp_rate_pct,63.73,ok,1,0
+Pattani,2564,2021,calendar,lfp_rate_pct,67.74,ok,1,0
+Pattani,2565,2022,calendar,lfp_rate_pct,67.41,ok,1,0
+Pattani,2566,2023,calendar,lfp_rate_pct,68.11,ok,1,0
+Pattani,2567,2024,calendar,lfp_rate_pct,67.41,ok,1,0
+Pattani,2568,2025,calendar,lfp_rate_pct,65.58,ok,1,0
+Songkhla,2564,2021,calendar,lfp_rate_pct,68.31,ok,1,0
+Songkhla,2565,2022,calendar,lfp_rate_pct,68.99,ok,1,0
+Songkhla,2566,2023,calendar,lfp_rate_pct,68.23,ok,1,0
+Songkhla,2567,2024,calendar,lfp_rate_pct,67.61,ok,1,0
+Songkhla,2568,2025,calendar,lfp_rate_pct,67.14,ok,1,0
+Yala,2564,2021,calendar,lfp_rate_pct,67.21,ok,1,0
+Yala,2565,2022,calendar,lfp_rate_pct,69.72,ok,1,0
+Yala,2566,2023,calendar,lfp_rate_pct,68.89,ok,1,0
+Yala,2567,2024,calendar,lfp_rate_pct,67.65,ok,1,0
+Yala,2568,2025,calendar,lfp_rate_pct,66.76,ok,1,0
+Narathiwat,2564,2021,calendar,unemployment_rate_pct,8.47,ok,1,0
+Narathiwat,2565,2022,calendar,unemployment_rate_pct,6.85,ok,1,0
+Narathiwat,2566,2023,calendar,unemployment_rate_pct,4.63,ok,1,0
+Narathiwat,2567,2024,calendar,unemployment_rate_pct,4.03,ok,1,0
+Narathiwat,2568,2025,calendar,unemployment_rate_pct,2.37,ok,1,0
+Pattani,2564,2021,calendar,unemployment_rate_pct,3.77,ok,1,0
+Pattani,2565,2022,calendar,unemployment_rate_pct,2.29,ok,1,0
+Pattani,2566,2023,calendar,unemployment_rate_pct,1.74,ok,1,0
+Pattani,2567,2024,calendar,unemployment_rate_pct,2.1,ok,1,0
+Pattani,2568,2025,calendar,unemployment_rate_pct,1.66,ok,1,0
+Songkhla,2564,2021,calendar,unemployment_rate_pct,3.21,ok,1,0
+Songkhla,2565,2022,calendar,unemployment_rate_pct,1.77,ok,1,0
+Songkhla,2566,2023,calendar,unemployment_rate_pct,1.54,ok,1,0
+Songkhla,2567,2024,calendar,unemployment_rate_pct,1.3,ok,1,0
+Songkhla,2568,2025,calendar,unemployment_rate_pct,0.99,ok,1,0
+Yala,2564,2021,calendar,unemployment_rate_pct,1.5,ok,1,0
+Yala,2565,2022,calendar,unemployment_rate_pct,1.54,ok,1,0
+Yala,2566,2023,calendar,unemployment_rate_pct,0.9,ok,1,0
+Yala,2567,2024,calendar,unemployment_rate_pct,0.57,ok,1,0
+Yala,2568,2025,calendar,unemployment_rate_pct,0.92,ok,1,0
+Pattani,2564,2021,survey,gini_income,0.283,caution RF16,1,1
+Pattani,2566,2023,survey,gini_income,0.357,caution RF16,1,1
+Songkhla,2564,2021,survey,gini_income,0.223,caution RF16,1,1
+Songkhla,2566,2023,survey,gini_income,0.34,caution RF16,1,1
+Yala,2564,2021,survey,gini_income,0.175,caution RF16,1,1
+Yala,2566,2023,survey,gini_income,0.424,caution RF16,1,1
+Narathiwat,2564,2021,survey,hh_debt_baht,55417.0,caution RF16 (province sample),1,1
+Narathiwat,2566,2023,survey,hh_debt_baht,68281.0,caution RF16 (province sample),1,1
+Narathiwat,2568,2025,survey,hh_debt_baht,41847.0,caution RF16 (province sample),1,1
+Pattani,2564,2021,survey,hh_debt_baht,130865.0,caution RF16 (province sample),1,1
+Pattani,2566,2023,survey,hh_debt_baht,120445.0,caution RF16 (province sample),1,1
+Pattani,2568,2025,survey,hh_debt_baht,105721.0,caution RF16 (province sample),1,1
+Songkhla,2564,2021,survey,hh_debt_baht,124307.0,caution RF16 (province sample),1,1
+Songkhla,2566,2023,survey,hh_debt_baht,227079.0,caution RF16 (province sample),1,1
+Songkhla,2568,2025,survey,hh_debt_baht,55626.0,caution RF16 (province sample),1,1
+Yala,2564,2021,survey,hh_debt_baht,90558.0,caution RF16 (province sample),1,1
+Yala,2566,2023,survey,hh_debt_baht,133721.0,caution RF16 (province sample),1,1
+Yala,2568,2025,survey,hh_debt_baht,68614.0,caution RF16 (province sample),1,1
+Narathiwat,2564,2021,survey,hh_exp_to_income_pct,97.6,caution RF16 (province sample),1,1
+Narathiwat,2566,2023,survey,hh_exp_to_income_pct,96.2,caution RF16 (province sample),1,1
+Narathiwat,2568,2025,survey,hh_exp_to_income_pct,78.4,caution RF16 (province sample),1,1
+Pattani,2564,2021,survey,hh_exp_to_income_pct,74.4,caution RF16 (province sample),1,1
+Pattani,2566,2023,survey,hh_exp_to_income_pct,88.7,caution RF16 (province sample),1,1
+Pattani,2568,2025,survey,hh_exp_to_income_pct,75.6,caution RF16 (province sample),1,1
+Songkhla,2564,2021,survey,hh_exp_to_income_pct,86.6,caution RF16 (province sample),1,1
+Songkhla,2566,2023,survey,hh_exp_to_income_pct,90.0,caution RF16 (province sample),1,1
+Songkhla,2568,2025,survey,hh_exp_to_income_pct,75.0,caution RF16 (province sample),1,1
+South region,2564,2021,survey,hh_exp_to_income_pct,77.5,ok,1,0
+South region,2566,2023,survey,hh_exp_to_income_pct,81.5,ok,1,0
+Whole Kingdom,2564,2021,survey,hh_exp_to_income_pct,79.0,ok,1,0
+Whole Kingdom,2566,2023,survey,hh_exp_to_income_pct,81.6,ok,1,0
+Yala,2564,2021,survey,hh_exp_to_income_pct,77.8,caution RF16 (province sample),1,1
+Yala,2566,2023,survey,hh_exp_to_income_pct,71.1,caution RF16 (province sample),1,1
+Yala,2568,2025,survey,hh_exp_to_income_pct,78.6,caution RF16 (province sample),1,1
+Narathiwat,2564,2021,survey,hh_expenditure_month_baht,17089.0,caution RF16 (province sample),1,1
+Narathiwat,2565,2022,survey,hh_expenditure_month_baht,17447.0,caution RF16 (province sample),1,1
+Narathiwat,2566,2023,survey,hh_expenditure_month_baht,17638.0,caution RF16 (province sample),1,1
+Narathiwat,2568,2025,survey,hh_expenditure_month_baht,18456.0,caution RF16 (province sample),1,1
+Pattani,2564,2021,survey,hh_expenditure_month_baht,15393.0,caution RF16 (province sample),1,1
+Pattani,2565,2022,survey,hh_expenditure_month_baht,17810.0,caution RF16 (province sample),1,1
+Pattani,2566,2023,survey,hh_expenditure_month_baht,17540.0,caution RF16 (province sample),1,1
+Pattani,2568,2025,survey,hh_expenditure_month_baht,17005.0,caution RF16 (province sample),1,1
+Songkhla,2564,2021,survey,hh_expenditure_month_baht,19656.0,caution RF16 (province sample),1,1
+Songkhla,2565,2022,survey,hh_expenditure_month_baht,20142.0,caution RF16 (province sample),1,1
+Songkhla,2566,2023,survey,hh_expenditure_month_baht,21547.0,caution RF16 (province sample),1,1
+Songkhla,2568,2025,survey,hh_expenditure_month_baht,17812.0,caution RF16 (province sample),1,1
+South region,2564,2021,survey,hh_expenditure_month_baht,20628.0,ok,1,0
+South region,2565,2022,survey,hh_expenditure_month_baht,21907.0,ok,1,0
+South region,2566,2023,survey,hh_expenditure_month_baht,23262.0,ok,1,0
+Whole Kingdom,2564,2021,survey,hh_expenditure_month_baht,21616.0,ok,1,0
+Whole Kingdom,2565,2022,survey,hh_expenditure_month_baht,22372.0,ok,1,0
+Whole Kingdom,2566,2023,survey,hh_expenditure_month_baht,23694.0,ok,1,0
+Yala,2564,2021,survey,hh_expenditure_month_baht,14928.0,caution RF16 (province sample),1,1
+Yala,2565,2022,survey,hh_expenditure_month_baht,15603.0,caution RF16 (province sample),1,1
+Yala,2566,2023,survey,hh_expenditure_month_baht,19030.0,caution RF16 (province sample),1,1
+Yala,2568,2025,survey,hh_expenditure_month_baht,15634.0,caution RF16 (province sample),1,1
+Narathiwat,2566,2023,survey,hh_farm_income_share_pct,1.8,ok,1,0
+Narathiwat,2568,2025,survey,hh_farm_income_share_pct,5.1,ok,1,0
+Pattani,2566,2023,survey,hh_farm_income_share_pct,3.1,ok,1,0
+Pattani,2568,2025,survey,hh_farm_income_share_pct,4.9,ok,1,0
+Songkhla,2566,2023,survey,hh_farm_income_share_pct,9.0,ok,1,0
+Songkhla,2568,2025,survey,hh_farm_income_share_pct,27.9,ok,1,0
+Yala,2566,2023,survey,hh_farm_income_share_pct,15.1,ok,1,0
+Yala,2568,2025,survey,hh_farm_income_share_pct,25.9,ok,1,0
+Narathiwat,2564,2021,survey,hh_income_month_baht,17512.0,caution RF16 (province sample),1,1
+Narathiwat,2566,2023,survey,hh_income_month_baht,18333.0,caution RF16 (province sample),1,1
+Narathiwat,2568,2025,survey,hh_income_month_baht,23548.0,caution RF16 (province sample),1,1
+Pattani,2564,2021,survey,hh_income_month_baht,20692.0,caution RF16 (province sample),1,1
+Pattani,2566,2023,survey,hh_income_month_baht,19777.0,caution RF16 (province sample),1,1
+Pattani,2568,2025,survey,hh_income_month_baht,22482.0,caution RF16 (province sample),1,1
+Songkhla,2564,2021,survey,hh_income_month_baht,22691.0,caution RF16 (province sample),1,1
+Songkhla,2566,2023,survey,hh_income_month_baht,23933.0,caution RF16 (province sample),1,1
+Songkhla,2568,2025,survey,hh_income_month_baht,23749.0,caution RF16 (province sample),1,1
+South region,2564,2021,survey,hh_income_month_baht,26621.0,ok,1,0
+South region,2566,2023,survey,hh_income_month_baht,28532.0,ok,1,0
+Whole Kingdom,2564,2021,survey,hh_income_month_baht,27352.0,ok,1,0
+Whole Kingdom,2566,2023,survey,hh_income_month_baht,29030.0,ok,1,0
+Yala,2564,2021,survey,hh_income_month_baht,19182.0,caution RF16 (province sample),1,1
+Yala,2566,2023,survey,hh_income_month_baht,26759.0,caution RF16 (province sample),1,1
+Yala,2568,2025,survey,hh_income_month_baht,19895.0,caution RF16 (province sample),1,1
+Narathiwat,2566,2023,survey,hh_informal_debt_baht,1920.0,household-weighted (method in notes),1,0
+Narathiwat,2568,2025,survey,hh_informal_debt_baht,4968.0,household-weighted (method in notes),1,0
+Pattani,2566,2023,survey,hh_informal_debt_baht,11847.0,household-weighted (method in notes),1,0
+Pattani,2568,2025,survey,hh_informal_debt_baht,9873.0,household-weighted (method in notes),1,0
+Songkhla,2566,2023,survey,hh_informal_debt_baht,2108.0,household-weighted (method in notes),1,0
+Songkhla,2568,2025,survey,hh_informal_debt_baht,5124.0,household-weighted (method in notes),1,0
+Yala,2566,2023,survey,hh_informal_debt_baht,4036.0,household-weighted (method in notes),1,0
+Yala,2568,2025,survey,hh_informal_debt_baht,2421.0,household-weighted (method in notes),1,0
+Narathiwat,2566,2023,survey,hh_transfers_share_pct,9.6,ok,1,0
+Narathiwat,2568,2025,survey,hh_transfers_share_pct,14.0,ok,1,0
+Pattani,2566,2023,survey,hh_transfers_share_pct,11.2,ok,1,0
+Pattani,2568,2025,survey,hh_transfers_share_pct,18.1,ok,1,0
+Songkhla,2566,2023,survey,hh_transfers_share_pct,15.5,ok,1,0
+Songkhla,2568,2025,survey,hh_transfers_share_pct,17.4,ok,1,0
+Yala,2566,2023,survey,hh_transfers_share_pct,10.2,ok,1,0
+Yala,2568,2025,survey,hh_transfers_share_pct,14.9,ok,1,0
+Narathiwat,2564,2021,survey,poverty_rank_77,6.0,ok,1,0
+Narathiwat,2565,2022,survey,poverty_rank_77,4.0,ok,1,0
+Narathiwat,2566,2023,survey,poverty_rank_77,2.0,ok,1,0
+Narathiwat,2567,2024,survey,poverty_rank_77,5.0,ok,1,0
+Narathiwat,2568,2025,survey,poverty_rank_77,8.0,ok,1,0
+Pattani,2564,2021,survey,poverty_rank_77,1.0,ok,1,0
+Pattani,2565,2022,survey,poverty_rank_77,2.0,ok,1,0
+Pattani,2566,2023,survey,poverty_rank_77,1.0,ok,1,0
+Pattani,2567,2024,survey,poverty_rank_77,3.0,ok,1,0
+Pattani,2568,2025,survey,poverty_rank_77,2.0,ok,1,0
+Songkhla,2564,2021,survey,poverty_rank_77,33.0,ok,1,0
+Songkhla,2565,2022,survey,poverty_rank_77,42.0,ok,1,0
+Songkhla,2566,2023,survey,poverty_rank_77,53.0,ok,1,0
+Songkhla,2567,2024,survey,poverty_rank_77,35.0,ok,1,0
+Songkhla,2568,2025,survey,poverty_rank_77,42.0,ok,1,0
+Yala,2564,2021,survey,poverty_rank_77,5.0,ok,1,0
+Yala,2565,2022,survey,poverty_rank_77,6.0,ok,1,0
+Yala,2566,2023,survey,poverty_rank_77,11.0,ok,1,0
+Yala,2567,2024,survey,poverty_rank_77,2.0,ok,1,0
+Yala,2568,2025,survey,poverty_rank_77,3.0,ok,1,0
+Narathiwat,2564,2021,survey,poverty_rate_pct,18.6,ok,1,0
+Narathiwat,2565,2022,survey,poverty_rate_pct,19.41,ok,1,0
+Narathiwat,2566,2023,survey,poverty_rate_pct,18.38,ok,1,0
+Narathiwat,2567,2024,survey,poverty_rate_pct,21.2,ok,1,0
+Narathiwat,2568,2025,survey,poverty_rate_pct,10.53,ok,1,0
+Pattani,2564,2021,survey,poverty_rate_pct,30.43,ok,1,0
+Pattani,2565,2022,survey,poverty_rate_pct,23.8,ok,1,0
+Pattani,2566,2023,survey,poverty_rate_pct,23.2,ok,1,0
+Pattani,2567,2024,survey,poverty_rate_pct,25.31,ok,1,0
+Pattani,2568,2025,survey,poverty_rate_pct,21.21,ok,1,0
+Songkhla,2564,2021,survey,poverty_rate_pct,5.9,ok,1,0
+Songkhla,2565,2022,survey,poverty_rate_pct,4.57,ok,1,0
+Songkhla,2566,2023,survey,poverty_rate_pct,1.67,ok,1,0
+Songkhla,2567,2024,survey,poverty_rate_pct,5.1,ok,1,0
+Songkhla,2568,2025,survey,poverty_rate_pct,2.18,ok,1,0
+South region,2564,2021,survey,poverty_rate_pct,10.75,ok,1,0
+South region,2565,2022,survey,poverty_rate_pct,9.41,ok,1,0
+South region,2566,2023,survey,poverty_rate_pct,7.18,ok,1,0
+South region,2567,2024,survey,poverty_rate_pct,9.55,ok,1,0
+South region,2568,2025,survey,poverty_rate_pct,6.57,ok,1,0
+Whole Kingdom,2564,2021,survey,poverty_rate_pct,6.17,ok,1,0
+Whole Kingdom,2565,2022,survey,poverty_rate_pct,5.51,ok,1,0
+Whole Kingdom,2566,2023,survey,poverty_rate_pct,3.47,ok,1,0
+Whole Kingdom,2567,2024,survey,poverty_rate_pct,4.85,ok,1,0
+Whole Kingdom,2568,2025,survey,poverty_rate_pct,3.27,ok,1,0
+Yala,2564,2021,survey,poverty_rate_pct,19.24,caution RF16 (sample noise),1,1
+Yala,2565,2022,survey,poverty_rate_pct,16.89,caution RF16 (sample noise),1,1
+Yala,2566,2023,survey,poverty_rate_pct,9.04,caution RF16 (sample noise),1,1
+Yala,2567,2024,survey,poverty_rate_pct,25.54,caution RF16 (sample noise),1,1
+Yala,2568,2025,survey,poverty_rate_pct,18.05,caution RF16 (sample noise),1,1
+Narathiwat,2563,2020,จปฐ. survey year,tpmap_target_poor_rate_pct,3.429,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Narathiwat,2564,2021,จปฐ. survey year,tpmap_target_poor_rate_pct,3.778,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Narathiwat,2565,2022,จปฐ. survey year,tpmap_target_poor_rate_pct,0.308,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Narathiwat,2566,2023,จปฐ. survey year,tpmap_target_poor_rate_pct,0.855,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Narathiwat,2567,2024,จปฐ. survey year,tpmap_target_poor_rate_pct,1.272,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Narathiwat,2568,2025,จปฐ. survey year,tpmap_target_poor_rate_pct,1.523,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Pattani,2563,2020,จปฐ. survey year,tpmap_target_poor_rate_pct,3.931,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Pattani,2564,2021,จปฐ. survey year,tpmap_target_poor_rate_pct,5.972,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Pattani,2565,2022,จปฐ. survey year,tpmap_target_poor_rate_pct,1.023,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Pattani,2566,2023,จปฐ. survey year,tpmap_target_poor_rate_pct,1.908,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Pattani,2567,2024,จปฐ. survey year,tpmap_target_poor_rate_pct,2.31,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Pattani,2568,2025,จปฐ. survey year,tpmap_target_poor_rate_pct,1.492,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Songkhla,2563,2020,จปฐ. survey year,tpmap_target_poor_rate_pct,2.274,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Songkhla,2564,2021,จปฐ. survey year,tpmap_target_poor_rate_pct,3.58,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Songkhla,2565,2022,จปฐ. survey year,tpmap_target_poor_rate_pct,0.5,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Songkhla,2566,2023,จปฐ. survey year,tpmap_target_poor_rate_pct,1.982,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Songkhla,2567,2024,จปฐ. survey year,tpmap_target_poor_rate_pct,2.377,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Songkhla,2568,2025,จปฐ. survey year,tpmap_target_poor_rate_pct,2.816,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Yala,2563,2020,จปฐ. survey year,tpmap_target_poor_rate_pct,6.365,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Yala,2564,2021,จปฐ. survey year,tpmap_target_poor_rate_pct,6.422,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Yala,2565,2022,จปฐ. survey year,tpmap_target_poor_rate_pct,2.413,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Yala,2566,2023,จปฐ. survey year,tpmap_target_poor_rate_pct,4.575,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Yala,2567,2024,จปฐ. survey year,tpmap_target_poor_rate_pct,9.169,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Yala,2568,2025,จปฐ. survey year,tpmap_target_poor_rate_pct,3.855,caution RF17/RF18 — not a poverty rate; no trends,1,1
+Narathiwat,2564,2021,fiscal,budget_capital_mb,5051.18,allocation ≠ disbursement,1,1
+Narathiwat,2565,2022,fiscal,budget_capital_mb,3923.97,allocation ≠ disbursement,1,1
+Narathiwat,2566,2023,fiscal,budget_capital_mb,4032.71,allocation ≠ disbursement,1,1
+Narathiwat,2567,2024,fiscal,budget_capital_mb,4278.63,allocation ≠ disbursement,1,1
+Narathiwat,2568,2025,fiscal,budget_capital_mb,3922.97,allocation ≠ disbursement,1,1
+Narathiwat,2569,2026,fiscal,budget_capital_mb,4819.52,allocation ≠ disbursement,1,1
+Pattani,2564,2021,fiscal,budget_capital_mb,4014.15,allocation ≠ disbursement,1,1
+Pattani,2565,2022,fiscal,budget_capital_mb,3036.88,allocation ≠ disbursement,1,1
+Pattani,2566,2023,fiscal,budget_capital_mb,3322.03,allocation ≠ disbursement,1,1
+Pattani,2567,2024,fiscal,budget_capital_mb,3805.83,allocation ≠ disbursement,1,1
+Pattani,2568,2025,fiscal,budget_capital_mb,3553.37,allocation ≠ disbursement,1,1
+Pattani,2569,2026,fiscal,budget_capital_mb,4181.39,caution RF20 (security line jump),1,1
+Songkhla,2564,2021,fiscal,budget_capital_mb,9598.26,allocation ≠ disbursement,1,1
+Songkhla,2565,2022,fiscal,budget_capital_mb,9139.01,allocation ≠ disbursement,1,1
+Songkhla,2566,2023,fiscal,budget_capital_mb,8813.42,allocation ≠ disbursement,1,1
+Songkhla,2567,2024,fiscal,budget_capital_mb,7834.86,allocation ≠ disbursement,1,1
+Songkhla,2568,2025,fiscal,budget_capital_mb,10290.88,allocation ≠ disbursement,1,1
+Songkhla,2569,2026,fiscal,budget_capital_mb,9097.1,allocation ≠ disbursement,1,1
+Yala,2564,2021,fiscal,budget_capital_mb,5737.21,allocation ≠ disbursement,1,1
+Yala,2565,2022,fiscal,budget_capital_mb,4945.78,allocation ≠ disbursement,1,1
+Yala,2566,2023,fiscal,budget_capital_mb,4005.24,allocation ≠ disbursement,1,1
+Yala,2567,2024,fiscal,budget_capital_mb,3682.11,allocation ≠ disbursement,1,1
+Yala,2568,2025,fiscal,budget_capital_mb,3623.44,allocation ≠ disbursement,1,1
+Narathiwat,2564,2021,fiscal,budget_capital_share_pct,51.7,allocation ≠ disbursement,1,1
+Narathiwat,2565,2022,fiscal,budget_capital_share_pct,52.9,allocation ≠ disbursement,1,1
+Narathiwat,2566,2023,fiscal,budget_capital_share_pct,49.3,allocation ≠ disbursement,1,1
+Narathiwat,2567,2024,fiscal,budget_capital_share_pct,52.4,allocation ≠ disbursement,1,1
+Narathiwat,2568,2025,fiscal,budget_capital_share_pct,44.6,allocation ≠ disbursement,1,1
+Narathiwat,2569,2026,fiscal,budget_capital_share_pct,54.9,allocation ≠ disbursement,1,1
+Pattani,2564,2021,fiscal,budget_capital_share_pct,52.1,allocation ≠ disbursement,1,1
+Pattani,2565,2022,fiscal,budget_capital_share_pct,50.9,allocation ≠ disbursement,1,1
+Pattani,2566,2023,fiscal,budget_capital_share_pct,42.9,allocation ≠ disbursement,1,1
+Pattani,2567,2024,fiscal,budget_capital_share_pct,40.3,allocation ≠ disbursement,1,1
+Pattani,2568,2025,fiscal,budget_capital_share_pct,37.1,allocation ≠ disbursement,1,1
+Pattani,2569,2026,fiscal,budget_capital_share_pct,29.7,caution RF20 (security line jump),1,1
+Songkhla,2564,2021,fiscal,budget_capital_share_pct,42.0,allocation ≠ disbursement,1,1
+Songkhla,2565,2022,fiscal,budget_capital_share_pct,42.8,allocation ≠ disbursement,1,1
+Songkhla,2566,2023,fiscal,budget_capital_share_pct,41.7,allocation ≠ disbursement,1,1
+Songkhla,2567,2024,fiscal,budget_capital_share_pct,37.6,allocation ≠ disbursement,1,1
+Songkhla,2568,2025,fiscal,budget_capital_share_pct,41.3,allocation ≠ disbursement,1,1
+Songkhla,2569,2026,fiscal,budget_capital_share_pct,38.3,allocation ≠ disbursement,1,1
+Yala,2564,2021,fiscal,budget_capital_share_pct,51.3,allocation ≠ disbursement,1,1
+Yala,2565,2022,fiscal,budget_capital_share_pct,51.4,allocation ≠ disbursement,1,1
+Yala,2566,2023,fiscal,budget_capital_share_pct,44.4,allocation ≠ disbursement,1,1
+Yala,2567,2024,fiscal,budget_capital_share_pct,40.5,allocation ≠ disbursement,1,1
+Yala,2568,2025,fiscal,budget_capital_share_pct,37.7,allocation ≠ disbursement,1,1
+Narathiwat,2564,2021,fiscal,budget_total_mb,9769.49,allocation ≠ disbursement,1,1
+Narathiwat,2565,2022,fiscal,budget_total_mb,7413.39,allocation ≠ disbursement,1,1
+Narathiwat,2566,2023,fiscal,budget_total_mb,8172.59,allocation ≠ disbursement,1,1
+Narathiwat,2567,2024,fiscal,budget_total_mb,8171.53,allocation ≠ disbursement,1,1
+Narathiwat,2568,2025,fiscal,budget_total_mb,8789.8,allocation ≠ disbursement,1,1
+Narathiwat,2569,2026,fiscal,budget_total_mb,8779.47,allocation ≠ disbursement,1,1
+Pattani,2564,2021,fiscal,budget_total_mb,7711.92,allocation ≠ disbursement,1,1
+Pattani,2565,2022,fiscal,budget_total_mb,5968.89,allocation ≠ disbursement,1,1
+Pattani,2566,2023,fiscal,budget_total_mb,7734.67,allocation ≠ disbursement,1,1
+Pattani,2567,2024,fiscal,budget_total_mb,9440.16,allocation ≠ disbursement,1,1
+Pattani,2568,2025,fiscal,budget_total_mb,9577.0,allocation ≠ disbursement,1,1
+Pattani,2569,2026,fiscal,budget_total_mb,14083.17,caution RF20 (security line jump),1,1
+Songkhla,2564,2021,fiscal,budget_total_mb,22866.63,allocation ≠ disbursement,1,1
+Songkhla,2565,2022,fiscal,budget_total_mb,21363.84,allocation ≠ disbursement,1,1
+Songkhla,2566,2023,fiscal,budget_total_mb,21119.51,allocation ≠ disbursement,1,1
+Songkhla,2567,2024,fiscal,budget_total_mb,20830.66,allocation ≠ disbursement,1,1
+Songkhla,2568,2025,fiscal,budget_total_mb,24913.41,allocation ≠ disbursement,1,1
+Songkhla,2569,2026,fiscal,budget_total_mb,23750.62,allocation ≠ disbursement,1,1
+Yala,2564,2021,fiscal,budget_total_mb,11180.83,allocation ≠ disbursement,1,1
+Yala,2565,2022,fiscal,budget_total_mb,9620.23,allocation ≠ disbursement,1,1
+Yala,2566,2023,fiscal,budget_total_mb,9011.54,allocation ≠ disbursement,1,1
+Yala,2567,2024,fiscal,budget_total_mb,9085.37,allocation ≠ disbursement,1,1
+Yala,2568,2025,fiscal,budget_total_mb,9621.34,allocation ≠ disbursement,1,1
+South region,2563,2020,calendar,bot_customs_exports_mb,411940.0,base year (before scope),1,0
+South region,2564,2021,calendar,bot_customs_exports_mb,564269.0,ok,1,0
+South region,2565,2022,calendar,bot_customs_exports_mb,602857.0,ok,1,0
+South region,2566,2023,calendar,bot_customs_exports_mb,509276.0,ok,1,0
+South region,2567,2024,calendar,bot_customs_exports_mb,625015.0,ok,1,0
+South region,2568,2025,calendar,bot_customs_exports_mb,666044.0,ok,1,0
+South region,2563,2020,calendar,bot_private_investment_index,96.82,base year (before scope),1,0
+South region,2564,2021,calendar,bot_private_investment_index,99.03,ok,1,0
+South region,2565,2022,calendar,bot_private_investment_index,101.65,ok,1,0
+South region,2566,2023,calendar,bot_private_investment_index,104.79,ok,1,0
+South region,2567,2024,calendar,bot_private_investment_index,102.84,ok,1,0
+South region,2568,2025,calendar,bot_private_investment_index,101.66,ok,1,0
+Narathiwat,2563,2020,calendar,sec_official_incidents,22.0,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,sec_official_incidents,51.0,ok,1,0
+Narathiwat,2565,2022,calendar,sec_official_incidents,40.0,ok,1,0
+Narathiwat,2566,2023,calendar,sec_official_incidents,32.0,ok,1,0
+Narathiwat,2567,2024,calendar,sec_official_incidents,68.0,ok,1,0
+Narathiwat,2568,2025,calendar,sec_official_incidents,103.0,ok,1,0
+Narathiwat,2569,2026,calendar,sec_official_incidents,32.0,partial/forward year,1,0
+Songkhla,2563,2020,calendar,sec_official_incidents,27.0,base year (before scope),1,0
+Songkhla,2564,2021,calendar,sec_official_incidents,3.0,ok,1,0
+Songkhla,2565,2022,calendar,sec_official_incidents,3.0,ok,1,0
+Songkhla,2567,2024,calendar,sec_official_incidents,8.0,ok,1,0
+Songkhla,2568,2025,calendar,sec_official_incidents,1.0,ok,1,0
+Yala,2563,2020,calendar,sec_official_incidents,79.0,base year (before scope),1,0
+Yala,2564,2021,calendar,sec_official_incidents,67.0,ok,1,0
+Yala,2565,2022,calendar,sec_official_incidents,20.0,ok,1,0
+Yala,2566,2023,calendar,sec_official_incidents,26.0,ok,1,0
+Yala,2567,2024,calendar,sec_official_incidents,21.0,ok,1,0
+Yala,2568,2025,calendar,sec_official_incidents,71.0,caution RF19 (two tables differ),1,1
+Yala,2569,2026,calendar,sec_official_incidents,22.0,caution RF19 (two tables differ),1,1
+Narathiwat,2563,2020,calendar,sec_ucdp_deaths,13.0,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,sec_ucdp_deaths,21.0,ok,1,0
+Narathiwat,2565,2022,calendar,sec_ucdp_deaths,13.0,ok,1,0
+Narathiwat,2566,2023,calendar,sec_ucdp_deaths,13.0,ok,1,0
+Narathiwat,2567,2024,calendar,sec_ucdp_deaths,12.0,ok,1,0
+Narathiwat,2568,2025,calendar,sec_ucdp_deaths,17.0,ok,1,0
+Pattani,2563,2020,calendar,sec_ucdp_deaths,22.0,base year (before scope),1,0
+Pattani,2564,2021,calendar,sec_ucdp_deaths,15.0,ok,1,0
+Pattani,2565,2022,calendar,sec_ucdp_deaths,9.0,ok,1,0
+Pattani,2566,2023,calendar,sec_ucdp_deaths,13.0,ok,1,0
+Pattani,2567,2024,calendar,sec_ucdp_deaths,18.0,ok,1,0
+Pattani,2568,2025,calendar,sec_ucdp_deaths,13.0,ok,1,0
+Songkhla-4districts,2563,2020,calendar,sec_ucdp_deaths,4.0,base year (before scope),1,0
+Songkhla-4districts,2564,2021,calendar,sec_ucdp_deaths,1.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,sec_ucdp_deaths,4.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,sec_ucdp_deaths,0.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,sec_ucdp_deaths,2.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,sec_ucdp_deaths,3.0,ok,1,0
+Yala,2563,2020,calendar,sec_ucdp_deaths,7.0,base year (before scope),1,0
+Yala,2564,2021,calendar,sec_ucdp_deaths,4.0,ok,1,0
+Yala,2565,2022,calendar,sec_ucdp_deaths,7.0,ok,1,0
+Yala,2566,2023,calendar,sec_ucdp_deaths,5.0,ok,1,0
+Yala,2567,2024,calendar,sec_ucdp_deaths,7.0,ok,1,0
+Yala,2568,2025,calendar,sec_ucdp_deaths,12.0,ok,1,0
+Narathiwat,2563,2020,calendar,sec_ucdp_lethal_events,7.0,base year (before scope),1,0
+Narathiwat,2564,2021,calendar,sec_ucdp_lethal_events,15.0,ok,1,0
+Narathiwat,2565,2022,calendar,sec_ucdp_lethal_events,11.0,ok,1,0
+Narathiwat,2566,2023,calendar,sec_ucdp_lethal_events,10.0,ok,1,0
+Narathiwat,2567,2024,calendar,sec_ucdp_lethal_events,9.0,ok,1,0
+Narathiwat,2568,2025,calendar,sec_ucdp_lethal_events,13.0,ok,1,0
+Pattani,2563,2020,calendar,sec_ucdp_lethal_events,17.0,base year (before scope),1,0
+Pattani,2564,2021,calendar,sec_ucdp_lethal_events,10.0,ok,1,0
+Pattani,2565,2022,calendar,sec_ucdp_lethal_events,8.0,ok,1,0
+Pattani,2566,2023,calendar,sec_ucdp_lethal_events,10.0,ok,1,0
+Pattani,2567,2024,calendar,sec_ucdp_lethal_events,15.0,ok,1,0
+Pattani,2568,2025,calendar,sec_ucdp_lethal_events,8.0,ok,1,0
+Songkhla-4districts,2563,2020,calendar,sec_ucdp_lethal_events,4.0,base year (before scope),1,0
+Songkhla-4districts,2564,2021,calendar,sec_ucdp_lethal_events,1.0,ok,1,0
+Songkhla-4districts,2565,2022,calendar,sec_ucdp_lethal_events,2.0,ok,1,0
+Songkhla-4districts,2566,2023,calendar,sec_ucdp_lethal_events,0.0,ok,1,0
+Songkhla-4districts,2567,2024,calendar,sec_ucdp_lethal_events,1.0,ok,1,0
+Songkhla-4districts,2568,2025,calendar,sec_ucdp_lethal_events,3.0,ok,1,0
+Yala,2563,2020,calendar,sec_ucdp_lethal_events,4.0,base year (before scope),1,0
+Yala,2564,2021,calendar,sec_ucdp_lethal_events,2.0,ok,1,0
+Yala,2565,2022,calendar,sec_ucdp_lethal_events,4.0,ok,1,0
+Yala,2566,2023,calendar,sec_ucdp_lethal_events,5.0,ok,1,0
+Yala,2567,2024,calendar,sec_ucdp_lethal_events,6.0,ok,1,0
+Yala,2568,2025,calendar,sec_ucdp_lethal_events,8.0,ok,1,0
+Narathiwat,2564,2021,calendar,tour_hotel_guests_malaysian,0.0,COVID base year,1,0
+Narathiwat,2565,2022,calendar,tour_hotel_guests_malaysian,45578.0,ok,1,0
+Narathiwat,2566,2023,calendar,tour_hotel_guests_malaysian,210524.0,ok,1,0
+Narathiwat,2567,2024,calendar,tour_hotel_guests_malaysian,284021.0,ok,1,0
+Narathiwat,2568,2025,calendar,tour_hotel_guests_malaysian,275505.0,ok,1,0
+Pattani,2564,2021,calendar,tour_hotel_guests_malaysian,0.0,COVID base year,1,0
+Pattani,2565,2022,calendar,tour_hotel_guests_malaysian,3129.0,ok,1,0
+Pattani,2566,2023,calendar,tour_hotel_guests_malaysian,25550.0,ok,1,0
+Pattani,2567,2024,calendar,tour_hotel_guests_malaysian,51018.0,ok,1,0
+Pattani,2568,2025,calendar,tour_hotel_guests_malaysian,54926.0,ok,1,0
+Songkhla,2564,2021,calendar,tour_hotel_guests_malaysian,267.0,COVID base year,1,0
+Songkhla,2565,2022,calendar,tour_hotel_guests_malaysian,376789.0,ok,1,0
+Songkhla,2566,2023,calendar,tour_hotel_guests_malaysian,1530514.0,ok,1,0
+Songkhla,2567,2024,calendar,tour_hotel_guests_malaysian,1857714.0,ok,1,0
+Songkhla,2568,2025,calendar,tour_hotel_guests_malaysian,1740166.0,ok,1,0
+Yala,2564,2021,calendar,tour_hotel_guests_malaysian,0.0,COVID base year,1,0
+Yala,2565,2022,calendar,tour_hotel_guests_malaysian,100130.0,ok,1,0
+Yala,2566,2023,calendar,tour_hotel_guests_malaysian,460817.0,ok,1,0
+Yala,2567,2024,calendar,tour_hotel_guests_malaysian,515166.0,ok,1,0
+Yala,2568,2025,calendar,tour_hotel_guests_malaysian,546681.0,ok,1,0
+Narathiwat,2564,2021,calendar,tour_occupancy_pct,7.48,COVID base year,1,0
+Narathiwat,2565,2022,calendar,tour_occupancy_pct,33.01,ok,1,0
+Narathiwat,2566,2023,calendar,tour_occupancy_pct,56.03,ok,1,0
+Narathiwat,2567,2024,calendar,tour_occupancy_pct,64.34,ok,1,0
+Narathiwat,2568,2025,calendar,tour_occupancy_pct,65.99,ok,1,0
+Pattani,2564,2021,calendar,tour_occupancy_pct,14.05,COVID base year,1,0
+Pattani,2565,2022,calendar,tour_occupancy_pct,35.04,ok,1,0
+Pattani,2566,2023,calendar,tour_occupancy_pct,49.17,ok,1,0
+Pattani,2567,2024,calendar,tour_occupancy_pct,56.95,ok,1,0
+Pattani,2568,2025,calendar,tour_occupancy_pct,59.8,ok,1,0
+Songkhla,2564,2021,calendar,tour_occupancy_pct,6.66,COVID base year,1,0
+Songkhla,2565,2022,calendar,tour_occupancy_pct,36.1,ok,1,0
+Songkhla,2566,2023,calendar,tour_occupancy_pct,68.23,ok,1,0
+Songkhla,2567,2024,calendar,tour_occupancy_pct,74.86,ok,1,0
+Songkhla,2568,2025,calendar,tour_occupancy_pct,69.42,ok,1,0
+Yala,2564,2021,calendar,tour_occupancy_pct,12.97,COVID base year,1,0
+Yala,2565,2022,calendar,tour_occupancy_pct,58.38,caution RF09 (estimate),1,1
+Yala,2566,2023,calendar,tour_occupancy_pct,74.42,caution RF09 (estimate),1,1
+Yala,2567,2024,calendar,tour_occupancy_pct,77.39,caution RF09 (estimate),1,1
+Yala,2568,2025,calendar,tour_occupancy_pct,80.93,caution RF09 (estimate),1,1
+Narathiwat,2564,2021,calendar,tour_revenue_mb,213.47,COVID base year,1,0
+Narathiwat,2565,2022,calendar,tour_revenue_mb,1226.95,ok,1,0
+Narathiwat,2566,2023,calendar,tour_revenue_mb,3243.62,ok,1,0
+Narathiwat,2567,2024,calendar,tour_revenue_mb,4469.55,ok,1,0
+Narathiwat,2568,2025,calendar,tour_revenue_mb,4846.18,ok,1,0
+Pattani,2564,2021,calendar,tour_revenue_mb,216.27,COVID base year,1,0
+Pattani,2565,2022,calendar,tour_revenue_mb,735.77,ok,1,0
+Pattani,2566,2023,calendar,tour_revenue_mb,1376.55,ok,1,0
+Pattani,2567,2024,calendar,tour_revenue_mb,1988.34,ok,1,0
+Pattani,2568,2025,calendar,tour_revenue_mb,2124.68,ok,1,0
+Songkhla,2564,2021,calendar,tour_revenue_mb,3466.5,COVID base year,1,0
+Songkhla,2565,2022,calendar,tour_revenue_mb,18174.28,ok,1,0
+Songkhla,2566,2023,calendar,tour_revenue_mb,43421.96,ok,1,0
+Songkhla,2567,2024,calendar,tour_revenue_mb,53175.22,ok,1,0
+Songkhla,2568,2025,calendar,tour_revenue_mb,54046.79,ok,1,0
+Yala,2564,2021,calendar,tour_revenue_mb,639.59,COVID base year,1,0
+Yala,2565,2022,calendar,tour_revenue_mb,3047.16,ok,1,0
+Yala,2566,2023,calendar,tour_revenue_mb,5848.17,ok,1,0
+Yala,2567,2024,calendar,tour_revenue_mb,7392.08,ok,1,0
+Yala,2568,2025,calendar,tour_revenue_mb,8314.46,ok,1,0
+Narathiwat,2564,2021,calendar,tour_spend_per_day_baht,1605.26,COVID base year,1,0
+Narathiwat,2565,2022,calendar,tour_spend_per_day_baht,1932.69,ok,1,0
+Narathiwat,2566,2023,calendar,tour_spend_per_day_baht,2319.47,ok,1,0
+Narathiwat,2567,2024,calendar,tour_spend_per_day_baht,2395.52,ok,1,0
+Narathiwat,2568,2025,calendar,tour_spend_per_day_baht,2497.61,ok,1,0
+Pattani,2564,2021,calendar,tour_spend_per_day_baht,1582.74,COVID base year,1,0
+Pattani,2565,2022,calendar,tour_spend_per_day_baht,1745.6,ok,1,0
+Pattani,2566,2023,calendar,tour_spend_per_day_baht,1901.33,ok,1,0
+Pattani,2567,2024,calendar,tour_spend_per_day_baht,2039.67,ok,1,0
+Pattani,2568,2025,calendar,tour_spend_per_day_baht,2107.63,ok,1,0
+Songkhla,2564,2021,calendar,tour_spend_per_day_baht,3041.11,COVID base year,1,0
+Songkhla,2565,2022,calendar,tour_spend_per_day_baht,3421.14,ok,1,0
+Songkhla,2566,2023,calendar,tour_spend_per_day_baht,3863.43,ok,1,0
+Songkhla,2567,2024,calendar,tour_spend_per_day_baht,3888.56,ok,1,0
+Songkhla,2568,2025,calendar,tour_spend_per_day_baht,3958.3,ok,1,0
+Yala,2564,2021,calendar,tour_spend_per_day_baht,1805.73,COVID base year,1,0
+Yala,2565,2022,calendar,tour_spend_per_day_baht,1978.03,ok,1,0
+Yala,2566,2023,calendar,tour_spend_per_day_baht,2309.34,ok,1,0
+Yala,2567,2024,calendar,tour_spend_per_day_baht,2421.28,ok,1,0
+Yala,2568,2025,calendar,tour_spend_per_day_baht,2525.95,ok,1,0
+Narathiwat,2564,2021,calendar,tour_visitors,81496.0,COVID base year,1,0
+Narathiwat,2565,2022,calendar,tour_visitors,431003.0,ok,1,0
+Narathiwat,2566,2023,calendar,tour_visitors,884039.0,ok,1,0
+Narathiwat,2567,2024,calendar,tour_visitors,1191069.0,ok,1,0
+Narathiwat,2568,2025,calendar,tour_visitors,1241434.0,ok,1,0
+Pattani,2564,2021,calendar,tour_visitors,71082.0,COVID base year,1,0
+Pattani,2565,2022,calendar,tour_visitors,255452.0,ok,1,0
+Pattani,2566,2023,calendar,tour_visitors,465476.0,ok,1,0
+Pattani,2567,2024,calendar,tour_visitors,618737.0,ok,1,0
+Pattani,2568,2025,calendar,tour_visitors,643995.0,ok,1,0
+Songkhla,2564,2021,calendar,tour_visitors,582321.0,COVID base year,1,0
+Songkhla,2565,2022,calendar,tour_visitors,2921488.0,ok,1,0
+Songkhla,2566,2023,calendar,tour_visitors,5620020.0,ok,1,0
+Songkhla,2567,2024,calendar,tour_visitors,7437817.0,ok,1,0
+Songkhla,2568,2025,calendar,tour_visitors,7184493.0,ok,1,0
+Yala,2564,2021,calendar,tour_visitors,235884.0,COVID base year,1,0
+Yala,2565,2022,calendar,tour_visitors,1070066.0,ok,1,0
+Yala,2566,2023,calendar,tour_visitors,1700786.0,ok,1,0
+Yala,2567,2024,calendar,tour_visitors,1963459.0,ok,1,0
+Yala,2568,2025,calendar,tour_visitors,2033274.0,ok,1,0
+Narathiwat,2564,2021,calendar,tour_visitors_foreign,0.0,COVID base year,1,0
+Narathiwat,2565,2022,calendar,tour_visitors_foreign,144672.0,ok,1,0
+Narathiwat,2566,2023,calendar,tour_visitors_foreign,536788.0,ok,1,0
+Narathiwat,2567,2024,calendar,tour_visitors_foreign,704607.0,ok,1,0
+Narathiwat,2568,2025,calendar,tour_visitors_foreign,713480.0,ok,1,0
+Pattani,2564,2021,calendar,tour_visitors_foreign,0.0,COVID base year,1,0
+Pattani,2565,2022,calendar,tour_visitors_foreign,14402.0,ok,1,0
+Pattani,2566,2023,calendar,tour_visitors_foreign,115513.0,ok,1,0
+Pattani,2567,2024,calendar,tour_visitors_foreign,174373.0,ok,1,0
+Pattani,2568,2025,calendar,tour_visitors_foreign,178918.0,ok,1,0
+Songkhla,2564,2021,calendar,tour_visitors_foreign,669.0,COVID base year,1,0
+Songkhla,2565,2022,calendar,tour_visitors_foreign,831886.0,ok,1,0
+Songkhla,2566,2023,calendar,tour_visitors_foreign,2558456.0,ok,1,0
+Songkhla,2567,2024,calendar,tour_visitors_foreign,4083303.0,ok,1,0
+Songkhla,2568,2025,calendar,tour_visitors_foreign,3838340.0,ok,1,0
+Yala,2564,2021,calendar,tour_visitors_foreign,0.0,COVID base year,1,0
+Yala,2565,2022,calendar,tour_visitors_foreign,160375.0,ok,1,0
+Yala,2566,2023,calendar,tour_visitors_foreign,685539.0,ok,1,0
+Yala,2567,2024,calendar,tour_visitors_foreign,860189.0,ok,1,0
+Yala,2568,2025,calendar,tour_visitors_foreign,914066.0,ok,1,0
+Narathiwat,2564,2021,calendar,border_trade_mb,3404.89,checkpoint: all (สุไหงโก-ลก/ตากใบ/บูเก๊ะตา),1,0
+Narathiwat,2565,2022,calendar,border_trade_mb,3005.04,checkpoint: all (สุไหงโก-ลก/ตากใบ/บูเก๊ะตา),1,0
+Narathiwat,2566,2023,calendar,border_trade_mb,2726.82,checkpoint: all (สุไหงโก-ลก/ตากใบ/บูเก๊ะตา),1,0
+Narathiwat,2567,2024,calendar,border_trade_mb,2487.24,checkpoint: all (สุไหงโก-ลก/ตากใบ/บูเก๊ะตา),1,0
+Narathiwat,2568,2025,calendar,border_trade_mb,2300.09,checkpoint: all (สุไหงโก-ลก/ตากใบ/บูเก๊ะตา),1,0
+Songkhla-4districts,2565,2022,calendar,border_trade_mb,1609.02,checkpoint: บ้านประกอบ,1,0
+Songkhla-4districts,2566,2023,calendar,border_trade_mb,1891.59,checkpoint: บ้านประกอบ,1,0
+Songkhla-4districts,2567,2024,calendar,border_trade_mb,1932.57,checkpoint: บ้านประกอบ,1,0
+Songkhla-4districts,2568,2025,calendar,border_trade_mb,2152.19,checkpoint: บ้านประกอบ,1,0
+Yala,2564,2021,calendar,border_trade_mb,3614.55,INCOMPLETE year,0,0
+Yala,2565,2022,calendar,border_trade_mb,3352.05,checkpoint: เบตง,1,0
+Yala,2566,2023,calendar,border_trade_mb,2476.33,checkpoint: เบตง,1,0
+Yala,2567,2024,calendar,border_trade_mb,2412.1,checkpoint: เบตง,1,0
+Yala,2568,2025,calendar,border_trade_mb,2515.18,checkpoint: เบตง,1,0
