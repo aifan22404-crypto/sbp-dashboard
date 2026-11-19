@@ -1,4 +1,6 @@
-# SBP Economic Dashboard — Thailand's Southern Border Provinces, 2021–2025
+# The Deep South Ledger
+
+*Economic intelligence on Thailand's southern border provinces, 2021–2025*
 
 **Live dashboard:** https://aifan22404-crypto.github.io/sbp-dashboard/
 
