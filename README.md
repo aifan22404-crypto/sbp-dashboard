@@ -1,4 +1,4 @@
-# The Deep South Ledger
+# The Southern Frontier Review
 
 *Economic intelligence on Thailand's southern border provinces, 2021–2025*
 
