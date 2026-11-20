@@ -151,7 +151,7 @@ ul.lim{padding-left:20px;margin:8px 0;max-width:80ch}ul.lim li{margin:5px 0}
   <h2>ข้อจำกัดของข้อมูล</h2>
   <ul class="lim">
     <li>ทุกผลเป็นการพรรณนาและความสัมพันธ์ ไม่ใช่ความเป็นเหตุเป็นผล</li>
-    <li>ข้อมูลรายอำเภอมีเพียง 37 อำเภอ · ปรับต่อประชากรแล้ว แต่ผลขึ้นกับวิธี (อัตราต่อหัว −0.47 · คุมประชากรแบบ partial −0.31) และยังไม่ได้คุมปัจจัยอื่น เช่น ความเป็นเมือง</li>
+    <li>ข้อมูลรายอำเภอมีเพียง 37 อำเภอ · ปรับต่อประชากรแล้ว แต่ผลขึ้นกับวิธี (อัตราต่อหัว −0.47 · คุมประชากรแบบ partial −0.31) คุมความหนาแน่นประชากรแล้วยังเป็นลบ (−0.52) แต่เทียบภายในจังหวัดเหลือราว −0.3 และยังไม่ได้คุมถนนหรือระยะทางถึงตลาด</li>
     <li>ข้อมูลท่องเที่ยวหลักเริ่มปี 2564 · ฐานปี 2562 มีแล้ว แต่ตัวเลขหลังโควิดของสามจังหวัดสูงกว่า 2562 ถึง 1.8–2.9 เท่า ขณะที่สงขลาต่ำกว่า จึงอาจเทียบกันตรง ๆ ไม่ได้</li>
     <li>สถิติเหตุการณ์สองแหล่งนิยามต่างกัน และไม่ระบุผู้ก่อเหตุหรือแรงจูงใจ</li>
     <li>GPP ปี 2567 เป็นค่าเบื้องต้น · BOI เป็นยอดอนุมัติ ไม่ใช่การลงทุนจริง · นิติบุคคลไม่นับธุรกิจที่ไม่จดทะเบียน</li>
@@ -161,7 +161,7 @@ ul.lim{padding-left:20px;margin:8px 0;max-width:80ch}ul.lim li{margin:5px 0}
 </main>
 
 <footer><div class="wrap">
-  <p><strong>แหล่งข้อมูล:</strong> สศช. · สำนักงานสถิติแห่งชาติ · กรมพัฒนาธุรกิจการค้า · สำนักงานเศรษฐกิจการเกษตร · กรมประมง · องค์การสะพานปลา · กระทรวงการท่องเที่ยวและกีฬา · BOI · สำนักงานพาณิชย์จังหวัด · ที่ทำการปกครองจังหวัด · กรมการปกครอง (ทะเบียนราษฎร ผ่านระบบบัญชีข้อมูลจังหวัด) · สำนักงบประมาณ · UCDP (Uppsala University) · งบตามหน่วยงานจาก Rocket Media Lab (แหล่งรอง) · รายชื่อไฟล์และวันที่โหลดอยู่ใน <a href="https://github.com/aifan22404-crypto/sbp-dashboard/tree/main/data">โฟลเดอร์ data</a></p>
+  <p><strong>แหล่งข้อมูล:</strong> สศช. · สำนักงานสถิติแห่งชาติ · กรมพัฒนาธุรกิจการค้า · สำนักงานเศรษฐกิจการเกษตร · กรมประมง · องค์การสะพานปลา · กระทรวงการท่องเที่ยวและกีฬา · BOI · สำนักงานพาณิชย์จังหวัด · ที่ทำการปกครองจังหวัด · กรมการปกครอง (ทะเบียนราษฎร ผ่านระบบบัญชีข้อมูลจังหวัด) · สำนักงบประมาณ · UCDP (Uppsala University) · งบตามหน่วยงานจาก Rocket Media Lab (แหล่งรอง) · พื้นที่อำเภอจาก OpenGISData-Thailand (CC BY 4.0) · รายชื่อไฟล์และวันที่โหลดอยู่ใน <a href="https://github.com/aifan22404-crypto/sbp-dashboard/tree/main/data">โฟลเดอร์ data</a></p>
   <p>จัดทำโดย Irfan Aroma (นักศึกษาเศรษฐศาสตร์ Al Qasimia University) · ใช้ Claude (Anthropic) ช่วยรวบรวม ทำความสะอาด และวิเคราะห์ข้อมูล · <a href="https://github.com/aifan22404-crypto/sbp-dashboard">ดูโค้ดและข้อมูลบน GitHub</a> · งานฉบับร่าง ยังไม่ผ่านการตรวจของอาจารย์</p>
 </div></footer>
 
@@ -254,7 +254,7 @@ function render(){
 
   // P3
   const incA = prov==='Pattani'?'Narathiwat':prov;
-  document.getElementById('f3').innerHTML = `ปี 2568 ${AREA[incA]}มีเหตุการณ์ตามสถิติทางการ <b>${fmt(val('sec_official_incidents',incA,2568))}</b> ครั้ง แต่เป็นเหตุที่มีผู้เสียชีวิต (UCDP) <b>${fmt(val('sec_ucdp_lethal_events',incA,2568))}</b> ครั้ง · ระดับอำเภอ ถ้านับดิบ ค่าสหสัมพันธ์ Spearman ระหว่างเหตุรุนแรงกับธุรกิจตั้งใหม่ = <b>${fmt(rho(D.districts,'ucdp_lethal_events_2564_2568','new_firms_2565_2568'),2)}</b> แต่เมื่อคิดต่อประชากร = <b>${fmt(rho(D.districts,'lethal_per_100k','new_firms_per_10k'),2)}</b> (37 อำเภอ, ช่วงความเชื่อมั่น 95% ประมาณ −0.69 ถึง −0.18) คือสัมพันธ์ทางลบระดับปานกลาง แต่ยังไม่ได้คุมความเป็นเมืองและปัจจัยอื่น`+(prov==='Pattani'?' (ไม่มีสถิติทางการของปัตตานี จึงแสดงนราธิวาส)':'');
+  document.getElementById('f3').innerHTML = `ปี 2568 ${AREA[incA]}มีเหตุการณ์ตามสถิติทางการ <b>${fmt(val('sec_official_incidents',incA,2568))}</b> ครั้ง แต่เป็นเหตุที่มีผู้เสียชีวิต (UCDP) <b>${fmt(val('sec_ucdp_lethal_events',incA,2568))}</b> ครั้ง · ระดับอำเภอ ถ้านับดิบ ค่าสหสัมพันธ์ Spearman ระหว่างเหตุรุนแรงกับธุรกิจตั้งใหม่ = <b>${fmt(rho(D.districts,'ucdp_lethal_events_2564_2568','new_firms_2565_2568'),2)}</b> แต่เมื่อคิดต่อประชากร = <b>${fmt(rho(D.districts,'lethal_per_100k','new_firms_per_10k'),2)}</b> (37 อำเภอ, ช่วงความเชื่อมั่น 95% ประมาณ −0.69 ถึง −0.18) คือสัมพันธ์ทางลบระดับปานกลาง ยังอยู่เมื่อคุมความหนาแน่นประชากร (−0.52) แต่อ่อนลงเหลือราว −0.3 เมื่อเทียบเฉพาะอำเภอในจังหวัดเดียวกัน`+(prov==='Pattani'?' (ไม่มีสถิติทางการของปัตตานี จึงแสดงนราธิวาส)':'');
   const inc=[];
   for(const a of ['Narathiwat','Yala']) inc.push({label:AREA[a]+' · ทางการ',data:YEARS.map(y=>val('sec_official_incidents',a,y)??null),borderColor:COL(a),backgroundColor:COL(a),spanGaps:true,borderWidth:a===prov?3.5:2});
   for(const a of PROVS) inc.push({label:AREA[a]+' · UCDP',data:YEARS.map(y=>val('sec_ucdp_lethal_events',a,y)??null),borderColor:COL(a),backgroundColor:COL(a),borderDash:[5,4],spanGaps:true,borderWidth:a===prov?3:1.5});

@@ -20,7 +20,7 @@ It asks four linked questions:
 - **Raw materials, little processing.** Location quotients for agriculture, forestry and fishing are 2.69–4.14; for manufacturing 0.29–0.36. Pattani lands 7.35% of Thailand's marine catch (2024), yet manufacturing is 8.7% of its GPP against 24.2% nationally.
 - **Poverty gap.** Pattani's poverty rate was 21–30% in 2021–2025, against 3–6% nationally.
 - **Tourism keeps growing after COVID.** Narathiwat visitors rose from 431,003 (2022) to 1.24 million (2025), above the 2019 figure of 703,810; Yala hotel occupancy reached 80.9%. The 2019 comparison is tentative: the three border provinces now report 1.8–2.9× their 2019 visitors while Songkhla reports slightly fewer, which may reflect a change in estimation method.
-- **Violence and new firms move in opposite directions once population is taken into account.** Across 37 districts, raw counts show no link (Spearman ρ = −0.06), but lethal events per 100,000 people and new firms per 10,000 people have ρ = −0.47 (approx. 95% CI −0.69 to −0.18). Controlling for population with a partial rank correlation gives −0.31 (CI −0.58 to 0.02). Urbanisation and other factors are not yet controlled for, so this is an association, not an effect.
+- **Violence and new firms move in opposite directions once population is taken into account.** Across 37 districts, raw counts show no link (Spearman ρ = −0.06), but lethal events per 100,000 people and new firms per 10,000 people have ρ = −0.47 (approx. 95% CI −0.69 to −0.18). Controlling for population with a partial rank correlation gives −0.31 (CI −0.58 to 0.02). The association holds after controlling for population density (−0.52) but weakens to about −0.3 when districts are compared only within the same province, so it is an association, not an effect.
 - **Rubber price swings.** RSS3 annual average fell from 127.96 baht/kg (2011) to 41.48 (2018); the monthly price has not reached 100 baht since May 2012.
 
 The author, who is from the area, wrote eight prior expectations before seeing results; three were consistent with the data, four partly consistent, and one not supported (updated 20 Nov 2026 after adding district population and a budget-by-agency breakdown). See the dashboard's *ความเชื่อ vs ข้อมูล* section.
@@ -38,13 +38,12 @@ All results are descriptive associations, not causal estimates.
 | `scripts/` | Python scripts used for cleaning, panel building and analysis |
 | `powerbi/` | Power BI report (`.pbix`), star-schema CSVs, DAX measures, theme, build guide (Thai) |
 | `notes/` | Scope document, P1–P4 findings, red-flag notes (Thai) |
-| `paper/` | Article drafts as PDF: English and Thai (updated 20 Nov 2026) |
 
 Raw downloads are not included. Every cleaned figure traces back to its original publisher through `data/reference/source_log.xlsx`.
 
 ## Data sources
 
-Office of the National Economic and Social Development Council (NESDC) · National Statistical Office · Department of Business Development · Office of Agricultural Economics · Department of Fisheries · Fish Marketing Organization · Ministry of Tourism and Sports · Board of Investment · Provincial Commerce Offices · Provincial Administration Offices · Budget Bureau · Bank of Thailand Southern Office · Uppsala Conflict Data Program (UCDP GED) · Department of Provincial Administration (district population, via provincial GD Catalogs) · Rocket Media Lab (budget by agency, secondary).
+Office of the National Economic and Social Development Council (NESDC) · National Statistical Office · Department of Business Development · Office of Agricultural Economics · Department of Fisheries · Fish Marketing Organization · Ministry of Tourism and Sports · Board of Investment · Provincial Commerce Offices · Provincial Administration Offices · Budget Bureau · Bank of Thailand Southern Office · Uppsala Conflict Data Program (UCDP GED) · Department of Provincial Administration (district population, via provincial GD Catalogs) · Rocket Media Lab (budget by agency, secondary) · OpenGISData-Thailand by chingchai (district land area, CC BY 4.0).
 
 ## Limitations
 
