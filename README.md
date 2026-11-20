@@ -37,7 +37,8 @@ All results are descriptive associations, not causal estimates.
 | `data/reference/` | Source log (file names, URLs, download dates), data dictionary, red-flag register (26 data anomalies) |
 | `scripts/` | Python scripts used for cleaning, panel building and analysis |
 | `powerbi/` | Power BI report (`.pbix`), star-schema CSVs, DAX measures, theme, build guide (Thai) |
-| `notes/` | Scope document, P1–P4 findings, red-flag notes (Thai) |
+| `notes/` | Scope document, P1–P4 findings, red-flag notes (Thai), spot check of article figures, article figures |
+| `paper/` | **Working draft** of the research article (English and Thai PDF). Not yet reviewed by a faculty member; do not cite as a final result |
 
 Raw downloads are not included. Every cleaned figure traces back to its original publisher through `data/reference/source_log.xlsx`.
 
