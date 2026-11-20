@@ -2,10 +2,10 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "872e0e243a682465298e",
   "position": {
-    "x": 1444.0,
+    "x": 1444,
     "y": 104,
     "z": 13,
-    "width": 460.0,
+    "width": 460,
     "height": 128,
     "tabOrder": 13
   },
@@ -23,11 +23,11 @@
                       "Entity": "_Measures"
                     }
                   },
-                  "Property": "จำนวนอำเภอที่วิเคราะห์"
+                  "Property": "Spearman ρ นับดิบ (ไม่ปรับประชากร)"
                 }
               },
-              "queryRef": "_Measures.จำนวนอำเภอที่วิเคราะห์",
-              "nativeQueryRef": "จำนวนอำเภอที่วิเคราะห์"
+              "queryRef": "_Measures.Spearman ρ นับดิบ (ไม่ปรับประชากร)",
+              "nativeQueryRef": "Spearman ρ นับดิบ (ไม่ปรับประชากร)"
             }
           ]
         }

@@ -2,10 +2,10 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "b9e7f6c40a053c4eb25a",
   "position": {
-    "x": 968.0,
+    "x": 968,
     "y": 104,
     "z": 12,
-    "width": 460.0,
+    "width": 460,
     "height": 128,
     "tabOrder": 12
   },
@@ -23,11 +23,11 @@
                       "Entity": "_Measures"
                     }
                   },
-                  "Property": "Spearman ρ ความรุนแรง vs ธุรกิจใหม่"
+                  "Property": "Spearman ρ ต่อประชากร (37 อำเภอ)"
                 }
               },
-              "queryRef": "_Measures.Spearman ρ ความรุนแรง vs ธุรกิจใหม่",
-              "nativeQueryRef": "Spearman ρ ความรุนแรง vs ธุรกิจใหม่"
+              "queryRef": "_Measures.Spearman ρ ต่อประชากร (37 อำเภอ)",
+              "nativeQueryRef": "Spearman ρ ต่อประชากร (37 อำเภอ)"
             }
           ]
         }

@@ -98,63 +98,105 @@ table _Measures
 
 	measure 'ผู้เยี่ยมเยือน ปีล่าสุด (คน)' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "tour_visitors", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [Visitors], dim_year[year_BE] = y )
 		formatString: #,0
+		lineageTag: 1c2f05c6-a77c-404f-8b7e-d64c250842a6
 
 	measure 'สัตว์น้ำขึ้นท่า ปีล่าสุด (ตัน)' = VAR y = CALCULATE ( MAX ( fact_fish[year] ), NOT ISBLANK ( fact_fish[tonnes] ) ) RETURN CALCULATE ( [Fish Landings (t)], fact_fish[year] = y )
 		formatString: #,0
+		lineageTag: dcb696bd-3dfc-4f8b-8827-db7efe8a08ec
 
 	measure 'สาขาที่ LQ สูงสุด' = VAR t = TOPN ( 1, VALUES ( fact_lq[sector_th] ), [LQ], DESC ) RETURN CONCATENATEX ( t, fact_lq[sector_th], ", " )
+		lineageTag: 24d2ff81-86fb-4090-8041-43bda2f10a07
 
 	measure 'LQ สูงสุด' = MAXX ( VALUES ( fact_lq[sector_th] ), [LQ] )
 		formatString: 0.00
+		lineageTag: ea684553-e3d4-4a58-baa3-0369995a009f
 
 	measure 'สัดส่วนคนจน ปีล่าสุด (%)' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "poverty_rate_pct", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [Poverty %], dim_year[year_BE] = y )
 		formatString: 0.0
+		lineageTag: c0254a28-64f1-4690-bb81-aec8c6a246e9
 
 	measure 'ห่างจากทั้งประเทศ (จุด %)' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "poverty_rate_pct", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [Poverty %] - [Poverty % (Kingdom)], dim_year[year_BE] = y )
 		formatString: +0.0;-0.0;0.0
+		lineageTag: 2f39d12d-f767-43c4-a3f0-3c8fd48d4b39
 
 	measure 'รายได้ครัวเรือน ปีล่าสุด (บาท/เดือน)' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "hh_income_month_baht", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [HH Income (baht/month)], dim_year[year_BE] = y )
 		formatString: #,0
+		lineageTag: 88f1acd6-e2b2-4011-b285-85486977a34a
 
 	measure 'GPP ต่อหัว ปีล่าสุด (บาท/ปี)' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "gpp_per_capita_baht", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [GPP per Capita], dim_year[year_BE] = y )
 		formatString: #,0
+		lineageTag: 417ec83a-65d9-4d4e-93fd-51a1019032db
 
 	measure 'เหตุการณ์ทางการ ปีล่าสุด (ครั้ง)' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "sec_official_incidents", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [Official Incidents], dim_year[year_BE] = y )
 		formatString: #,0
+		lineageTag: 6e4d27a1-1030-4c02-9f8a-fa170bc9b048
 
 	measure 'เหตุมีผู้เสียชีวิต UCDP ปีล่าสุด' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "sec_ucdp_lethal_events", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [Lethal Events (UCDP)], dim_year[year_BE] = y )
 		formatString: #,0
+		lineageTag: 47601c09-6859-4897-a683-e4ca7f05cf7b
 
-	measure 'Spearman ρ ความรุนแรง vs ธุรกิจใหม่' = CALCULATE ( [Spearman rho], REMOVEFILTERS ( dim_area ), REMOVEFILTERS ( fact_district ) )
+	measure 'Spearman ρ นับดิบ (ไม่ปรับประชากร)' = CALCULATE ( [Spearman rho], REMOVEFILTERS ( dim_area ), REMOVEFILTERS ( fact_district ) )
 		formatString: 0.00
+		lineageTag: 7372d7cf-788d-41e3-a655-f2b12d8688cf
 
-	measure 'จำนวนอำเภอที่วิเคราะห์' = CALCULATE ( COUNTROWS ( fact_district ), REMOVEFILTERS ( dim_area ), REMOVEFILTERS ( fact_district ) )
+	measure จำนวนอำเภอที่วิเคราะห์ = CALCULATE ( COUNTROWS ( fact_district ), REMOVEFILTERS ( dim_area ), REMOVEFILTERS ( fact_district ) )
 		formatString: #,0
+		lineageTag: 802423ed-b09b-4d97-9f95-6feb5a463c2b
 
 	measure 'ราคายางเฉลี่ยปีล่าสุด (บาท/กก.)' = VAR y = CALCULATE ( MAX ( fact_price_monthly[year_be] ), fact_price_monthly[product] = "ยางแผ่นดิบ ชั้น 3" ) RETURN CALCULATE ( [Rubber Price (baht/kg)], fact_price_monthly[year_be] = y )
 		formatString: 0.00
+		lineageTag: 23aabb6e-acf5-4c3d-8805-9bc415b70d07
 
 	measure 'เรือประมงที่ได้รับอนุญาต ปีล่าสุด (ลำ)' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "fish_vessels_licensed", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) RETURN CALCULATE ( [Fishing Vessels], dim_year[year_BE] = y )
 		formatString: #,0
+		lineageTag: 8d60083f-1162-4824-9b85-24504b2d8039
 
 	measure 'เรือประมง เปลี่ยนแปลงจากปี 2564' = VAR y = CALCULATE ( MAX ( fact_panel[year_BE] ), dim_indicator[indicator_code] = "fish_vessels_licensed", fact_panel[usable] = 1, NOT ISBLANK ( fact_panel[value] ) ) VAR last = CALCULATE ( [Fishing Vessels], dim_year[year_BE] = y ) VAR base = CALCULATE ( [Fishing Vessels], dim_year[year_BE] = 2564 ) RETURN DIVIDE ( last - base, base )
 		formatString: +0.0%;-0.0%;0.0%
+		lineageTag: 378d78db-ffff-46c8-80e9-de89f1ee1582
 
 	measure 'เลิกกิจการต่อตั้งใหม่ 100 ราย (3 จังหวัด)' = CALCULATE ( [Dissolved per 100 New], REMOVEFILTERS ( dim_area ), CONTAINSSTRING ( fact_sections[area], "3 provinces" ) )
 		formatString: 0.0
+		lineageTag: 0fc69b31-a357-4895-ae49-4acb6080d7b2
 
-	measure 'สอดคล้อง' = CALCULATE ( COUNTROWS ( fact_hypothesis ), fact_hypothesis[result] = "สอดคล้อง" ) + 0
+	measure สอดคล้อง = CALCULATE ( COUNTROWS ( fact_hypothesis ), fact_hypothesis[result] = "สอดคล้อง" ) + 0
 		formatString: 0
+		lineageTag: 9a06435e-ef54-45be-9f03-3c3fc4714c91
 
-	measure 'ตรงบางส่วน' = CALCULATE ( COUNTROWS ( fact_hypothesis ), fact_hypothesis[result] = "ตรงบางส่วน" ) + 0
+	measure ตรงบางส่วน = CALCULATE ( COUNTROWS ( fact_hypothesis ), fact_hypothesis[result] = "ตรงบางส่วน" ) + 0
 		formatString: 0
+		lineageTag: 85e749dd-7f10-4dfd-83ca-d1a7521f7c98
 
-	measure 'ไม่ตรง' = CALCULATE ( COUNTROWS ( fact_hypothesis ), fact_hypothesis[result] = "ไม่ตรง" ) + 0
+	measure ไม่ตรง = CALCULATE ( COUNTROWS ( fact_hypothesis ), fact_hypothesis[result] = "ไม่ตรง" ) + 0
 		formatString: 0
+		lineageTag: 43255184-2ead-4971-b0b2-44e16f3d994a
 
-	measure 'ทดสอบไม่ได้' = CALCULATE ( COUNTROWS ( fact_hypothesis ), fact_hypothesis[result] = "ทดสอบไม่ได้" ) + 0
+	measure ทดสอบไม่ได้ = CALCULATE ( COUNTROWS ( fact_hypothesis ), fact_hypothesis[result] = "ทดสอบไม่ได้" ) + 0
 		formatString: 0
+		lineageTag: b4f19f2b-9aac-4a87-a7bc-2a1f4293880c
 
+	measure 'Spearman rho (per capita)' = VAR n = COUNTROWS ( fact_district ) VAR mx = AVERAGE ( fact_district[rank_lethal_per_100k] ) VAR my = AVERAGE ( fact_district[rank_new_firms_per_10k] ) VAR sxy = SUMX ( fact_district, ( fact_district[rank_lethal_per_100k] - mx ) * ( fact_district[rank_new_firms_per_10k] - my ) ) VAR sxx = SUMX ( fact_district, ( fact_district[rank_lethal_per_100k] - mx ) ^ 2 ) VAR syy = SUMX ( fact_district, ( fact_district[rank_new_firms_per_10k] - my ) ^ 2 ) RETURN IF ( n >= 5, DIVIDE ( sxy, SQRT ( sxx * syy ) ) )
+		formatString: 0.00
+		lineageTag: c3409718-6523-4db1-8d52-c38140441336
+
+	measure 'Spearman ρ ต่อประชากร (37 อำเภอ)' = CALCULATE ( [Spearman rho (per capita)], REMOVEFILTERS ( dim_area ), REMOVEFILTERS ( fact_district ) )
+		formatString: 0.00
+		lineageTag: f110eedf-59e0-4c6c-8720-c2bf47ecf2e8
+
+	measure เหตุมีผู้เสียชีวิตต่อแสนคน = DIVIDE ( SUM ( fact_district[ucdp_lethal_events_2564_2568] ), SUM ( fact_district[population] ) ) * 100000
+		formatString: 0.0
+		lineageTag: 585de763-afce-4c28-9551-53b83809a477
+
+	measure ธุรกิจใหม่ต่อหมื่นคน = DIVIDE ( SUM ( fact_district[new_firms_2565_2568] ), SUM ( fact_district[population] ) ) * 10000
+		formatString: 0.0
+		lineageTag: 3200b625-60b5-494e-b33c-cba7e7952f7b
+
+	measure 'สาขาเอกชนที่ LQ สูงสุด' = VAR t = TOPN ( 1, FILTER ( VALUES ( fact_lq[sector_th] ), NOT ( fact_lq[sector_th] IN { "การศึกษา", "บริหารราชการและป้องกันประเทศ", "สุขภาพและสังคมสงเคราะห์" } ) ), [LQ], DESC ) RETURN CONCATENATEX ( t, fact_lq[sector_th], ", " )
+		lineageTag: 1176f9b9-daff-43fb-b182-18efafd330b1
+
+	measure 'LQ สูงสุด (ไม่รวมภาครัฐ)' = MAXX ( FILTER ( VALUES ( fact_lq[sector_th] ), NOT ( fact_lq[sector_th] IN { "การศึกษา", "บริหารราชการและป้องกันประเทศ", "สุขภาพและสังคมสงเคราะห์" } ) ), [LQ] )
+		formatString: 0.00
+		lineageTag: c060347b-95b9-46bd-9fa1-489c6788e268
 
 	column Column1
 		dataType: string

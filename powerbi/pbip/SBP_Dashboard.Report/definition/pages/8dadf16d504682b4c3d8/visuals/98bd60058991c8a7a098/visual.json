@@ -2,10 +2,10 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "98bd60058991c8a7a098",
   "position": {
-    "x": 1444.0,
+    "x": 1444,
     "y": 104,
     "z": 13,
-    "width": 460.0,
+    "width": 460,
     "height": 128,
     "tabOrder": 13
   },
@@ -23,11 +23,11 @@
                       "Entity": "_Measures"
                     }
                   },
-                  "Property": "LQ สูงสุด"
+                  "Property": "LQ สูงสุด (ไม่รวมภาครัฐ)"
                 }
               },
-              "queryRef": "_Measures.LQ สูงสุด",
-              "nativeQueryRef": "LQ สูงสุด"
+              "queryRef": "_Measures.LQ สูงสุด (ไม่รวมภาครัฐ)",
+              "nativeQueryRef": "LQ สูงสุด (ไม่รวมภาครัฐ)"
             }
           ]
         }

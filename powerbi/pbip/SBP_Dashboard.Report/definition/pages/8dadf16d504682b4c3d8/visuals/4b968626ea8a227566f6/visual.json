@@ -2,10 +2,10 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "4b968626ea8a227566f6",
   "position": {
-    "x": 968.0,
+    "x": 968,
     "y": 104,
     "z": 12,
-    "width": 460.0,
+    "width": 460,
     "height": 128,
     "tabOrder": 12
   },
@@ -23,11 +23,11 @@
                       "Entity": "_Measures"
                     }
                   },
-                  "Property": "สาขาที่ LQ สูงสุด"
+                  "Property": "สาขาเอกชนที่ LQ สูงสุด"
                 }
               },
-              "queryRef": "_Measures.สาขาที่ LQ สูงสุด",
-              "nativeQueryRef": "สาขาที่ LQ สูงสุด"
+              "queryRef": "_Measures.สาขาเอกชนที่ LQ สูงสุด",
+              "nativeQueryRef": "สาขาเอกชนที่ LQ สูงสุด"
             }
           ]
         }

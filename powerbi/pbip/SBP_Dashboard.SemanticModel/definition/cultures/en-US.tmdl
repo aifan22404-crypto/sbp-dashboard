@@ -1,2 +1,368 @@
 cultureInfo en-US
 
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "fact_lq.sector_th": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_lq",
+			          "ConceptualProperty": "sector_th"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "สาขา": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_year.year_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_year",
+			          "ConceptualProperty": "year_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ปี": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_measures.hh_income_baht_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "HH Income (baht/month)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "พื้นที่ที่เลือก": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_measures.hh_income_kingdom": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "HH Income (Kingdom)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ทั้งประเทศ": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_measures.poverty_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Poverty %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "พื้นที่ที่เลือก": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_measures.poverty__kingdom": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Poverty % (Kingdom)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ทั้งประเทศ": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_measures.columnุิ่่ื่": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "ธุรกิจใหม่ต่อหมื่นคน"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ธุรกิจใหม่ต่อหมื่นคน": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_measures.columnุีู้ีีิ่": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "เหตุมีผู้เสียชีวิตต่อแสนคน"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "เหตุมีผู้เสียชีวิตต่อแสนคน": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_disbursement.district": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_disbursement",
+			          "ConceptualProperty": "district"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "อำเภอ": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_district.district": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_district",
+			          "ConceptualProperty": "district"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "อำเภอ": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_sections.section_th": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_sections",
+			          "ConceptualProperty": "section_th"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "สาขา": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_sections.area": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_sections",
+			          "ConceptualProperty": "area"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "พื้นที่": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_hypothesis.no": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_hypothesis",
+			          "ConceptualProperty": "no"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ข้อ": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_hypothesis.p": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_hypothesis",
+			          "ConceptualProperty": "P"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ส่วน": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_hypothesis.hypothesis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_hypothesis",
+			          "ConceptualProperty": "hypothesis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ความเชื่อก่อนดูข้อมูล": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_hypothesis.result": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_hypothesis",
+			          "ConceptualProperty": "result"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ผล": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_hypothesis.evidence": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_hypothesis",
+			          "ConceptualProperty": "evidence"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "หลักฐานจากข้อมูล": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

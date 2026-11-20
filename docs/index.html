@@ -93,7 +93,7 @@ ul.lim{padding-left:20px;margin:8px 0;max-width:80ch}ul.lim li{margin:5px 0}
   <p class="find" id="f1"></p>
   <div class="grid">
     <div class="card"><h3>จังหวัดพึ่งพาสาขาไหนมากกว่าประเทศ (Location Quotient, 2567)</h3><p class="note">มากกว่า 1 = สาขานั้นมีสัดส่วนในเศรษฐกิจจังหวัดสูงกว่าค่าเฉลี่ยประเทศ วัดการพึ่งพา ไม่ได้วัดความเก่ง</p><div class="cbox tall"><canvas id="cLQ"></canvas></div></div>
-    <div class="card"><h3>ผู้เยี่ยมเยือน (คน)</h3><p class="note">เริ่มปี 2564 ช่วงปิดด่าน ยังไม่มีข้อมูลก่อนโควิดมาเทียบ</p><div class="cbox"><canvas id="cTour"></canvas></div>
+    <div class="card"><h3>ผู้เยี่ยมเยือน (คน)</h3><p class="note">ปี 2564 ยังปิดด่าน · ฐานก่อนโควิดปี 2562: ปัตตานี 282,059 · ยะลา 689,938 · นราธิวาส 703,810 คน — เทียบแบบระวัง เพราะวิธีประมาณการอาจเปลี่ยน</p><div class="cbox"><canvas id="cTour"></canvas></div>
       <h3 style="margin-top:14px">สัตว์น้ำขึ้นท่า (ตัน)</h3><p class="note">ประมงพาณิชย์ กรมประมง · ยะลาไม่ติดทะเล</p><div class="cbox"><canvas id="cFish"></canvas></div></div>
   </div>
 </section>
@@ -111,11 +111,11 @@ ul.lim{padding-left:20px;margin:8px 0;max-width:80ch}ul.lim li{margin:5px 0}
 
 <section id="p3">
   <h2><span class="tag">P3</span>ปัจจัยเสี่ยง</h2>
-  <p class="sub">เหตุการณ์เพิ่มขึ้นช่วงหลัง แต่ระดับอำเภอยังไม่เห็นความสัมพันธ์กับการตั้งธุรกิจ</p>
+  <p class="sub">เมื่อเทียบต่อจำนวนประชากร อำเภอที่มีเหตุรุนแรงสูงมักมีธุรกิจตั้งใหม่น้อย (เป็นความสัมพันธ์ ไม่ใช่สาเหตุ)</p>
   <p class="find" id="f3"></p>
   <div class="grid">
     <div class="card"><h3>จำนวนเหตุการณ์ต่อปี</h3><p class="note">เส้นทึบ = สถิติทางการ (ทุกประเภท) · เส้นประ = เหตุที่มีผู้เสียชีวิต (UCDP) · สองแหล่งนิยามต่างกัน ไม่มีสถิติทางการของปัตตานี</p><div class="cbox"><canvas id="cInc"></canvas></div></div>
-    <div class="card"><h3>เหตุรุนแรงกับธุรกิจตั้งใหม่ รายอำเภอ (37 อำเภอ)</h3><p class="note">แต่ละจุดคือหนึ่งอำเภอ · ยังไม่ปรับตามจำนวนประชากร · ค่าสหสัมพันธ์บอกความสัมพันธ์ ไม่ได้บอกสาเหตุ</p><div class="cbox"><canvas id="cSc"></canvas></div></div>
+    <div class="card"><h3>เหตุรุนแรงกับธุรกิจตั้งใหม่ ต่อประชากร รายอำเภอ (37 อำเภอ)</h3><p class="note">แต่ละจุดคือหนึ่งอำเภอ · ประชากรจากทะเบียนราษฎร ปี 2566 (นราธิวาสใช้ 2567) · ค่าสหสัมพันธ์บอกความสัมพันธ์ ไม่ได้บอกสาเหตุ</p><div class="cbox"><canvas id="cSc"></canvas></div></div>
   </div>
 </section>
 
@@ -151,8 +151,8 @@ ul.lim{padding-left:20px;margin:8px 0;max-width:80ch}ul.lim li{margin:5px 0}
   <h2>ข้อจำกัดของข้อมูล</h2>
   <ul class="lim">
     <li>ทุกผลเป็นการพรรณนาและความสัมพันธ์ ไม่ใช่ความเป็นเหตุเป็นผล</li>
-    <li>ข้อมูลรายอำเภอยังไม่ได้ปรับตามจำนวนประชากร และมีเพียง 37 อำเภอ</li>
-    <li>ข้อมูลท่องเที่ยวเริ่มปี 2564 ไม่มีฐานก่อนโควิด</li>
+    <li>ข้อมูลรายอำเภอมีเพียง 37 อำเภอ · ปรับต่อประชากรแล้ว แต่ผลขึ้นกับวิธี (อัตราต่อหัว −0.47 · คุมประชากรแบบ partial −0.31) และยังไม่ได้คุมปัจจัยอื่น เช่น ความเป็นเมือง</li>
+    <li>ข้อมูลท่องเที่ยวหลักเริ่มปี 2564 · ฐานปี 2562 มีแล้ว แต่ตัวเลขหลังโควิดของสามจังหวัดสูงกว่า 2562 ถึง 1.8–2.9 เท่า ขณะที่สงขลาต่ำกว่า จึงอาจเทียบกันตรง ๆ ไม่ได้</li>
     <li>สถิติเหตุการณ์สองแหล่งนิยามต่างกัน และไม่ระบุผู้ก่อเหตุหรือแรงจูงใจ</li>
     <li>GPP ปี 2567 เป็นค่าเบื้องต้น · BOI เป็นยอดอนุมัติ ไม่ใช่การลงทุนจริง · นิติบุคคลไม่นับธุรกิจที่ไม่จดทะเบียน</li>
     <li>ผลผลิตผลไม้ปี 2565 ถูกตัดออก เพราะแหล่งข้อมูลรายงานต่ำผิดปกติและยังยืนยันสาเหตุไม่ได้</li>
@@ -161,7 +161,7 @@ ul.lim{padding-left:20px;margin:8px 0;max-width:80ch}ul.lim li{margin:5px 0}
 </main>
 
 <footer><div class="wrap">
-  <p><strong>แหล่งข้อมูล:</strong> สศช. · สำนักงานสถิติแห่งชาติ · กรมพัฒนาธุรกิจการค้า · สำนักงานเศรษฐกิจการเกษตร · กรมประมง · องค์การสะพานปลา · กระทรวงการท่องเที่ยวและกีฬา · BOI · สำนักงานพาณิชย์จังหวัด · ที่ทำการปกครองจังหวัด · สำนักงบประมาณ · UCDP (Uppsala University) · รายชื่อไฟล์และวันที่โหลดอยู่ใน <a href="https://github.com/aifan22404-crypto/sbp-dashboard/tree/main/data">โฟลเดอร์ data</a></p>
+  <p><strong>แหล่งข้อมูล:</strong> สศช. · สำนักงานสถิติแห่งชาติ · กรมพัฒนาธุรกิจการค้า · สำนักงานเศรษฐกิจการเกษตร · กรมประมง · องค์การสะพานปลา · กระทรวงการท่องเที่ยวและกีฬา · BOI · สำนักงานพาณิชย์จังหวัด · ที่ทำการปกครองจังหวัด · กรมการปกครอง (ทะเบียนราษฎร ผ่านระบบบัญชีข้อมูลจังหวัด) · สำนักงบประมาณ · UCDP (Uppsala University) · งบตามหน่วยงานจาก Rocket Media Lab (แหล่งรอง) · รายชื่อไฟล์และวันที่โหลดอยู่ใน <a href="https://github.com/aifan22404-crypto/sbp-dashboard/tree/main/data">โฟลเดอร์ data</a></p>
   <p>จัดทำโดย Irfan Aroma (นักศึกษาเศรษฐศาสตร์ Al Qasimia University) · ใช้ Claude (Anthropic) ช่วยรวบรวม ทำความสะอาด และวิเคราะห์ข้อมูล · <a href="https://github.com/aifan22404-crypto/sbp-dashboard">ดูโค้ดและข้อมูลบน GitHub</a> · งานฉบับร่าง ยังไม่ผ่านการตรวจของอาจารย์</p>
 </div></footer>
 
@@ -254,13 +254,13 @@ function render(){
 
   // P3
   const incA = prov==='Pattani'?'Narathiwat':prov;
-  document.getElementById('f3').innerHTML = `ปี 2568 ${AREA[incA]}มีเหตุการณ์ตามสถิติทางการ <b>${fmt(val('sec_official_incidents',incA,2568))}</b> ครั้ง แต่เป็นเหตุที่มีผู้เสียชีวิต (UCDP) <b>${fmt(val('sec_ucdp_lethal_events',incA,2568))}</b> ครั้ง · ระดับอำเภอ ค่าสหสัมพันธ์ Spearman ระหว่างเหตุรุนแรงกับธุรกิจตั้งใหม่ = <b>${fmt(rho(D.districts),2)}</b> (37 อำเภอ) ซึ่งแทบไม่สัมพันธ์ และด้วยจำนวนอำเภอเท่านี้ยังสรุปแรง ๆ ไม่ได้`+(prov==='Pattani'?' (ไม่มีสถิติทางการของปัตตานี จึงแสดงนราธิวาส)':'');
+  document.getElementById('f3').innerHTML = `ปี 2568 ${AREA[incA]}มีเหตุการณ์ตามสถิติทางการ <b>${fmt(val('sec_official_incidents',incA,2568))}</b> ครั้ง แต่เป็นเหตุที่มีผู้เสียชีวิต (UCDP) <b>${fmt(val('sec_ucdp_lethal_events',incA,2568))}</b> ครั้ง · ระดับอำเภอ ถ้านับดิบ ค่าสหสัมพันธ์ Spearman ระหว่างเหตุรุนแรงกับธุรกิจตั้งใหม่ = <b>${fmt(rho(D.districts,'ucdp_lethal_events_2564_2568','new_firms_2565_2568'),2)}</b> แต่เมื่อคิดต่อประชากร = <b>${fmt(rho(D.districts,'lethal_per_100k','new_firms_per_10k'),2)}</b> (37 อำเภอ, ช่วงความเชื่อมั่น 95% ประมาณ −0.69 ถึง −0.18) คือสัมพันธ์ทางลบระดับปานกลาง แต่ยังไม่ได้คุมความเป็นเมืองและปัจจัยอื่น`+(prov==='Pattani'?' (ไม่มีสถิติทางการของปัตตานี จึงแสดงนราธิวาส)':'');
   const inc=[];
   for(const a of ['Narathiwat','Yala']) inc.push({label:AREA[a]+' · ทางการ',data:YEARS.map(y=>val('sec_official_incidents',a,y)??null),borderColor:COL(a),backgroundColor:COL(a),spanGaps:true,borderWidth:a===prov?3.5:2});
   for(const a of PROVS) inc.push({label:AREA[a]+' · UCDP',data:YEARS.map(y=>val('sec_ucdp_lethal_events',a,y)??null),borderColor:COL(a),backgroundColor:COL(a),borderDash:[5,4],spanGaps:true,borderWidth:a===prov?3:1.5});
   draw('cInc',lineCfg(inc));
-  draw('cSc',{type:'scatter',data:{datasets:['Pattani','Yala','Narathiwat','Songkhla'].map(a=>({label:a==='Songkhla'?'สงขลา 4 อำเภอ':AREA[a],data:D.districts.filter(r=>r.province===a).map(r=>({x:r.ucdp_lethal_events_2564_2568,y:r.new_firms_2565_2568,d:r.district})),backgroundColor:COL(a),pointRadius:a===prov?7:5,pointBorderColor:css('--card'),pointBorderWidth:1.5}))},
-    options:{scales:{x:{title:{display:true,text:'เหตุที่มีผู้เสียชีวิต 2564–2568'},beginAtZero:true},y:{title:{display:true,text:'นิติบุคคลตั้งใหม่ 2565–2568'},beginAtZero:true}},plugins:{tooltip:{callbacks:{label:c=>`${c.raw.d}: เหตุ ${c.raw.x} · ธุรกิจใหม่ ${c.raw.y}`}}}}});
+  draw('cSc',{type:'scatter',data:{datasets:['Pattani','Yala','Narathiwat','Songkhla'].map(a=>({label:a==='Songkhla'?'สงขลา 4 อำเภอ':AREA[a],data:D.districts.filter(r=>r.province===a).map(r=>({x:r.lethal_per_100k,y:r.new_firms_per_10k,d:r.district,p:r.population})),backgroundColor:COL(a),pointRadius:a===prov?7:5,pointBorderColor:css('--card'),pointBorderWidth:1.5}))},
+    options:{scales:{x:{title:{display:true,text:'เหตุที่มีผู้เสียชีวิต 2564–68 ต่อแสนคน'},beginAtZero:true},y:{title:{display:true,text:'ธุรกิจตั้งใหม่ 2565–68 ต่อหมื่นคน'},beginAtZero:true}},plugins:{tooltip:{callbacks:{label:c=>`${c.raw.d}: เหตุ ${c.raw.x} ต่อแสนคน · ธุรกิจใหม่ ${c.raw.y} ต่อหมื่นคน (ประชากร ${c.raw.p.toLocaleString()})`}}}}});
 
   // P4
   const rub=D.price.filter(r=>r[1].includes('ยาง'));
@@ -272,9 +272,9 @@ function render(){
   draw('cDis',{type:'bar',data:{labels:sec.map(r=>r.section_th),datasets:[{label:'เลิก ต่อ ตั้งใหม่ 100',data:sec.map(r=>r.dissolved_per_100_new),backgroundColor:sec.map(r=>r.dissolved_per_100_new>=40?css('--bad'):css('--line'))}]},options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{y:{ticks:{autoSkip:false,font:{size:11.5}}}}}});
   explore();
 }
-function rho(rows){
+function rho(rows,fx,fy){
   const rk=a=>{const s=a.map((v,i)=>[v,i]).sort((x,y)=>x[0]-y[0]),r=Array(a.length);for(let i=0;i<s.length;){let j=i;while(j+1<s.length&&s[j+1][0]===s[i][0])j++;for(let k=i;k<=j;k++)r[s[k][1]]=(i+j)/2+1;i=j+1}return r};
-  const x=rk(rows.map(r=>r.ucdp_lethal_events_2564_2568)),y=rk(rows.map(r=>r.new_firms_2565_2568)),n=x.length,mx=x.reduce((a,b)=>a+b)/n,my=y.reduce((a,b)=>a+b)/n;
+  const x=rk(rows.map(r=>r[fx])),y=rk(rows.map(r=>r[fy])),n=x.length,mx=x.reduce((a,b)=>a+b)/n,my=y.reduce((a,b)=>a+b)/n;
   let sxy=0,sxx=0,syy=0;for(let i=0;i<n;i++){sxy+=(x[i]-mx)*(y[i]-my);sxx+=(x[i]-mx)**2;syy+=(y[i]-my)**2}return sxy/Math.sqrt(sxx*syy);
 }
 render();

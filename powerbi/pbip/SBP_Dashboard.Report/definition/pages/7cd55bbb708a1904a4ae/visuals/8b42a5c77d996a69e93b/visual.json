@@ -3,9 +3,9 @@
   "name": "8b42a5c77d996a69e93b",
   "position": {
     "x": 16,
-    "y": 657.0,
+    "y": 657,
     "z": 3,
-    "height": 393.0,
+    "height": 393,
     "width": 1888,
     "tabOrder": 3
   },
@@ -43,12 +43,13 @@
                       "Entity": "_Measures"
                     }
                   },
-                  "Property": "New Firms (district)"
+                  "Property": "ธุรกิจใหม่ต่อหมื่นคน"
                 }
               },
-              "queryRef": "_Measures.New Firms (district)",
-              "nativeQueryRef": "New Firms (district)",
-              "active": true
+              "queryRef": "_Measures.ธุรกิจใหม่ต่อหมื่นคน",
+              "nativeQueryRef": "ธุรกิจใหม่ต่อหมื่นคน",
+              "active": true,
+              "displayName": "ธุรกิจใหม่ต่อหมื่นคน"
             }
           ]
         },
@@ -62,58 +63,16 @@
                       "Entity": "_Measures"
                     }
                   },
-                  "Property": "Lethal Events (district)"
+                  "Property": "เหตุมีผู้เสียชีวิตต่อแสนคน"
                 }
               },
-              "queryRef": "_Measures.Lethal Events (district)",
-              "nativeQueryRef": "Lethal Events (district)"
+              "queryRef": "_Measures.เหตุมีผู้เสียชีวิตต่อแสนคน",
+              "nativeQueryRef": "เหตุมีผู้เสียชีวิตต่อแสนคน",
+              "displayName": "เหตุมีผู้เสียชีวิตต่อแสนคน"
             }
           ]
         }
       }
-    },
-    "drillFilterOtherVisuals": true,
-    "visualContainerObjects": {
-      "title": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'37 อำเภอ: เหตุที่มีผู้เสียชีวิต 2564–2568 เทียบธุรกิจตั้งใหม่ 2565–2568'"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "subTitle": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'แต่ละจุด = 1 อำเภอ · ยังไม่ปรับตามประชากร · ไม่เปลี่ยนตามพื้นที่ที่เลือก'"
-                }
-              }
-            }
-          }
-        }
-      ]
     },
     "objects": {
       "dataPoint": [
@@ -146,7 +105,7 @@
             "titleText": {
               "expr": {
                 "Literal": {
-                  "Value": "'ธุรกิจตั้งใหม่ 2565–2568 (ราย)'"
+                  "Value": "'ธุรกิจตั้งใหม่ 2565–2568 ต่อประชากรหมื่นคน'"
                 }
               }
             }
@@ -166,13 +125,56 @@
             "titleText": {
               "expr": {
                 "Literal": {
-                  "Value": "'เหตุที่มีผู้เสียชีวิต 2564–2568 (ครั้ง)'"
+                  "Value": "'เหตุที่มีผู้เสียชีวิต 2564–2568 ต่อแสนคน'"
                 }
               }
             }
           }
         }
       ]
-    }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'37 อำเภอ: เหตุที่มีผู้เสียชีวิต เทียบธุรกิจตั้งใหม่ ต่อประชากร'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'แต่ละจุด = 1 อำเภอ · ประชากรทะเบียนราษฎร 2566 (นราธิวาส 2567) · ρ นับดิบ −0.06 แต่ต่อประชากร −0.47 · ความสัมพันธ์ ไม่ใช่สาเหตุ'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
   }
 }
