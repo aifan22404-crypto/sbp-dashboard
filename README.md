@@ -4,7 +4,7 @@
 
 **Live dashboard:** https://aifan22404-crypto.github.io/sbp-dashboard/
 
-A descriptive, open-data study of the economy of Pattani, Yala, Narathiwat and four districts of Songkhla (Chana, Thepha, Saba Yoi, Na Thawi), built from official statistics of 19 public sources plus district population registers: 2,147 values across 113 indicators and 12 domains.
+A descriptive, open-data study of the economy of Pattani, Yala, Narathiwat and four districts of Songkhla (Chana, Thepha, Saba Yoi, Na Thawi), built from official statistics of 19 public sources plus district population registers: 2,147 values across 113 indicators and 12 domains. The website's explorer lists 72 of them: the other 41 are new and dissolved firms split by 20 business sections (shown on the site as one summary chart) and coconut output, which the source counts in nuts rather than tonnes (RF27).
 
 It asks four linked questions:
 
@@ -34,7 +34,7 @@ All results are descriptive associations, not causal estimates.
 | `docs/` | The website (GitHub Pages): `index.html` + `data.json`, no build step |
 | `data/clean/` | 17 cleaned datasets (Excel): 14 core sources + district population, 2019 tourism baseline, budget by agency |
 | `data/master_panel/` | Integrated long-format panel (`SBP_master_panel_long.csv`, 2,147 rows) |
-| `data/reference/` | Source log (file names, URLs, download dates), data dictionary, red-flag register (26 data anomalies) |
+| `data/reference/` | Source log (file names, URLs, download dates), data dictionary, red-flag register (27 data anomalies) |
 | `scripts/` | Python scripts used for cleaning, panel building and analysis |
 | `powerbi/` | Power BI report (`.pbix`), star-schema CSVs, DAX measures, theme, build guide (Thai) |
 | `notes/` | Scope document, P1–P4 findings, red-flag notes (Thai), spot check of article figures, article figures |
